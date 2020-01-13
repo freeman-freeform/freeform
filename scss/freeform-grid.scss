@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-// Default Bootstrap 
+// Default Bootstrap
 
 html {
   box-sizing: border-box;
@@ -41,15 +41,7 @@ html {
   box-sizing: inherit;
 }
 
-// Default Bootstrap Functions, Variables and Mixins
-
-@import "functions";
-@import "variables";
-@import "mixins";
-
-
-
-// Default Bootstrap Functions, Variables and Mixins
+// Default Bootstrap Functions and Mixins
 
 @import "functions";
 @import "variables";

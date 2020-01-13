@@ -113,14 +113,6 @@
 /**
  * Subtract
  */
-body {
-  line-height: 2;
-}
-
-.btn {
-  font-weight: bold;
-}
-
 label,
 .col-form-label {
   font-weight: bold;
@@ -156,6 +148,14 @@ textarea.form-control {
 
 /* Background-color Variables
 Generally, these color variables should not be used directly in components. */
+.swatch {
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .swatch.white {
   background-color: #fff;
   color: black;
@@ -212,7 +212,7 @@ Generally, these color variables should not be used directly in components. */
 }
 
 .swatch.blue {
-  background-color: #0066b2;
+  background-color: #2b6ed0;
   color: white;
 }
 
@@ -284,7 +284,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 2;
   color: #2e2c2d;
   text-align: left;
   background-color: #fff;
@@ -435,7 +435,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #7f7f7f;
   text-align: left;
   caption-side: bottom;
 }

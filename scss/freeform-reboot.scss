@@ -28,10 +28,9 @@
  * THE SOFTWARE.
  */
 
-// Default Bootstrap Functions, Variables and Mixins
+// Default Bootstrap Functions and Mixins
 
 @import "functions";
-@import "variables";
 @import "mixins";
 
 // Freeform Custom Overrides
@@ -44,4 +43,5 @@
 
 // Default Bootstrap Components
 
+@import "variables";
 @import "reboot";
