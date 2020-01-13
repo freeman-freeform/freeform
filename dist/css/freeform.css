@@ -113,6 +113,22 @@
 /**
  * Subtract
  */
+.bold {
+  font-weight: bold !important;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.text-opacity-light {
+  opacity: 50%;
+}
+
+.text-opacity-lighter {
+  opacity: 25%;
+}
+
 label,
 .col-form-label {
   font-weight: bold;
@@ -149,6 +165,7 @@ textarea.form-control {
 /* Background-color Variables
 Generally, these color variables should not be used directly in components. */
 .swatch {
+  border-radius: border-radius(1.5rem, 0);
   font-weight: bold;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -617,7 +634,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 1rem !important;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.5;
 }
 
@@ -652,25 +669,25 @@ h6, .h6 {
 
 .display-1 {
   font-size: 6rem;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.5;
 }
 
 .display-2 {
   font-size: 5.5rem;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.5;
 }
 
 .display-3 {
   font-size: 4.5rem;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.5;
 }
 
 .display-4 {
   font-size: 3.5rem;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.5;
 }
 

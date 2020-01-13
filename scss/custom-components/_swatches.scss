@@ -13,6 +13,8 @@ Generally, these color variables should not be used directly in components. */
 
 .swatch {
 
+border-radius: border-radius($border-radius, 0);
+
   font-weight: bold;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;

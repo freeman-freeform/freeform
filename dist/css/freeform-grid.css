@@ -126,6 +126,22 @@ html {
 /**
  * Subtract
  */
+.bold {
+  font-weight: bold !important;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.text-opacity-light {
+  opacity: 50%;
+}
+
+.text-opacity-lighter {
+  opacity: 25%;
+}
+
 label,
 .col-form-label {
   font-weight: bold;
@@ -162,6 +178,7 @@ textarea.form-control {
 /* Background-color Variables
 Generally, these color variables should not be used directly in components. */
 .swatch {
+  border-radius: border-radius(1.5rem, 0);
   font-weight: bold;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
