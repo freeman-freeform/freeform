@@ -1,0 +1,166 @@
+/* Background-color Variables
+Generally, these color variables should not be used directly in components. */
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return black;
+  }
+
+  @else {
+    @return white;
+  }
+}
+
+.swatch {
+
+// Grayscale Colors
+
+  &.white {
+    $color: $white;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-100 {
+    $color: $gray-100;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-200 {
+    $color: $gray-200;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-300 {
+    $color: $gray-300;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-400 {
+    $color: $gray-400;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-500 {
+    $color: $gray-500;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-600 {
+    $color: $gray-600;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-700 {
+    $color: $gray-700;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-800 {
+    $color: $gray-800;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.gray-900 {
+    $color: $gray-900;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.black {
+    $color: $black;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  // Primary Colors
+  
+  &.blue {
+    $color: $blue;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.indigo {
+    $color: $indigo;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.purple {
+    $color: $purple;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.pink {
+    $color: $pink;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.red {
+    $color: $red;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.orange {
+    $color: $orange;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.yellow {
+    $color: $yellow;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.green {
+    $color: $green;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.teal {
+    $color: $teal;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+
+  &.cyan {
+    $color: $cyan;
+
+    background-color: $color;
+    color: set-text-color($color);
+  }
+}
