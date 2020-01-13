@@ -108,7 +108,7 @@ $theme-colors: map-merge(("primary": $primary,
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-caret: true;
-$enable-rounded: false;
+$enable-rounded: true;
 $enable-shadows: false;
 $enable-gradients: false;
 $enable-transitions: true;
@@ -122,22 +122,22 @@ $enable-validation-icons: true;
 $enable-deprecation-messages: true;
 
 
-// // Spacing
-// //
-// // Control the default styling of most Bootstrap elements by modifying these
-// // variables. Mostly focused on spacing.
-// // You can add more entries to the $spacers map, should you need more variation.
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
 
-// $spacer: 1rem;
-// $spacers: ();
-// // stylelint-disable-next-line scss/dollar-variable-default
-// $spacers: map-merge((0: 0,
-//     1: ($spacer * .25),
-//     2: ($spacer * .5),
-//     3: $spacer,
-//     4: ($spacer * 1.5),
-//     5: ($spacer * 3)),
-//   $spacers);
+$spacer: 1rem;
+$spacers: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge((0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3)),
+  $spacers);
 
 // // This variable affects the `.h-*` and `.w-*` classes.
 // $sizes: ();
