@@ -1,0 +1,13 @@
+// Background Opacity Class
+
+.bg-color-opacity-light {
+background-color: light($background, 25%);
+}
+
+.bg-color-opacity-lighter {
+  background-color: light($background, 50%);
+}
+
+.bg-color-opacity-lightest {
+  background-color: light($background, 75%);
+}
