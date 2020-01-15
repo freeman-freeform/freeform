@@ -229,7 +229,7 @@ Generally, these color variables should not be used directly in components. */
 }
 
 .swatch.blue {
-  background-color: #2b6ed0;
+  background-color: #0066b2;
   color: white;
 }
 
@@ -278,6 +278,11 @@ Generally, these color variables should not be used directly in components. */
   color: white;
 }
 
+.card-footer {
+  padding-top: 1.33333rem !important;
+  padding-bottom: 1.33333rem !important;
+}
+
 *,
 *::before,
 *::after {
@@ -298,7 +303,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Akzidenz Grotesk", Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 2;
@@ -320,7 +325,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.5rem;
 }
 
 p {

@@ -1,0 +1,315 @@
+// Freeman Default Brand Colors
+// Color system
+
+$white: #fff !default;
+$gray-100: #f1f0f1 !default;
+$gray-200: #e3e2e3 !default;
+$gray-300: #d4d4d4 !default;
+$gray-400: #c6c5c6 !default;
+$gray-500: #a3a2a3 !default;
+$gray-600: #7f7f7f !default;
+$gray-700: #646464 !default;
+$gray-800: #494748 !default;
+$gray-900: #2e2c2d !default;
+$black: #000 !default;
+
+$grays: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(("100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900),
+  $grays);
+
+$blue: #0066b2 !default;
+$indigo: #5523CC !default;
+$purple: #ab4a9c !default;
+$pink: #CC00A0 !default;
+$red: #da291c !default;
+$orange: #FF9933 !default;
+$yellow: #FFC800 !default;
+$green: #9fcc00 !default;
+$teal: #8fcef1 !default;
+$cyan: #10b0e6 !default;
+$gray: $gray-600 !default;
+$gray-dark: $gray-900 !default;
+
+@import "custom-brand";
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(("blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800),
+  $colors);
+
+$primary: $cyan !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $teal !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+$white: #ffffff !default;
+$black: #000000 !default;
+
+// Colors at Various Opacities
+
+// Light
+$blue-light: mix($blue, $white, 50%) !default;
+$indigo-light: mix($indigo, $white, 50%) !default;
+$purple-light: mix($purple, $white, 50%) !default;
+$pink-light: mix($pink, $white, 50%) !default;
+$red-light: mix($red, $white, 50%) !default;
+$orange-light: mix($orange, $white, 50%) !default;
+$yellow-light: mix($yellow, $white, 50%) !default;
+$green-light: mix($green, $white, 50%) !default;
+$teal-light: mix($teal, $white, 50%) !default;
+$cyan-light: mix($cyan, $white, 50%) !default;
+$gray-light: mix($gray, $white, 50%) !default;
+$gray-dark-light: mix($gray-dark, $white, 50%) !default;
+
+// Lighter
+$blue-lighter: mix($blue, $white, 25%) !default;
+$indigo-lighter: mix($indigo, $white, 25%) !default;
+$purple-lighter: mix($purple, $white, 25%) !default;
+$pink-lighter: mix($pink, $white, 25%) !default;
+$red-lighter: mix($red, $white, 25%) !default;
+$orange-lighter: mix($orange, $white, 25%) !default;
+$yellow-lighter: mix($yellow, $white, 25%) !default;
+$green-lighter: mix($green, $white, 25%) !default;
+$teal-lighter: mix($teal, $white, 25%) !default;
+$cyan-lighter: mix($cyan, $white, 25%) !default;
+$gray-lighter: mix($gray, $white, 25%) !default;
+$gray-dark-lighter: mix($gray-dark, $white, 25%) !default;
+
+// Lightest
+$blue-lightest: mix($blue, $white, 10%) !default;
+$indigo-lightest: mix($indigo, $white, 10%) !default;
+$purple-lightest: mix($purple, $white, 10%) !default;
+$pink-lightest: mix($pink, $white, 10%) !default;
+$red-lightest: mix($red, $white, 10%) !default;
+$orange-lightest: mix($orange, $white, 10%) !default;
+$yellow-lightest: mix($yellow, $white, 10%) !default;
+$green-lightest: mix($green, $white, 10%) !default;
+$teal-lightest: mix($teal, $white, 10%) !default;
+$cyan-lightest: mix($cyan, $white, 10%) !default;
+$gray-lightest: mix($gray, $white, 10%) !default;
+$gray-dark-lightest: mix($gray-dark, $white, 10%) !default;
+
+// Semantic Colors Various Opacities
+
+$primary: $cyan !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $teal !default;
+$info: $teal !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+
+
+// Primary
+
+$primary-light: mix($primary, $white, 50%) !default;
+$primary-lighter: mix($primary, $white, 25%) !default;
+$primary-lightest: mix($primary, $white, 10%) !default;
+
+// Secondary
+
+$secondary-light: mix($secondary, $white, 50%) !default;
+$secondary-lighter: mix($secondary, $white, 25%) !default;
+$secondary-lightest: mix($secondary, $white, 10%) !default;
+
+// Success
+
+$success-light: mix($success, $white, 50%) !default;
+$success-lighter: mix($success, $white, 25%) !default;
+$success-lightest: mix($success, $white, 10%) !default;
+
+// Info
+
+$info-light: mix($info, $white, 50%) !default;
+$info-lighter: mix($info, $white, 25%) !default;
+$info-lightest: mix($info, $white, 10%) !default;
+
+// Warning
+
+$warning-light: mix($warning, $white, 50%) !default;
+$warning-lighter: mix($warning, $white, 25%) !default;
+$warning-lightest: mix($warning, $white, 10%) !default;
+
+// Danger
+
+$danger-light: mix($danger, $white, 50%) !default;
+$danger-lighter: mix($danger, $white, 25%) !default;
+$danger-lightest: mix($danger, $white, 10%) !default;
+
+// Light
+
+$light-light: mix($gray-100, $white, 50%) !default;
+$light-lighter: mix($gray-100, $white, 25%) !default;
+$light-lightest: mix($gray-100, $white, 10%) !default;
+
+// Dark
+
+$dark-light: mix($dark, $white, 50%) !default;
+$dark-lighter: mix($dark, $white, 25%) !default;
+$dark-lightest: mix($dark, $white, 10%) !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(("primary": $primary,
+    "primary-light": $primary-light,
+    "primary-lighter": $primary-lighter,
+    "primary-lightest": $primary-lightest,
+    "secondary": $secondary,
+    "secondary-light": $secondary-light,
+    "secondary-lighter": $secondary-lighter,
+    "secondary-lightest": $secondary-lightest,
+    "success": $success,
+    "success-light": $success-light,
+    "success-lighter": $success-lighter,
+    "success-lightest": $success-lightest,
+    "info": $info,
+    "info-light": $info-light,
+    "info-lighter": $info-lighter,
+    "info-lightest": $info-lightest,
+    "warning": $warning,
+    "warning-light": $warning-light,
+    "warning-lighter": $warning-lighter,
+    "warning-lightest": $warning-lightest,
+    "danger": $danger,
+    "danger-light": $danger-light,
+    "danger-lighter": $danger-lighter,
+    "danger-lightest": $danger-lightest,
+    "light": $light,
+    "light-light": $light-light,
+    "light-lighter": $light-lighter,
+    "light-lightest": $light-lightest,
+    "dark": $dark,
+    "dark-light": $dark-light,
+    "dark-lighter": $dark-lighter,
+    "dark-lightest": $dark-lightest,
+    "blue": $blue,
+    "blue-light": $blue-light,
+    "blue-lighter": $blue-lighter,
+    "blue-lightest": $blue-lightest,
+    "indigo": $indigo,
+    "indigo-light": $indigo-light,
+    "indigo-lighter": $indigo-lighter,
+    "indigo-lightest": $indigo-lightest,
+    "purple": $purple,
+    "purple-light": $purple-light,
+    "purple-lighter": $purple-lighter,
+    "purple-lightest": $purple-lightest,
+    "pink": $pink,
+    "pink-light": $pink-light,
+    "pink-lighter": $pink-lighter,
+    "pink-lightest": $pink-lightest,
+    "red": $red,
+    "red-light": $red-light,
+    "red-lighter": $red-lighter,
+    "red-lightest": $red-lightest,
+    "orange": $orange,
+    "orange-light": $orange-light,
+    "orange-lighter": $orange-lighter,
+    "orange-lightest": $orange-lightest,
+    "yellow": $yellow,
+    "yellow-light": $yellow-light,
+    "yellow-lighter": $yellow-lighter,
+    "yellow-lightest": $yellow-lightest,
+    "green": $green,
+    "green-light": $green-light,
+    "green-lighter": $green-lighter,
+    "green-lightest": $green-lightest,
+    "teal": $teal,
+    "teal-light": $teal-light,
+    "teal-lighter": $teal-lighter,
+    "teal-lightest": $teal-lightest,
+    "cyan": $cyan,
+    "cyan-light": $cyan-light,
+    "cyan-lighter": $cyan-lighter,
+    "cyan-lightest": $cyan-lightest,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-light": $gray-light,
+    "gray-lighter": $gray-lighter,
+    "gray-lightest": $gray-lightest,
+    "gray-dark": $gray-900,
+    "gray-dark-light": $gray-dark-light,
+    "gray-dark-lighter": $gray-dark-lighter,
+    "gray-dark-lightest": $gray-dark-lightest,
+    "gray-100": $gray-100,
+    "gray-200": $gray-200,
+    "gray-300": $gray-300,
+    "gray-400": $gray-400,
+    "gray-500": $gray-500,
+    "gray-600": $gray-600,
+    "gray-700": $gray-700,
+    "gray-800": $gray-800,
+    "gray-900": $gray-900,
+    "black": $black),
+  $theme-colors);
+
+// // Set a specific jump point for requesting color jumps
+// $theme-color-interval: 8%;
+
+// // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+// $yiq-contrasted-threshold: 150;
+
+// // Customize the light and dark text colors for use in our YIQ color contrast function.
+// $yiq-text-dark: $gray-900;
+// $yiq-text-light: $white;
+
+// // Characters which are escaped by the escape-svg function
+// $escaped-characters: (("<", "%3c"),
+//   (">", "%3e"),
+//   ("#", "%23"),
+// );
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: "Akzidenz Grotesk",
+Arial,
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !default;
+$font-family-monospace: SFMono-Regular,
+Menlo,
+Monaco,
+Consolas,
+"Liberation Mono",
+"Courier New",
+monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+// stylelint-enable value-keyword-case

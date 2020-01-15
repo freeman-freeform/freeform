@@ -242,7 +242,7 @@ Generally, these color variables should not be used directly in components. */
 }
 
 .swatch.blue {
-  background-color: #2b6ed0;
+  background-color: #0066b2;
   color: white;
 }
 
@@ -289,6 +289,11 @@ Generally, these color variables should not be used directly in components. */
 .swatch.cyan {
   background-color: #10b0e6;
   color: white;
+}
+
+.card-footer {
+  padding-top: 1.33333rem !important;
+  padding-bottom: 1.33333rem !important;
 }
 
 .container {
