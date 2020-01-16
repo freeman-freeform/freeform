@@ -2235,16 +2235,16 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #d4d4d4;
+  border-top: 1px solid #f1f0f1;
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 2px solid #f1f0f1;
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #d4d4d4;
+  border-top: 2px solid #f1f0f1;
 }
 
 .table-sm th,
@@ -2253,12 +2253,12 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #d4d4d4;
+  border: 1px solid #f1f0f1;
 }
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #d4d4d4;
+  border: 1px solid #f1f0f1;
 }
 
 .table-bordered thead th,
@@ -4308,7 +4308,7 @@ pre code {
 .table .thead-light th {
   color: #646464;
   background-color: #e3e2e3;
-  border-color: #d4d4d4;
+  border-color: #f1f0f1;
 }
 
 .table-dark {
@@ -18245,7 +18245,7 @@ a.close.disabled {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #d4d4d4;
+  border-bottom: 1px solid #f1f0f1;
 }
 
 .modal-header .close {
@@ -18279,7 +18279,7 @@ a.close.disabled {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #d4d4d4;
+  border-top: 1px solid #f1f0f1;
 }
 
 .modal-footer > * {
@@ -19826,23 +19826,23 @@ button.bg-black:focus {
 }
 
 .border {
-  border: 1px solid #d4d4d4 !important;
+  border: 1px solid #f1f0f1 !important;
 }
 
 .border-top {
-  border-top: 1px solid #d4d4d4 !important;
+  border-top: 1px solid #f1f0f1 !important;
 }
 
 .border-right {
-  border-right: 1px solid #d4d4d4 !important;
+  border-right: 1px solid #f1f0f1 !important;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #d4d4d4 !important;
+  border-bottom: 1px solid #f1f0f1 !important;
 }
 
 .border-left {
-  border-left: 1px solid #d4d4d4 !important;
+  border-left: 1px solid #f1f0f1 !important;
 }
 
 .border-0 {
@@ -24387,11 +24387,11 @@ a.text-black:hover, a.text-black:focus {
   .table-dark td,
   .table-dark thead th,
   .table-dark tbody + tbody {
-    border-color: #d4d4d4;
+    border-color: #f1f0f1;
   }
   .table .thead-dark th {
     color: inherit;
-    border-color: #d4d4d4;
+    border-color: #f1f0f1;
   }
 }
 /*# sourceMappingURL=freeform.css.map */
