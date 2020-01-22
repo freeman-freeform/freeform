@@ -5,6 +5,7 @@
   "settings": {
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "beautify.config": "wrap_attributes,preserve-aligned",
     "liveSassCompile.settings.formats": [{
         "format": "expanded",
         "extensionName": ".css",
