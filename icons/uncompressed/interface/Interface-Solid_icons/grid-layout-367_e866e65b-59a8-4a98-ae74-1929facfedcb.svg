@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Grid Layout</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1"
+  fill="#2e2c2d" d="M0 0h28v28H0z"></path>
+  <path data-name="layer2" fill="#2e2c2d" d="M0 36h28v28H0zM36 0h28v28H36z"></path>
+  <path data-name="layer1" fill="#2e2c2d" d="M36 36h28v28H36z"></path>
+</svg>

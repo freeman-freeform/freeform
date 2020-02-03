@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Enlarge Horizontal</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="none" stroke="#2e2c2d" stroke-miterlimit="10" stroke-width="3" d="M18 24l-9 8 9 8m28-16l9 8-9 8M9 32h46"
+  stroke-linejoin="round" stroke-linecap="round"></path>
+  <path data-name="layer1" fill="none" stroke="#2e2c2d" stroke-miterlimit="10"
+  stroke-width="3" d="M2 14v36m60-36v36" stroke-linejoin="round" stroke-linecap="round"></path>
+</svg>

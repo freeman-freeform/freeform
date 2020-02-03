@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Compress</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="#2e2c2d" d="M3 34h14l-3.981 4.012L17 42l12-11-12-11-4 4 4 4H3v6z"></path>
+  <path data-name="layer1" fill="#2e2c2d" d="M61 34H47l3.981 4.012L47 42 35 31l12-11 4 4-4 4h14v6z"></path>
+</svg>

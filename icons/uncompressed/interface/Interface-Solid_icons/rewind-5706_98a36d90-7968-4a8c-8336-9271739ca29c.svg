@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Rewind</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1"
+  fill="#2e2c2d" d="M62 16H2v32h15v-6H8V22h48v20H35.901l5.221-6.389L37 31.25 25 45l13 13 4-4-6.091-6H62V16z"></path>
+</svg>

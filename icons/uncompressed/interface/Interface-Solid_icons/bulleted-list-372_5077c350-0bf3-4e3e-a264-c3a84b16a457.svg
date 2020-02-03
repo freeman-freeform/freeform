@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Bulleted List</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="#2e2c2d" d="M24.004 4.012h40v12h-40zm0 44h40v12h-40zm0-22.012h40v12h-40z"></path>
+  <circle data-name="layer1" cx="7.996" cy="10" r="8" fill="#2e2c2d"></circle>
+  <circle data-name="layer1" cx="7.996" cy="54" r="8" fill="#2e2c2d"></circle>
+  <circle data-name="layer1" cx="7.996" cy="32" r="8" fill="#2e2c2d"></circle>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Expand Window</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="#2e2c2d" d="M12.044 20.5h40v23h-40z"></path>
+  <path data-name="layer1" d="M5.999 29.5a2 2 0 0 0 2-2V16.504h16a2 2 0 0 0 0-4h-20V27.5a2 2 0 0 0 2 2zm34-13h16v10.995a2 2 0 1 0 4 0V12.5h-20a2 2 0 0 0 0 4zm-16.004 31h-16V35.504a2 2 0 1 0-4 0V51.5h20a2 2 0 0 0 0-4zm34.01-13.996a2 2 0 0 0-2 2V47.5h-16a2 2 0 0 0 0 4h20V35.504a2 2 0 0 0-2-2z"
+  fill="#2e2c2d"></path>
+</svg>

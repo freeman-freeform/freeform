@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Unindent</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="none" stroke="#2e2c2d" stroke-miterlimit="10" stroke-width="3" d="M34 18H6m28 14H6m28 14H6"
+  stroke-linejoin="round" stroke-linecap="round"></path>
+  <path data-name="layer1" fill="none" stroke="#2e2c2d" stroke-miterlimit="10"
+  stroke-width="3" d="M58 20L44 31.994 58 44" stroke-linejoin="round" stroke-linecap="round"></path>
+</svg>
