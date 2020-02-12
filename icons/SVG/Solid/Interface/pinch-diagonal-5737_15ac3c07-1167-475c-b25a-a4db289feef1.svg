@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
-aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
-width="64" height="64">
-  <title>Pinch Diagonal</title>
-  <desc>A solid styled icon from Orion Icon Library.</desc>
-  <path data-name="layer2"
-  fill="#2e2c2d" d="M57 11l-4-4-13 12.889V15h-6v15h15v-6h-4.627L57 11z"></path>
-  <path data-name="layer1" fill="#2e2c2d" d="M15 40h4.878L7 53l4 4 13-12.637V49h6V34H15v6z"></path>
-</svg>

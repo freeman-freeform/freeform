@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
-aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
-width="64" height="64">
-  <title>Expand Vertical</title>
-  <desc>A solid styled icon from Orion Icon Library.</desc>
-  <path data-name="layer2"
-  fill="#2e2c2d" d="M28 36v13l-4.012-3.981L20 49l11 12 11-12-4-4-4 4V36h-6z"></path>
-  <path data-name="layer1" fill="#2e2c2d" d="M28 28V15l-4.012 3.982L20 15 31 3l11 12-4 4-4-4v13h-6z"></path>
-</svg>

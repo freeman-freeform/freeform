@@ -1,0 +1,2586 @@
+<!doctype>
+<html lang="en">
+  
+  <head>
+    <title>SVG Sprite Demo | Orion Icon Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    />
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"
+    />
+    <style>
+      html {
+          box-sizing: border-box;
+        }
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 1.125rem;
+        }
+        ._1bo7bzx{font-family:Menlo, mono;font-size:.85em;}._1oymxsi{color:#ff4d63;}._1tt2u3t{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;background-color:#121418;-webkit-justify-content:space-between;justify-content:space-between;height:66px;padding:0 28px;color:white;}._dl5j6p{font-weight:300;max-width:33%;font-size:1em;}._1iurgbx{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}._1l5hckq{padding:1em 3em;}._kp2n83{font-size:.7em;text-align:center;}._o1cg4g{color:#0092FF;text-decoration:none;}._o1cg4g:hover{text-decoration:underline;}._14gdf42{line-height:1.5;}._ovghcs{color:inherit;text-decoration:none;}._ovghcs:hover:after{content:"#";color:#0092FF;margin-left:2px;opacity:.3;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._ovghcs:active:after{opacity:1;}._1dqtju9{color:#007aff;}._fr5wn{padding-left:24px;border-left:1px solid rgba(0,0,0,0.1);margin-left:12px;margin-bottom:48px;}._1bmg5vo{color:#202020;tab-ssize:4px;overflow-x:auto;padding:1.5em;line-height:1.5;background:rgba(0,0,0,0.05);font-size:.9em;}._jro6t0{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}._53480w{display:none;}._53480w:checked + label span{-webkit-transform:translateX(52px);-ms-transform:translateX(52px);transform:translateX(52px);}._53480w:checked + label:before{color:inherit;}._53480w:checked + label:after{color:#007aff;}._53480w:checked ~ .externalCheckboxHelper:after{content:"External SVG Sprite";}._1uuc6xn{cursor:pointer;width:90px;height:40px;display:block;background-color:#f7f7f7;color:#8c8c8c;border-radius:32px;margin:12px 24px;position:relative;}._1uuc6xn:before{content:"‹a›";position:absolute;right:-webkit-calc(100% + 4px);right:-moz-calc(100% + 4px);right:calc(100% + 4px);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);color:#007aff;}._1uuc6xn:after{content:"‹b›";position:absolute;left:-webkit-calc(100% + 4px);left:-moz-calc(100% + 4px);left:calc(100% + 4px);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}._10r524x{background-color:#4a4a4a;border-radius:50%;height:36px;left:0px;-webkit-transform:translateX(2px);-ms-transform:translateX(2px);transform:translateX(2px);position:absolute;top:2px;-webkit-transition:-webkit-transform .2s ease,transform .2s ease;-moz-transition:transform .2s ease;transition:-ms-transform .2s ease,-webkit-transform .2s ease,transform .2s ease;width:36px;z-index:1;}._qjqtm8:after{content:"Inline SVG Sprite";}._jcgzno{padding:.3em .5em;outline:0px;margin-left:12px;}._jcgzno:disabled{opacity:0.3;}._1r58n10{overflow:auto;padding:40px;margin:0px;list-style:none;padding-bottom:40px;}._fnhcyz{width:100%;float:left;-moz-box-sizing:border-box;box-sizing:border-box;display:block;-webkit-transition:opacity 250ms, box-shadow 250ms;-moz-transition:opacity 250ms, box-shadow 250ms;transition:opacity 250ms, box-shadow 250ms;cursor:pointer;position:relative;}@media (min-width: 767px){._fnhcyz{width:50%;}}@media (min-width: 1023px){._fnhcyz{width:33.333%;}}@media (min-width: 1199px){._fnhcyz{width:20%;}}._fnhcyz:after{content:"";position:absolute;z-index:-1;top:0px;right:0px;bottom:0px;left:0px;opacity:0;box-shadow:0 .5em 3em rgba(0,0,0,.1);-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._fnhcyz:hover:after{opacity:1;z-index:1;}._fnhcyz:before{content:"";padding-top:100%;display:block;}._fnhcyz:hover .orion-sprite__id{opacity:1;}._fnhcyz:hover .orion-sprite__code{opacity:1;}._1dclzhk{-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-box-align:center;-ms-flex-align:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:absolute;top:0px;right:0px;bottom:0px;left:0px;padding:.5em 1em;}._19wnp26{width:100%;font-size:.7em;text-align:center;opacity:0;color:#777;-webkit-transition:opacity 250ms;-moz-transition:opacity 250ms;transition:opacity 250ms;}._1u0lyeu{width:64px;height:64px;}._190hxbq{width:100%;height:100%;}._1mcpc5v{font-size:.7em;padding:.5em 1em;width:100%;z-index:2;border-radius:2px;opacity:.3;-webkit-transition:opacity .3s;-moz-transition:opacity .3s;transition:opacity .3s;}._1hgbkkp{list-style:none;margin:0px;padding:0px;padding-left:1em;line-height:1.5em;}._19kenml{-webkit-box-align:start;-ms-flex-align:start;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;color:#fff;}._15372er{display:inline-block;vertical-align:middle;width:32px;height:32px;}._ksd372{display:inline-block;vertical-align:middle;width:80px;height:25px;margin-left:10px;}
+    </style>
+  </head>
+  
+  <body>
+    <svg width="0" height="0" class="hidden">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="camera-1">
+        <title>Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M59 18H46.6L40 10H24l-6.6 8H5a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V21a3 3 0 0 0-3-3zM32 48a14 14 0 1 1 14-14 14 14 0 0 1-14 14zm23.4-20.6a2 2 0 0 1-1.4.6 2.1 2.1 0 0 1-1.4-.6A2 2 0 0 1 52 26a2 2 0 0 1 .6-1.4 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 56 26a2 2 0 0 1-.6 1.4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="digital-camera-1">
+        <title>Digital Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="42" cy="34" r="6" fill="#2e2c2d"></circle>
+        <path data-name="layer2" fill="#2e2c2d" d="M8 10h10v4H8z"></path>
+        <path data-name="layer1" d="M59 18h-2.4L50 10H34l-6.6 8H5a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V21a3 3 0 0 0-3-3zM12 32a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm30 16a14 14 0 1 1 14-14 14 14 0 0 1-14 14z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="photo-camera-1">
+        <title>Photo Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M44.6 36.6a2 2 0 0 0 0 2.8 2 2 0 0 0 2.8 0A2 2 0 0 0 48 38a2 2 0 0 0-.6-1.4 2.1 2.1 0 0 0-2.8 0z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M59 18H36.6L30 10H14l-6.6 8H5a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V21a3 3 0 0 0-3-3zM30 46H10V28h20zm16 0a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M46 10h10v4H46z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="compact-camera-1">
+        <title>Compact Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        fill="#2e2c2d" d="M38 32h8v8h-8z"></path>
+        <path data-name="layer2" d="M60 16H4a2 2 0 0 0-2 2v36a2 2 0 0 0 2 2h56a2 2 0 0 0 2-2V18a2 2 0 0 0-2-2zM20 48a2 2 0 1 1-4 0V24a2 2 0 1 1 4 0zm22 2a14 14 0 1 1 14-14 14 14 0 0 1-14 14z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M10 8h10v4H10z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="point-and-shoot-camera-1">
+        <title>Point And Shoot Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M60 16H4a2 2 0 0 0-2 2v36a2 2 0 0 0 2 2h56a2 2 0 0 0 2-2V18a2 2 0 0 0-2-2zm-11.4 6.6a2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 52 24a2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 .6-1.4zm0 8a2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 50 34a2 2 0 0 1-1.4-.6 2 2 0 0 1 0-2.8zM38 48H10V24h28zm12 0a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M44 8h10v4H44z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="dslr-camera-1">
+        <title>DSLR Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M26 2v16h28V2zm20 10H34a2 2 0 0 1 0-4h12a2 2 0 0 1 0 4z" fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M10 24h8v4h-8z"></path>
+        <path data-name="layer1" d="M57 32h-4.4L48 26l1-4H31l1 4-4.6 6H7a3 3 0 0 0-3 3v24a3 3 0 0 0 3 3h50a3 3 0 0 0 3-3V35a3 3 0 0 0-3-3zM16 48a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm24 8a11 11 0 1 1 11-11 11 11 0 0 1-11 11z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="retro-camera-1">
+        <title>Retro Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer1"
+        cx="32" cy="36" r="4" fill="#2e2c2d"></circle>
+        <path data-name="layer2" fill="#2e2c2d" d="M62 22v-8H20v4H2v4h60z"></path>
+        <path data-name="layer1" d="M38.6 26a12 12 0 1 1-13.3 0H2v28h60V26zM54 34h-4a2 2 0 0 1 0-4h4a2 2 0 0 1 0 4zM4 10h10v4H4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="vintage-camera-1">
+        <title>Vintage Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer1"
+        cx="32" cy="38" r="5" fill="#2e2c2d"></circle>
+        <path data-name="layer2" d="M20 38a11.9 11.9 0 0 1 1.6-6H2v14h21.1a11.9 11.9 0 0 1-3.1-8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M32 50H2v6h60v-6H32zM2 16v12h23.4a12 12 0 0 1 13.3 0H62V16zm12 10h-4a2 2 0 0 1 0-4h4a2 2 0 0 1 0 4zm41.4-.6a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-3.4 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M44 38a11.9 11.9 0 0 1-3.1 8H62V32H42.4a11.9 11.9 0 0 1 1.6 6z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M48 8h10v4H48z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="polaroid-camera-1">
+        <title>Polaroid Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M14 46L6 62h52l-8-16H14z"></path>
+        <path data-name="layer1" d="M36 11.1V2h-8v9.1a8 8 0 0 1 8 0z" fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M61.5 38.7L56 32V2H40v36h-4V24.9a8 8 0 0 1-8 0V38h-4V2H8v30l-5.4 6.6A2 2 0 0 0 2 40v12a2 2 0 0 0 2 2h1.5l3.2-6.4A2 2 0 0 1 10 44h44a2 2 0 0 1 1.2 3.6l3.3 6.4H60a2 2 0 0 0 2-2V40a2 2 0 0 0-.5-1.3zM44 8h4a2 2 0 0 1 0 4h-4a2 2 0 0 1 0-4zM16.6 22.6a2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 18 26a2 2 0 0 1-1.4-3.4z"
+        fill="#2e2c2d"></path>
+        <circle data-name="layer1" cx="32" cy="18" r="4" fill="#2e2c2d"></circle>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="instagram-camera-1">
+        <title>Instagram Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer1"
+        cx="32" cy="32" r="8" fill="#2e2c2d"></circle>
+        <path data-name="layer2" d="M18 32a13.9 13.9 0 0 1 1.4-6H2v12h17.4a13.9 13.9 0 0 1-1.4-6z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M32 46a13.9 13.9 0 0 1-9.8-4H2v14a4 4 0 0 0 4 4h52a4 4 0 0 0 4-4V42H41.8a13.9 13.9 0 0 1-9.8 4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M46 32a13.9 13.9 0 0 1-1.4 6H62V26H44.6a13.9 13.9 0 0 1 1.4 6z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M58 4H6a4 4 0 0 0-4 4v14h20.2a14 14 0 0 1 19.6 0H62V8a4 4 0 0 0-4-4zm-7 14a3 3 0 1 1 3-3 3 3 0 0 1-3 3z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="webcam-1">
+        <title>Webcam</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="32" cy="28" r="6" fill="#2e2c2d"></circle>
+        <path data-name="layer1" d="M32 2a26 26 0 1 0 26 26A26 26 0 0 0 32 2zm0 40a14 14 0 1 1 14-14 14 14 0 0 1-14 14z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M49.5 52.4a29.9 29.9 0 0 1-35 0c-2.8 1-4.5 2.3-4.5 3.6 0 3.3 9.8 6 22 6s22-2.7 22-6c0-1.4-1.7-2.6-4.5-3.6z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="camera-lens-1">
+        <title>Camera Lens</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M4 10h56v13H4z"></path>
+        <path data-name="layer1" d="M54 40h-4V27h-6v13h-4V27h-6v13h-4V27h-6v13h-4V27h-6v13h-4V27H4v13h4v14h48V40h4V27h-6zm-8 8H34a2 2 0 0 1 0-4h12a2 2 0 0 1 0 4zM8 2h48v4H8zm8 56h32v4H16z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="camera-flash-1">
+        <title>Camera Flash</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M22 20h20a2 2 0 0 0 0-4H22a2 2 0 0 0 0 4zm20 2H22a2 2 0 0 0 0 4h20a2 2 0 0 0 0-4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M62 26.7h-.1a4.2 4.2 0 0 0 .1-.7V6a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v20a3.9 3.9 0 0 0 .1.7c0 5.3-.3 16.7 9.1 26.1A4 4 0 0 0 14 54h36a4 4 0 0 0 2.9-1.2C62.3 43.5 62 32 62 26.7zM38 48H26a2 2 0 0 1 0-4h12a2 2 0 0 1 0 4zm16-16H10V10h44zM20 58h24v4H20z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pro-camera-slr-1">
+        <title>Pro Camera SLR</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M48 20V6H16v14a4 4 0 0 0 4 4h24a4 4 0 0 0 4-4z" fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M40 28H24v4h-2v26h20V32h-2zm-3.1 21.8l-.9.2a2 2 0 0 1-1.8-1.1L32 44.5l-2.2 4.4a2 2 0 1 1-3.6-1.8l4-8a2 2 0 0 1 3.6 0l4 8a2 2 0 0 1-.9 2.7zM2 44v4a8 8 0 0 0 8 8h8V36h-8a8 8 0 0 0-8 8zm14 2a4 4 0 1 1-4-4 4 4 0 0 1 4 4zm38-10h-8v20h8a8 8 0 0 0 8-8v-4a8 8 0 0 0-8-8zm0 12h-4a2 2 0 0 1 0-4h4a2 2 0 1 1 0 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="camera-shutter-1">
+        <title>Camera Shutter</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M18 27.9L33.2 2H32A29.9 29.9 0 0 0 9.1 12.6l.4.7z" fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M58.5 18a30 30 0 0 0-21-15.5l-.4.7L28.4 18z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M60.3 22H42.5l15 25.9A30 30 0 0 0 60.3 22z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M46 36.1L30.6 62H32a29.9 29.9 0 0 0 22.8-10.6l-.4-.7z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M5.5 46a30 30 0 0 0 20.8 15.4l.4-.7L35.4 46z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M21.5 42l-15-25.8A30 30 0 0 0 3.7 42h17.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="camera-film-1">
+        <title>Camera Film</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M28 50V14a2 2 0 0 0 0-4H4a2 2 0 0 0 0 4v36a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M32 18v28h18v-6q0-6 6-6h6V18zm6 22a2 2 0 1 1-4 0v-2a2 2 0 1 1 4 0zm0-14a2 2 0 1 1-4 0v-2a2 2 0 1 1 4 0zm8 14a2 2 0 1 1-4 0v-2a2 2 0 1 1 4 0zm0-14a2 2 0 1 1-4 0v-2a2 2 0 1 1 4 0zm8 0a2 2 0 1 1-4 0v-2a2 2 0 1 1 4 0z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="camera-tripod-1">
+        <title>Camera Tripod</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M17.5 23h27a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 44.5 5H43l-3.3-4h-7.9l-3.2 4H17.5A1.5 1.5 0 0 0 16 6.5v15a1.5 1.5 0 0 0 1.5 1.5zM36 9a4 4 0 1 1-4 4 4 4 0 0 1 4-4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M51.4 59.6l-18-18L36 39V27h-8v12l2.6 2.6-18 18a2 2 0 0 0 2.8 2.8L30 47.8V61a2 2 0 1 0 4 0V47.8l14.6 14.6a2 2 0 0 0 2.8-2.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="switch-camera-1">
+        <title>Switch Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M59 18H46.6L40 10H24l-6.6 8H5a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V21a3 3 0 0 0-3-3zM38.6 46.3A13.7 13.7 0 0 1 32 48a13.9 13.9 0 0 1-9.9-4.1 14.1 14.1 0 0 1-4-10l-1.5 1.5a2 2 0 1 1-2.8-2.8l6.2-6.3 6.2 6.3a2 2 0 1 1-2.8 2.8l-1.2-1.2a10.1 10.1 0 0 0 2.8 6.9 9.8 9.8 0 0 0 11.7 1.7 2 2 0 0 1 1.9 3.5zm11.6-10.9L44 41.7l-6.2-6.3a2 2 0 1 1 2.8-2.8l1.2 1.2a10.1 10.1 0 0 0-2.8-6.9 9.8 9.8 0 0 0-11.7-1.7 2 2 0 1 1-1.9-3.5 13.9 13.9 0 0 1 16.4 2.4 14.1 14.1 0 0 1 4 10l1.5-1.5a2 2 0 1 1 2.8 2.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="take-a-photo-1">
+        <title>Take A Photo</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm18 40.2a1.8 1.8 0 0 1-1.8 1.8H15.8a1.8 1.8 0 0 1-1.8-1.8V23.8a1.8 1.8 0 0 1 1.8-1.8h7.5l3.9-4h9.6l3.9 4h7.5a1.8 1.8 0 0 1 1.8 1.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="camera-button-1">
+        <title>Camera Button</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="32" cy="33" r="7" fill="#2e2c2d"></circle>
+        <path data-name="layer1" d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm18 40.2a1.8 1.8 0 0 1-1.8 1.8H15.8a1.8 1.8 0 0 1-1.8-1.8V23.8a1.8 1.8 0 0 1 1.8-1.8h7.5l3.9-4h9.6l3.9 4h7.5a1.8 1.8 0 0 1 1.8 1.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pictures-1">
+        <title>Pictures</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M10 16h52v40H10z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M54 12V8H2v40h4V12h48z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="burst-mode-1">
+        <title>Burst Mode</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M18 22h44v36H18z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M46 10V6H2v36h4V10h40z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M54 18v-4H10v36h4V18h40z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="photos-1">
+        <title>Photos</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M2 5h48v40H2z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M54 18.2V49H7.3l-.2.7L54.2 59 62 19.8l-8-1.6z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="photo-gallery-1">
+        <title>Photo Gallery</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M2 18h60v44H2z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M6 10h52v4H6zm6-8h40v4H12z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="image-folder-1">
+        <title>Image Folder</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M12.8 2H9a3 3 0 0 0-2.3 1.1A4 4 0 0 1 9.9 6H50a4 4 0 0 1 4 4v46h4V2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M32 32c-4 0-5.3 8-6 8s-1.2-3-4-3-3.8 2.6-4.9 5h21.8c-1.4-4.2-4-10-6.9-10z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M9 10a3 3 0 0 1-3-3v52a3 3 0 0 0 3 3h41V10H9zm5 14h28v22H14z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="image-1">
+        <title>Image</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path d="M2 2v42h6.5c1.6-4.6 7.2-14 12.9-14s6.1 6 8.7 6 4.6-18 12-18 12.3 19.4 13.6 26H62V2zm15 18a5 5 0 1 1 5-5 5 5 0 0 1-5 5z"
+        fill="#2e2c2d" data-name="layer2"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M2 48h60v14H2z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="image-gallery-1">
+        <title>Image Gallery</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M10 52h52v10H10zm0-42v38h6.2c.7-4.6 3.5-14 9.1-14s6.1 6 8.7 6 2.6-16 10-16 10.8 17.7 11.8 24H62V10zm12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M6 52V6h48V2H2v52h4v-2z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="images-1">
+        <title>Images</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M18 54h44v8H18zm0-36v32h6.1c.3-4.2 1.7-12 7.3-12s4.1 6 6.7 6 .6-16 8-16 9.3 16.1 9.9 22h6V18zm10 14a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M46 6V2H2v44h4V6h40z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M54 14v-4H10v44h4V14h40z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="frame-1">
+        <title>Frame</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M50 15a2 2 0 0 0-.8-1.6l-16-12a2 2 0 0 0-2.4 0l-16 12A2 2 0 0 0 14 15H2v48h60V15zM32 5.5L44.7 15H19.3zM54 55H10V23h44z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="picture-frame-1">
+        <title>Picture Frame</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M51.2 51c-1.7-6.9-6.1-20-11.2-20s-8.9 14-10 14-3.6-4-8-4-7.3 5.8-8.9 10z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M50 15a2 2 0 0 0-.8-1.6l-16-12a2 2 0 0 0-2.4 0l-16 12A2 2 0 0 0 14 15H2v48h60V15zM32 5.5L44.7 15H19.3zM54 55H10V23h44z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-image-1">
+        <title>Add Image</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8 18h-6v6a2 2 0 0 1-4 0v-6h-6a2 2 0 0 1 0-4h6v-6a2 2 0 0 1 4 0v6h6a2 2 0 0 1 0 4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M26.1 44A20 20 0 0 1 50 26.4V2H2v42zM2 48v10h28a19.9 19.9 0 0 1-3.9-10z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-image-1">
+        <title>Remove Image</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm-2 18h-6a2 2 0 0 1 0-4h16a2 2 0 1 1 0 4H44z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M26.1 44A20 20 0 0 1 50 26.4V2H2v42zM2 48v10h28a19.9 19.9 0 0 1-3.9-10z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-image-1">
+        <title>Delete Image</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm7.4 20.6a2 2 0 1 1-2.8 2.8L46 48.8l-4.6 4.6a2 2 0 0 1-2.8-2.8l4.6-4.6-4.6-4.6a2 2 0 1 1 2.8-2.8l4.6 4.6 4.6-4.6a2 2 0 1 1 2.8 2.8L48.8 46z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M46 26a20 20 0 0 1 4 .4V2H2v42h24.1A20 20 0 0 1 46 26zM2 48v10h28a19.9 19.9 0 0 1-3.9-10z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="image-saved-1">
+        <title>Image Saved</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.5 13.3l-9.4 10.6-6.5-6.5a2 2 0 0 1 2.8-2.8l3.5 3.5 6.6-7.4a2 2 0 0 1 3 2.7z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M46 26a20 20 0 0 1 4 .4V2H2v42h24.1A20 20 0 0 1 46 26zM2 48v10h28a19.9 19.9 0 0 1-3.9-10z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="image-settings-1">
+        <title>Image Settings</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M58.6 49.1a11.7 11.7 0 0 0 0-4.3l3.1-1.8-4-6.9-3.1 1.8a12 12 0 0 0-3.7-2.1V32h-8v3.7a12 12 0 0 0-3.7 2.1L36 36l-4 7 3 1.7a11.6 11.6 0 0 0 0 4.4L31.7 51l4 6.9 3.3-1.8a12 12 0 0 0 3.8 2.2V62h8v-3.7a12.1 12.1 0 0 0 3.9-2.3l3.3 2 4-7zM46.9 52a5 5 0 1 1 5-5 5 5 0 0 1-5 5z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M27.8 50a4 4 0 0 1 1.3-2H2v10h29.1l-2.9-5a4 4 0 0 1-.4-3zM2 2v42h26.2a4 4 0 0 1 .4-3l4-6.9a4 4 0 0 1 2.4-1.9h1a4 4 0 0 1 2 .5l.8.5V32a4 4 0 0 1 4-4H50V2z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="favorite-image-1">
+        <title>Favorite Image</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M62 44H49.8L46 32l-3.8 12H30l9.9 6.5L36.1 62l9.9-7.1 9.9 7.1-3.8-11.5L62 44z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M2 48v10h31.2l2-5.8-6.4-4.2H2zm24.2-5.1A4 4 0 0 1 30 40h9.3l2.9-9.2a4 4 0 0 1 7.6 0l.2.6V2H2v42h24a3.9 3.9 0 0 1 .2-1.1z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="image-sync-1">
+        <title>Image Sync</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M62.4 47.6a2 2 0 0 0-2.8 0l-1.5 1.5a14.1 14.1 0 0 0-4-10 13.9 13.9 0 0 0-16.4-2.4 2 2 0 0 0 1.9 3.5 9.9 9.9 0 0 1 11.7 1.7 10.1 10.1 0 0 1 2.9 6.9L53 47.6a2 2 0 0 0-3 2.8l6.2 6.3 6.2-6.3a2 2 0 0 0 0-2.8zM48.9 57.8a9.8 9.8 0 0 1-11.7-1.7 10.1 10.1 0 0 1-2.9-6.9l1.2 1.2a2 2 0 0 0 2.8-2.8l-6.2-6.3-6.1 6.3a2 2 0 0 0 2.8 2.8l1.5-1.5a14.1 14.1 0 0 0 4 10 13.9 13.9 0 0 0 9.9 4.1 13.7 13.7 0 0 0 6.6-1.7 2 2 0 1 0-1.9-3.5z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M23.2 53.3a6 6 0 0 1-1.5-6.3H1v10h27.2a18 18 0 0 1-.8-2 6 6 0 0 1-4.2-1.7zM1 1v42h23.9l4.5-4.5a4 4 0 0 1 2.8-1.2h.4v-.6a6 6 0 0 1 2.9-3.6A17.7 17.7 0 0 1 49 31.7V1z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-folder-1">
+        <title>Add Folder</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M47 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8 18h-6v6a2 2 0 1 1-4 0v-6h-6a2 2 0 0 1 0-4h6v-6a2 2 0 1 1 4 0v6h6a2 2 0 0 1 0 4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M47 26a19.9 19.9 0 0 1 8 1.7V10H1v40h26.4A20 20 0 0 1 47 26zM5 2h46v4H5z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="picture-1">
+        <title>Picture</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="32" cy="24" r="4" fill="#2e2c2d"></circle>
+        <path data-name="layer2" d="M2 2v46h28V37.5a6.2 6.2 0 0 1-3.9 1.4 6.3 6.3 0 0 1-3.8-11.3 6.3 6.3 0 1 1 3.8-11.2 6.3 6.3 0 1 1 12.2-2.1 6.2 6.2 0 0 1-.4 2 6.3 6.3 0 1 1 3.8 11.3A6.3 6.3 0 0 1 38 38.9a6.2 6.2 0 0 1-4-1.5V48h28V2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M2 52h60v10H2z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="volume-1">
+        <title>Volume</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M47 32a13.9 13.9 0 0 0-6.7-12 2 2 0 0 0-2.1 3.4 10 10 0 0 1 0 17.1 2 2 0 0 0 2.1 3.5A13.9 13.9 0 0 0 47 32z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M46.2 14.4a2 2 0 0 0-2.4 3.2 18 18 0 0 1 0 28.8 2 2 0 0 0 2.4 3.2 22 22 0 0 0 0-35.2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M52 8.8a2 2 0 0 0-2.5 3.1 26 26 0 0 1 .1 40.2 2 2 0 0 0 2.5 3.1A30 30 0 0 0 52 8.8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M3 24a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12l18 18V6L15 24z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="medium-volume-1">
+        <title>Medium Volume</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M51 32a13.9 13.9 0 0 0-6.7-12 2 2 0 1 0-2.1 3.4 10 10 0 0 1 0 17.1 2 2 0 1 0 2.1 3.5A13.9 13.9 0 0 0 51 32z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M50.2 14.4a2 2 0 0 0-2.4 3.2 18 18 0 0 1 0 28.8 2 2 0 1 0 2.4 3.2 22 22 0 0 0 0-35.2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M7 24a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12l18 18V6L19 24z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="low-volume-1">
+        <title>Low Volume</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M48.3 20a2 2 0 1 0-2.1 3.4 10 10 0 0 1 0 17.1 2 2 0 0 0 2.1 3.5 14 14 0 0 0 0-23.9z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M11 24a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12l18 18V6L23 24z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="volume-up-1">
+        <title>Volume Up</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M3 24a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12l18 18V6L15 24z" fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M61 30h-8v-8a2 2 0 1 0-4 0v8h-8a2 2 0 0 0 0 4h8v8a2 2 0 1 0 4 0v-8h8a2 2 0 0 0 0-4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="volume-down-1">
+        <title>Volume Down</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M3 24a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12l18 18V6L15 24z" fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M61 30H41a2 2 0 0 0 0 4h20a2 2 0 0 0 0-4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="silent-mode-1">
+        <title>Silent Mode</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M3 24a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12l18 18V6L15 24z" fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M55.8 32l6.6-6.6a2 2 0 1 0-2.8-2.8L53 29.2l-6.6-6.6a2 2 0 0 0-2.8 2.8l6.6 6.6-6.6 6.6a2 2 0 1 0 2.8 2.8l6.6-6.6 6.6 6.6a2 2 0 1 0 2.8-2.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="mute-1">
+        <title>Mute</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M42 58V31L28.4 44.4 42 58z"></path>
+        <path data-name="layer1" d="M61.4 2.6a2 2 0 0 0-2.8 0L42 19.2V6L24 24H12a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h9.2L2.6 58.6a2 2 0 1 0 2.8 2.8l56-56a2 2 0 0 0 0-2.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="eject-1">
+        <title>Eject</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm-.1 16l13 16h-26zM44 44H20a2 2 0 0 1 0-4h24a2 2 0 0 1 0 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="rewind-1">
+        <title>Rewind</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm10 41l-10-6.9V43L16 32l16-11v6.9L42 21z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="previous-1">
+        <title>Previous</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm14 40.9l-10-6.8v6.8L20 32v10a2 2 0 1 1-4 0V22a2 2 0 1 1 4 0v9.9l16-10.8v6.8l10-6.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="skip-previous-1">
+        <title>Skip Previous</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zM22 42a2 2 0 0 1-4 0V22a2 2 0 0 1 4 0zm20 .9L26 32l16-10.9z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="stop-1">
+        <title>Stop</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm12 42H20V20h24z" fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pause-1">
+        <title>Pause</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm-4 42a2 2 0 0 1-4 0V20a2 2 0 0 1 4 0zm12 0a2 2 0 0 1-4 0V20a2 2 0 0 1 4 0z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="play-1">
+        <title>Play</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm-8 44V18l24 14z" fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="record-1">
+        <title>Record</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm0 43a13 13 0 1 1 13-13 13 13 0 0 1-13 13z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="next-1">
+        <title>Next</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zM22 42.9V21.1L38 32zm24-.9a2 2 0 1 1-4 0V22a2 2 0 1 1 4 0z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="skip-next-1">
+        <title>Skip Next</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm16 40a2 2 0 1 1-4 0V32L28 42.9v-6.8l-10 6.8V21.1l10 6.8v-6.8l16 10.8V22a2 2 0 1 1 4 0z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="fast-forward-1">
+        <title>Fast Forward</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm0 41v-6.9L22 43V21l10 6.9V21l16 11z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="fast-rewind-1">
+        <title>Fast Rewind</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        fill="#2e2c2d" d="M6 32l32-22v13.8L58 10v44L38 40.3V54L6 32z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="previous-2">
+        <title>Previous</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M42 23.8l20-13.6v43.6L42 40.2v13.6L10 32v-.1l32-21.7v13.6z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M10 8v48H2V8h8z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="skip-previous-2">
+        <title>Skip Previous</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M56 53.8L24 32l32-21.8v43.6z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M16 8v48H8V8h8z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="stop-2">
+        <title>Stop</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        fill="#2e2c2d" d="M8 8h48v48H8z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pause-2">
+        <title>Pause</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M12 4h12v56H12z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M40 4h12v56H40z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="play-2">
+        <title>Play</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        fill="#2e2c2d" d="M6 2l52 30L6 62V2z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="record-2">
+        <title>Record</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer1"
+        cx="32" cy="32" r="26" fill="#2e2c2d"></circle>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="next-2">
+        <title>Next</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M8 53.8L40 32 8 10.2v43.6z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M48 8v48h8V8h-8z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="skip-next-2">
+        <title>Skip Next</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M22 23.8L2 10.2v43.6l20-13.6v13.6L54 32v-.1L22 10.2v13.6z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M54 8v48h8V8h-8z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="fast-forward-2">
+        <title>Fast Forward</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        fill="#2e2c2d" d="M58 32L26 10v13.8L6 10v44l20-13.7V54l32-22z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="eject-2">
+        <title>Eject</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M4 47.4h56v8H4z"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M6 39.4h52L32 8.6 6 39.4z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="video-1">
+        <title>Video</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M60 18L42 28.1V20a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v24a4 4 0 0 0 4 4h32a4 4 0 0 0 4-4v-8.2l4 2.2 14 8h2V18z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="video-camera-1">
+        <title>Video Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        fill="#2e2c2d" d="M62 18L42 28V16H2v32h40V36l20 10V18z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="movie-camera-1">
+        <title>Movie Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M48 40l14-6v22l-14-6"></path>
+        <rect data-name="layer2" x="6" y="32" width="42" height="26" rx="2"
+        ry="2" fill="#2e2c2d"></rect>
+        <circle data-name="layer1" cx="12" cy="16" r="10" fill="#2e2c2d"></circle>
+        <circle data-name="layer1" cx="36" cy="20" r="6" fill="#2e2c2d"></circle>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="tv-camera-1">
+        <title>TV Camera</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M49 28a2 2 0 0 0-2-2h-4v-6a2 2 0 0 1 2-2h6.5a4 4 0 0 0 3.5 2h4a4 4 0 0 0 0-8h-4a4 4 0 0 0-3.5 2.1H45a6 6 0 0 0-6 6v6h-4V22a6 6 0 0 0-6-6H3a2 2 0 0 0 0 4h26a2 2 0 0 1 2 2v4H9a2 2 0 0 0-2 2v22a2 2 0 0 0 2 2h38a2 2 0 0 0 2-2v-6l14 6V28l-14 6zM37.4 44H18.6a4 4 0 1 1 4.4-4h10a4 4 0 1 1 4.4 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pro-camcorder-1">
+        <title>Pro Camcorder</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M21 14v11a1 1 0 0 0 1 1h19a1 1 0 0 0 1-1v-3l8 3V14l-8 3v-3a1 1 0 0 0-1-1H22a1 1 0 0 0-1 1z"
+        fill="#2e2c2d"></path>
+        <circle data-name="layer2" cx="24" cy="5" r="4" fill="#2e2c2d"></circle>
+        <circle data-name="layer2" cx="36" cy="5" r="4" fill="#2e2c2d"></circle>
+        <path data-name="layer1" d="M51.4 59.5l-18-17L36 40V30h-8v10l2.6 2.6-18 17a2 2 0 1 0 2.7 2.9L30 48.6V61a2 2 0 1 0 4 0V48.6l14.6 13.8a2 2 0 1 0 2.7-2.9z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cinema-projector-1">
+        <title>Cinema Projector</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M44 39v-4l16 6V21l-16 6v-4a2 2 0 0 0-2-2H10a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11.3L4.5 59.7a2 2 0 1 0 3 2.7L24 44v17a2 2 0 1 0 4 0V44l16.5 18.3a2 2 0 1 0 3-2.7L30.7 41H42a2 2 0 0 0 2-2z"
+        fill="#2e2c2d"></path>
+        <circle data-name="layer1" cx="36" cy="9" r="8" fill="#2e2c2d"></circle>
+        <circle data-name="layer1" cx="16" cy="11" r="6" fill="#2e2c2d"></circle>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="camcorder-1">
+        <title>Camcorder</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="14" cy="28" r="5" fill="#2e2c2d"></circle>
+        <path data-name="layer2" d="M24 8H4a2 2 0 0 0-2 2v44a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2zM14 36a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M43.8 21.3H62V16a2 2 0 0 0-2-2H34a2 2 0 0 0-2 2v4h-2v14h2v6h30V25.3H43.8a2 2 0 0 1 0-4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="movie-1">
+        <title>Movie</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M18.9 20.1h12.3l-5.6-5.6-.3-.4H12.9zm6.4 10l.3-.4 5.6-5.6H18.8l-6 6zm11.6-10h12.3l-5.6-5.6-.3-.4H30.9zm-.1 4l-6 6h12.5l.3-.4 5.6-5.6zm12 6H62v-6h-7.2l-6 6zM7.6 14.6l-.3-.4H2v6h11.2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M2 60.1h60v-26H2zm10-10h40a2 2 0 0 1 0 4H12a2 2 0 0 1 0-4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M48.9 14.1l6 6H62v-6H48.9zM7.6 29.7l5.6-5.6H2v6h5.3z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="movie-clapperboard-1">
+        <title>Movie Clapperboard</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M2 60.1h60v-26H2zm10-10h40a2 2 0 0 1 0 4H12a2 2 0 0 1 0-4z" fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M14.8 30.1h12.4l6-6H20.8l-6 6zm36.4-6H38.8l-6 6h12.4l6-6zm5.6 0l-6 6H62v-6h-5.2zM2 30.1h7.2l6-6H2v6zm46.2-15.7l-9.7-6.2-9.5 2.1 9.6 6.1 9.6-2zm12.6-2.7l-1.7-7.8-15 3.1 9.7 6.2 7-1.5zM33 17.6l-9.6-6.2-10.2 2.2 9.6 6.1L33 17.6z"></path>
+        <path data-name="layer1" d="M17.3 20.9l-9.6-6.1c-6.9 1.8-5.6 9.3-5.6 9.3z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="play-movie-1">
+        <title>Play Movie</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M25.2 17l10-10H24.8l-10 10h10.4zm16 0l10-10H40.8l-10 10h10.4zM58 7h-1.2l-10 10H62v-6a4 4 0 0 0-4-4zM19.2 7H6a4 4 0 0 0-4 4v6h7.2z"></path>
+        <path data-name="layer1" d="M2 53a4 4 0 0 0 4 4h52a4 4 0 0 0 4-4V21H2zm22-26l20 10-20 10z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="play-video-1">
+        <title>Play Video</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M23 10h18v6H23zm0 38h18v6H23zm22 0h17v6H45zM2 48h17v6H2zm0-38h17v6H2zm43 0h17v6H45z"></path>
+        <path data-name="layer1" d="M2 44h60V20H2zm24-18.6L40 32l-14 6.6z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="record-video-1">
+        <title>Record Video</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M22 54h20v6H22zM46 4h16v6H46zM22 4h20v6H22zm24 50h16v6H46zM2 54h16v6H2zM2 4h16v6H2z"></path>
+        <path data-name="layer1" d="M2 14v36h60V14zm10 20h-2a2 2 0 1 1 0-4h2a2 2 0 0 1 0 4zm20 12a14 14 0 1 1 14-14 14 14 0 0 1-14 14zm22-12h-2a2 2 0 0 1 0-4h2a2 2 0 1 1 0 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="play-button-1">
+        <title>Play Button</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M51.6 12H12.4A10.4 10.4 0 0 0 2 22.4v19.2A10.4 10.4 0 0 0 12.4 52h39.2A10.4 10.4 0 0 0 62 41.6V22.4A10.4 10.4 0 0 0 51.6 12zM24 42V22l20 10z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="stream-video-1">
+        <title>Stream Video</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M52 2H12A10 10 0 0 0 2 12v40a10 10 0 0 0 10 10h40a10 10 0 0 0 10-10V12A10 10 0 0 0 52 2zM24 42V22l20 10z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cinema-reel-1">
+        <title>Cinema Reel</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M54 35H42.4a22 22 0 1 0-3.3 4H54a6 6 0 0 1 0 12H6a6 6 0 0 0 0 12h26a2 2 0 0 0 0-4H6a2 2 0 0 1 0-4h48a10 10 0 0 0 0-20zm-38.8-8.4l-6 2.4a15.9 15.9 0 0 1 0-12l6 2.4a9.5 9.5 0 0 0 0 7.2zM24 39a15.9 15.9 0 0 1-6.3-1.3l2.5-5.9a9.5 9.5 0 0 0 7.1.2l2.3 6a15.9 15.9 0 0 1-5.6 1zm-4-16a4 4 0 1 1 4 4 4 4 0 0 1-4-4zm7.4-8.9a9.5 9.5 0 0 0-7.1.2l-2.6-6A15.9 15.9 0 0 1 29.6 8zm5.4 5.1l5.9-2.6a16 16 0 0 1 0 12.7l-5.9-2.6a9.5 9.5 0 0 0 0-7.6z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="movie-reel-film-1">
+        <title>Movie Reel Film</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M35 3a28 28 0 0 0-15.8 51.2c-3.4 3.1-11.5 3.8-15 1.2a2 2 0 0 0-2.4 3.2 14.5 14.5 0 0 0 8.6 2.4c4.6 0 9.4-1.5 12.1-4.4l.3-.4A28 28 0 1 0 35 3zm-8 10a4 4 0 1 1-4 4 4 4 0 0 1 4-4zM15 31a4 4 0 1 1 4 4 4 4 0 0 1-4-4zm12 18a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm5.4-12.6a1.9 1.9 0 0 1-1.4.6 2 2 0 0 1-2-2 2.1 2.1 0 0 1 .6-1.4 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 33 35a2 2 0 0 1-.6 1.4zm0-8a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-3.4 2 2 0 0 1 2.8 0A2 2 0 0 1 33 27a2 2 0 0 1-.6 1.4zM43 13a4 4 0 1 1-4 4 4 4 0 0 1 4-4zm-5.4 12.6a2 2 0 0 1 2.8 0 2 2 0 1 1-2.8 0zm0 10.8a2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 41 35a2 2 0 0 1-3.4 1.4zM43 49a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm8-14a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="tv-1">
+        <title>TV</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M60 23H4a2 2 0 0 0-2 2v36a2 2 0 0 0 2 2h56a2 2 0 0 0 2-2V25a2 2 0 0 0-2-2zM46 54a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V28a1 1 0 0 1 1-1h38a1 1 0 0 1 1 1zm9.4-13.6a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-3.4 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 56 39a2 2 0 0 1-.6 1.4zm0-8a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-3.4 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 56 31a2 2 0 0 1-.6 1.4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M25.3 17.1a12 12 0 0 0-2.2 1.9h17.8a12.1 12.1 0 0 0-2.2-1.9L51.3 4.4a2 2 0 1 0-2.8-2.8L34.8 15.3a11.7 11.7 0 0 0-5.7 0L15.5 1.6a2 2 0 0 0-2.8 2.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="flat-tv-1">
+        <title>Flat TV</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M62 45V5H2v40h26v10H14a2 2 0 0 0 0 4h36a2 2 0 0 0 0-4H36V45zM6 41V9h52v32z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="ipod-player-1">
+        <title>iPod Player</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M55 15a2 2 0 0 0-2 2v32.5c0 3.1-2.1 5.5-5 5.5a5 5 0 0 1-5-5V11a10 10 0 1 0-20 0H3a2 2 0 0 0-2 2v16h32V13a2 2 0 0 0-2-2h-4a6 6 0 1 1 12 0v39a9 9 0 0 0 9 9 9.1 9.1 0 0 0 9-9.5V17a2 2 0 0 0-2-2zm6 0a2 2 0 0 0-2 2v4a2 2 0 1 0 4 0v-4a2 2 0 0 0-2-2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M49 39a2 2 0 0 0 2-2v-4a2 2 0 1 0-4 0v4a2 2 0 0 0 2 2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M1 61a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V33H1zm16-22a8 8 0 1 1-8 8 8 8 0 0 1 8-8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="music-player-1">
+        <title>Music Player</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M47 24.8a13.9 13.9 0 0 0-6.7-12 2 2 0 0 0-2.1 3.4 10 10 0 0 1 0 17.1 2 2 0 1 0 2.1 3.4A13.9 13.9 0 0 0 47 24.8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M46.2 7.2a2 2 0 1 0-2.4 3.2 18 18 0 0 1 0 28.8 2 2 0 0 0 2.4 3.2 22 22 0 0 0 0-35.2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M52 1.6a2 2 0 0 0-2.5 3.1 26 26 0 0 1 .1 40.2 2 2 0 0 0 2.5 3.1A30 30 0 0 0 52 1.6z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M1 60.9a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2v-28H1zm16-22a8 8 0 1 1-8 8 8 8 0 0 1 8-8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M31 10.9H3a2 2 0 0 0-2 2v16h32v-16a2 2 0 0 0-2-2z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="vinyl-record-1">
+        <title>Vinyl Record</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M33.4 33.4a2 2 0 0 0 0-2.8 2.1 2.1 0 0 0-2.8 0A2 2 0 0 0 30 32a2 2 0 0 0 2 2 2 2 0 0 0 1.4-.6z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M53.2 10.8a30 30 0 1 0 0 42.4 30 30 0 0 0 0-42.4zM10.8 34.7h-.2a2 2 0 0 1-2-1.8A22.3 22.3 0 0 1 33 8.6a2 2 0 1 1-.4 4 18.3 18.3 0 0 0-20 19.9 2 2 0 0 1-1.8 2.2zm8.2-2a2 2 0 0 1-1.9 2.1H17a2 2 0 0 1-2-1.9A17 17 0 0 1 32.9 15a2 2 0 0 1-.2 4A13 13 0 0 0 19 32.7zm7.4-6.4a8 8 0 1 1 0 11.3 8 8 0 0 1-.1-11.3zM31.2 45a13 13 0 0 0 13.7-13.7 2 2 0 1 1 4-.2A17 17 0 0 1 32 49h-1a2 2 0 0 1 .2-4zm17.7 4a22.2 22.2 0 0 1-15.7 6.5h-2.1a2 2 0 1 1 .4-4 18.3 18.3 0 0 0 19.9-20 2 2 0 1 1 4-.4 22.2 22.2 0 0 1-6.5 17.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="compact-disc-cd-1">
+        <title>Compact Disc CD</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M32 34a2 2 0 0 1-1.4-3.4 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 32 34z" fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M34 24v.3a7.9 7.9 0 0 1 3.7 2.1h.3l19.1-10.9A30 30 0 0 0 34 2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M23.9 33.4h.2a8 8 0 0 1 5.9-9.2V2A30 30 0 0 0 3.8 42.3z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" d="M27.2 38.7v-.2l-.9-.8-.6-.7h-.2L5.4 45.9A30.1 30.1 0 0 0 19 59z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M59 18.9L39.9 29.8h-.2a8 8 0 0 1-8.8 10v.2l-8.2 20.5A30 30 0 0 0 59 18.9z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cd-audio-1">
+        <title>CD Audio</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M2 6h6v52H2z"></path>
+        <circle data-name="layer1" cx="36" cy="32" r="4" fill="#2e2c2d"></circle>
+        <path data-name="layer1" d="M12 6v52h50V6zm24 46a20 20 0 1 1 20-20 20 20 0 0 1-20 20z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="audio-file-1">
+        <title>Audio File</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        fill="#2e2c2d" d="M2 6h6v52H2z"></path>
+        <path data-name="layer1" d="M12 6v52h50V6zm36 32a6 6 0 1 1-6-6h2V18.6l-12 3V42a6 6 0 1 1-6-6h2V18.4l20-5z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="music-file-1">
+        <title>Music File</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M10 11v50h52V11zm38 32a6 6 0 1 1-6-6h2V23.6l-12 3V47a6 6 0 1 1-6-6h2V23.4l20-5z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M54 7V3H2v50h4V7h48z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="song-1">
+        <title>Song</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M2 10v52h60V10zm42 32a6 6 0 1 1-6-6h2V22.6l-12 3V46a6 6 0 1 1-6-6h2V22.4l20-5z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M6 2h52v4H6z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="music-playlist-1">
+        <title>Music Playlist</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M10 10v44h44V10zm30 20a2 2 0 0 1-2-2c0-3.6-2-5-3.7-5.6l1.4 13.4.3 3.2v1a6 6 0 1 1-6-6h1.5l-1.7-16H32c3.5 0 10 2.1 10 10a2 2 0 0 1-2 2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" fill="#2e2c2d" d="M58 16h4v34h-4zM2 16h4v34H2z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="music-1">
+        <title>Music</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M23 8.8v35.5h-6a10 10 0 1 0 10 10V22l26-7v21.3h-6a10 10 0 1 0 10 10V-.3z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="musical-note-1">
+        <title>Musical Note</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M38.6 4.6a22.2 22.2 0 0 1-5.5-2.3A2 2 0 0 0 30 4v38h-6a10 10 0 1 0 10 10V18.1c2.2.2 6.5.7 13.7 1.9a2 2 0 0 0 2.3-2c0-9.7-6.3-11.7-11.4-13.4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="music-note-1">
+        <title>Music Note</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M35.5 3.2l-1.4-.9A2 2 0 0 0 31 4v38h-6a10 10 0 1 0 10 10V7.7c5.2 3.5 10 7.5 10 16.3a2 2 0 1 0 4 0c0-11.9-7.5-16.8-13.5-20.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="playlist-1">
+        <title>Playlist</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M52.6 3.6a22.2 22.2 0 0 1-5.5-2.3A2 2 0 0 0 44 3v40h-6a10 10 0 1 0 10 10V17.1c2.2.2 6.5.7 13.7 1.9a2 2 0 0 0 2.3-2c0-9.7-6.3-11.7-11.4-13.4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M2 17h32a2 2 0 0 0 0-4H2a2 2 0 0 0 0 4zm0 10h32a2 2 0 0 0 0-4H2a2 2 0 0 0 0 4zm0 10h32a2 2 0 0 0 0-4H2a2 2 0 0 0 0 4zm16 6H2a2 2 0 0 0 0 4h16a2 2 0 0 0 0-4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="radio-1">
+        <title>Radio</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M44 37.3a2 2 0 0 0-2 2V43a2 2 0 0 0 4 0v-3.7a2 2 0 0 0-2-2z" fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M59 17H14L42.7 6.9a2 2 0 1 0-1.3-3.8l-34 12A2 2 0 0 0 6 17H5a3 3 0 0 0-3 3v38a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V20a3 3 0 0 0-3-3zM26 53H10a2 2 0 1 1 0-4h16a2 2 0 0 1 0 4zm0-8H10a2 2 0 1 1 0-4h16a2 2 0 0 1 0 4zm0-8H10a2 2 0 1 1 0-4h16a2 2 0 0 1 0 4zm18 17a11 11 0 1 1 11-11 11 11 0 0 1-11 11zm10-27H10a2 2 0 1 1 0-4h44a2 2 0 0 1 0 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="radio-set-1">
+        <title>Radio Set</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M59 17H14L42.7 6.9a2 2 0 0 0-1.3-3.8l-34 12A2 2 0 0 0 6 17H5a3 3 0 0 0-3 3v38a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V20a3 3 0 0 0-3-3zM34.6 29.6a2.1 2.1 0 0 1 2.8 0 2 2 0 0 1-2.8 2.8 2 2 0 0 1 0-2.8zM14 31a2 2 0 1 1-4 0 2 2 0 0 1 .6-1.4 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 14 31zm-5.4 9.4a2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8 2 2 0 0 1-2.8 0zm5.8 9a2 2 0 0 1-1.4.6 2 2 0 0 1-2-2 2 2 0 0 1 .6-1.4 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zM15 27a2 2 0 0 1 .6-1.4 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8 2 2 0 0 1-1.4.6 2 2 0 0 1-2-2zm4.4 25.4a2 2 0 0 1-2.8-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm0-8a2 2 0 0 1-2.8-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm0-8a2 2 0 0 1-2.8-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm6 18a2 2 0 0 1-1.4.6 2.1 2.1 0 0 1-1.4-.6 2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm0-7a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-3.4 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm0-7a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-.6 2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm0-7a2 2 0 0 1-1.4.6 2.1 2.1 0 0 1-1.4-.6 2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm0-7a2 2 0 0 1-1.4.6 2 2 0 0 1-2-2 2 2 0 0 1 .6-1.4 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm6 26a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-3.4 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 32 51a2.1 2.1 0 0 1-.6 1.4zm0-8a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-3.4 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm0-8a2 2 0 0 1-1.4.6 2.1 2.1 0 0 1-1.4-.6 2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zM31 29a2 2 0 0 1-1.4-3.4 2.1 2.1 0 0 1 2.8 0A2 2 0 0 1 31 29zm5.4 20.4a2 2 0 0 1-1.4.6 2.1 2.1 0 0 1-1.4-.6 2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm3-9a2 2 0 0 1-1.4.6 2 2 0 0 1-2-2 2 2 0 0 1 .6-1.4 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zM50 50a5 5 0 1 1 5-5 5 5 0 0 1-5 5zm0-16a5 5 0 1 1 5-5 5 5 0 0 1-5 5z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="music-radio-1">
+        <title>Music Radio</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M59 19H13.3L42.8 6.8a2 2 0 1 0-1.5-3.7l-34 14A2 2 0 0 0 6 19H5a3 3 0 0 0-3 3v3h60v-3a3 3 0 0 0-3-3z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer2" fill="#2e2c2d" d="M2 29h60v4H2z"></path>
+        <path data-name="layer1" d="M2 58a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V37H2zm47-15a5 5 0 1 1-5 5 5 5 0 0 1 5-5zm-21-1h8a2 2 0 0 1 0 4h-8a2 2 0 1 1 0-4zm0 8h8a2 2 0 0 1 0 4h-8a2 2 0 1 1 0-4zm-13-7a5 5 0 1 1-5 5 5 5 0 0 1 5-5z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="boombox-1">
+        <title>Boombox</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="18" cy="38" r="7" fill="#2e2c2d"></circle>
+        <circle data-name="layer2" cx="46" cy="38" r="7" fill="#2e2c2d"></circle>
+        <path data-name="layer1" d="M52 22v-6a6 6 0 0 0-6-6H18a6 6 0 0 0-6 6v6H2v32h60V22zm-36-6a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v6H16zm2 34a12 12 0 1 1 12-12 12 12 0 0 1-12 12zm10-22a2 2 0 0 1 2-2h4a2 2 0 0 1 0 4h-4a2 2 0 0 1-2-2zm18 22a12 12 0 1 1 12-12 12 12 0 0 1-12 12z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="boombox-2">
+        <title>Boombox</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M12 32a10 10 0 1 0 10 10 10 10 0 0 0-10-10zm1.4 11.4a2 2 0 0 1-1.4.6 2 2 0 0 1-1.4-.6 2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zM52 32a10 10 0 1 0 10 10 10 10 0 0 0-10-10zm1.4 11.4a2 2 0 0 1-2.8 0 2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M52 28a13.9 13.9 0 0 1 6 1.4V27a3 3 0 0 0-3-3h-3v-7a5 5 0 0 0-5-5H17a5 5 0 0 0-5 5v7H9a3 3 0 0 0-3 3v2.4A14 14 0 0 1 21.8 52h20.4A14 14 0 0 1 52 28zm-36-4v-7a1 1 0 0 1 1-1h30a1 1 0 0 1 1 1v7zm18 18h-4a2 2 0 0 1 0-4h4a2 2 0 0 1 0 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="headphones-1">
+        <title>Headphones</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M58.4 38H54V28c0-12.5-9-22-21-22h-2c-12 0-21 9.5-21 22v10H5.6A3.6 3.6 0 0 0 2 41.6v12.8A3.6 3.6 0 0 0 5.6 58H16V38h-2V28c0-10.3 7.3-18 17-18h2c9.7 0 17 7.7 17 18v10h-2v20h10.4a3.6 3.6 0 0 0 3.6-3.6V41.6a3.6 3.6 0 0 0-3.6-3.6z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="wireless-headphones-1">
+        <title>Wireless Headphones</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M56 36h-2v-8c0-12.5-9-22-21-22h-2c-12 0-21 9.5-21 22v8H8a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V38a2 2 0 0 0-2-2h-2v-8c0-10.3 7.3-18 17-18h2c9.7 0 17 7.7 17 18v8h-2a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V38a2 2 0 0 0-2-2z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M2 38a2 2 0 0 0-2 2v14a2 2 0 1 0 4 0V40a2 2 0 0 0-2-2zm60 0a2 2 0 0 0-2 2v14a2 2 0 1 0 4 0V40a2 2 0 0 0-2-2z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="vocal-microphone-1">
+        <title>Vocal Microphone</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M47 1a16.2 16.2 0 0 0-14.4 8.7l21.7 21.7A16.3 16.3 0 0 0 63 17 16 16 0 0 0 47 1z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M31 14.9V21L7 51l1.6 1.6-7 7a2 2 0 1 0 2.8 2.8l7-7L13 57l30.1-24h7L31.2 13.9zm-.6 21.5l-4 4a2 2 0 1 1-2.8-2.8l4-4a2 2 0 0 1 2.8 2.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cassette-tape-1">
+        <title>Cassette Tape</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="18" cy="30" r="4" fill="#2e2c2d"></circle>
+        <path data-name="layer2" fill="#2e2c2d" d="M23.2 46l-3 6h23.6l-3-6H23.2z"></path>
+        <circle data-name="layer2" cx="46" cy="30" r="4" fill="#2e2c2d"></circle>
+        <path data-name="layer1" d="M58 12H6a4 4 0 0 0-4 4v32a4 4 0 0 0 4 4h10a2 2 0 0 1 .2-.9l4-8A2 2 0 0 1 22 42h20a2 2 0 0 1 1.8 1.1l4 8a2 2 0 0 1 .2.9h10a4 4 0 0 0 4-4V16a4 4 0 0 0-4-4zM46 38a8 8 0 0 1-6.9-12H24.9a7.9 7.9 0 0 1 1.1 4 8 8 0 1 1-8-8h28a8 8 0 0 1 0 16z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="record-3">
+        <title>Record</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M34 9.1V2a2 2 0 1 0-4 0v7.1A22 22 0 0 0 10 31v6.7a2 2 0 1 0 4 0V37h36v.7a2 2 0 1 0 4 0V31A22 22 0 0 0 34 9.1zM50 33h-4v-2a14 14 0 1 0-28 0v2h-4v-2a18 18 0 1 1 36 0z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M42 41H18v9a14.1 14.1 0 0 0 .2 2.1v.4a14 14 0 0 0 27.5 0v-.3A14 14 0 0 0 46 50v-9h-4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="microphone-1">
+        <title>Microphone</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M30 54.9V62a2 2 0 0 0 4 0v-7.1A22 22 0 0 0 54 33v-6.7a2 2 0 1 0-4 0v.7H14v-.7a2 2 0 0 0-4 0V33a22 22 0 0 0 20 21.9zM14 31h4v2a14 14 0 0 0 28 0v-2h4v2a18 18 0 0 1-36 0z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M22 23h24v-9a14.1 14.1 0 0 0-.2-2.1v-.4a14 14 0 0 0-27.5 0v.3A14 14 0 0 0 18 14v9h4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="recording-1">
+        <title>Recording</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M50 20a2 2 0 0 0-2 2v2h-4V12a12 12 0 0 0-24 0v12h-4v-2a2 2 0 0 0-4 0v10a20 20 0 0 0 18 19.9V60h-8a2 2 0 0 0 0 4h20a2 2 0 0 0 0-4h-8v-8.1A20 20 0 0 0 52 32V22a2 2 0 0 0-2-2zM32 48a16 16 0 0 1-16-16v-4h32v4a16 16 0 0 1-16 16z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M40 32H20a12 12 0 0 0 24 0h-4z" fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="loudspeaker-1">
+        <title>Loudspeaker</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="32" cy="40" r="4" fill="#2e2c2d"></circle>
+        <path data-name="layer1" d="M52 2H12a2 2 0 0 0-2 2v56a2 2 0 0 0 2 2h40a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-20 8a4 4 0 1 1-4 4 4 4 0 0 1 4-4zM16.6 8.6a2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8 2 2 0 0 1-2.8 0 2 2 0 0 1 0-2.8zm2.8 46.8a2 2 0 0 1-2.8-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zM32 54a14 14 0 1 1 14-14 14 14 0 0 1-14 14zm15.4 1.4a2 2 0 0 1-2.8-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8zm0-44a2 2 0 0 1-2.8-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="hifi-1">
+        <title>Hi-Fi</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M32 17a15 15 0 1 0 15 15 15 15 0 0 0-15-15zm0 19a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M59 2H5a3 3 0 0 0-3 3v54a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3zM32 54a22 22 0 1 1 22-22 22 22 0 0 1-22 22zm23.4-42.6a2 2 0 0 1-2.8 0 2 2 0 0 1 0-2.8 2.1 2.1 0 0 1 2.8 0 2 2 0 0 1 0 2.8z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="speaker-1">
+        <title>Speaker</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <circle data-name="layer2"
+        cx="32" cy="32" r="6" fill="#2e2c2d"></circle>
+        <path data-name="layer1" d="M56.4 14.6l4.1-4.1a5 5 0 0 0-7.1-7.1l-4 4.2a29.9 29.9 0 0 0-34.7 0l-4.2-4.1a5 5 0 0 0-7.1 7.1l4.1 4.1a29.9 29.9 0 0 0 0 34.7l-4 4.1a5 5 0 1 0 7.1 7.1l4.1-4.1a29.9 29.9 0 0 0 34.7 0l4.1 4.1a5 5 0 0 0 7.1-7.1l-4.1-4.1a29.9 29.9 0 0 0 0-34.7zM32 54a22 22 0 1 1 22-22 22 22 0 0 1-22 22z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="equalizer-1">
+        <title>Equalizer</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M2 2v60h60V2zm18 54h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm16 8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm16 40h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4zm0-8h-8a2 2 0 0 1 0-4h8a2 2 0 0 1 0 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="mixer-1">
+        <title>Mixer</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M62 50h-4V4a2 2 0 1 0-4 0v46h-4v8h4v2a2 2 0 1 0 4 0v-2h4zM10 4a2 2 0 1 0-4 0v8H2v8h4v40a2 2 0 1 0 4 0V20h4v-8h-4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M34 4a2 2 0 1 0-4 0v22h-4v8h4v26a2 2 0 1 0 4 0V34h4v-8h-4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="mix-1">
+        <title>Mix</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M2 2v60h60V2zm16 22.6V54a2 2 0 1 1-4 0V24.6a5 5 0 0 1 0-9.2V10a2 2 0 1 1 4 0v5.4a5 5 0 0 1 0 9.2zm16 10V54a2 2 0 1 1-4 0V34.6a5 5 0 0 1 0-9.2V10a2 2 0 1 1 4 0v15.4a5 5 0 0 1 0 9.2zm16 18V54a2 2 0 1 1-4 0v-1.4a5 5 0 0 1 0-9.2V10a2 2 0 1 1 4 0v33.4a5 5 0 0 1 0 9.2z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="dj-1">
+        <title>DJ</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M2 2v60h60V2zm18 20h-2v28a2 2 0 1 1-4 0V22h-2a2 2 0 0 1 0-4h2v-4a2 2 0 1 1 4 0v4h2a2 2 0 0 1 0 4zm16 10h-2v18a2 2 0 1 1-4 0V32h-2a2 2 0 0 1 0-4h2V14a2 2 0 1 1 4 0v14h2a2 2 0 0 1 0 4zm16 22h-8a2 2 0 0 1 0-4h2V14a2 2 0 1 1 4 0v36h2a2 2 0 0 1 0 4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="guitar-1">
+        <title>Guitar</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path fill="#2e2c2d"
+        d="M36.449 43.793a9.771 9.771 0 0 0 2.494-1.768 11.11 11.11 0 0 0 1.68-12.992L59.916 9.741c1.563-1.563 2.977-2.682 1.414-4.241L58.5 2.67c-1.56-1.562-2.68-.148-4.24 1.414L34.965 23.377a11.116 11.116 0 0 0-12.992 1.68 10.584 10.584 0 0 0-1.76 2.479 10.467 10.467 0 0 1-7.436 4.613 12.694 12.694 0 0 0-7.068 3.516C.244 41.129.875 50.629 7.125 56.875s15.744 6.881 21.213 1.414a11.368 11.368 0 0 0 3.508-7.029c.384-4.828 2.805-6.542 4.603-7.467zM24.1 48.389a6 6 0 1 1 0-8.484 6 6 0 0 1 0 8.484z"
+        data-name="layer1"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="drum-1">
+        <title>Drum</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M26 22a2 2 0 0 0 1.1-3.7l-24-16A2 2 0 0 0 .9 5.7l24 16a2 2 0 0 0 1.1.3zM63.7 2.9a2 2 0 0 0-2.8-.6l-24 16A2 2 0 0 0 38 22a2 2 0 0 0 1.1-.3l24-16a2 2 0 0 0 .6-2.8z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M54 26H10a2 2 0 0 0 0 4h2.9l8.9 23.8L29.3 30h5.4l7.5 23.8L51.1 30H54a2 2 0 0 0 0-4z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M54 58V33.7L44.9 58h-5.6L32 34.7 24.7 58h-5.6L10 33.7V58a2 2 0 0 0 0 4h44a2 2 0 0 0 0-4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="piano-1">
+        <title>Piano</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M0 6v52h64V6zm21 28V10h6v24h3v20H18V34zm13 0h3V10h7v24h2v20H34zM4 10h6v24h4v20H4zm56 44H50V34h4V10h6z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="saxophone-1">
+        <title>Saxophone</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer1"
+        d="M2 8s33.2-15.8 32 4-6 38 2 38c4.8 0 4-7.5 4-14s0-12.4 8-16l14 16s-10 3.7-10 12-5.2 14-16 14-14-7.5-14-16 4-30.5 4-36-6.2-7.7-24-2z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="headphones-user-1">
+        <title>Headphones User</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M39.9 40.4A15.3 15.3 0 0 0 46 28c0-8.3-6.3-15-14-15s-14 6.7-14 15a15.3 15.3 0 0 0 6.1 12.4A24.1 24.1 0 0 0 8 63h48a24.1 24.1 0 0 0-16.1-22.6z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M52 19h-2a18 18 0 1 0-36 0h-2a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h4.2a19.8 19.8 0 0 1-2.2-9 19.5 19.5 0 0 1 4.5-12.5 14 14 0 0 1 27.1 0A19.5 19.5 0 0 1 50 28a19.8 19.8 0 0 1-2.2 9H52a4 4 0 0 0 4-4V23a4 4 0 0 0-4-4z"
+        fill="#2e2c2d"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="podcast-1">
+        <title>Podcast</title>
+        <desc>A solid styled icon from Orion Icon Library.</desc>
+        <path data-name="layer2"
+        d="M56 42V30a8 8 0 1 0-16 0v12a8 8 0 0 0 6 7.7V58h-4a2 2 0 0 0 0 4h12a2 2 0 0 0 0-4h-4v-8.3a8 8 0 0 0 6-7.7z"
+        fill="#2e2c2d"></path>
+        <path data-name="layer1" d="M36 42V30a12 12 0 0 1 9.9-11.8c0-.4.1-.8.1-1.2 0-8.3-6.3-15-14-15S18 8.7 18 17a15.3 15.3 0 0 0 6.1 12.4A24.1 24.1 0 0 0 8 52h33.4A12 12 0 0 1 36 42z"
+        fill="#2e2c2d"></path>
+      </symbol>
+    </svg>
+    <div class="orion-sprite">
+      <svg width="0" height="0" style="display:block">
+        <defs>
+          <linearGradient id="orion_logo_a" gradientUnits="userSpaceOnUse" x1="13.183"
+          y1="62.808" x2="79.541" y2="62.808">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_b" gradientUnits="userSpaceOnUse" x1="13.177"
+          y1="29.193" x2="79.535" y2="29.193">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_c" gradientUnits="userSpaceOnUse" x1="13.182"
+          y1="33.549" x2="79.533" y2="33.549">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_d" gradientUnits="userSpaceOnUse" x1="13.186"
+          y1="58.453" x2="79.534" y2="58.453">
+            <stop offset="0" stop-color="#FF4581"></stop>
+            <stop offset="1" stop-color="#FF4D63"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_e" gradientUnits="userSpaceOnUse" x1="14.32"
+          y1="77.671" x2="79.601" y2="12.39">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_f" gradientUnits="userSpaceOnUse" x1="14.33"
+          y1="77.675" x2="79.611" y2="12.394">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_g" gradientUnits="userSpaceOnUse" x1="24.694"
+          y1="88.035" x2="89.969" y2="22.76">
+            <stop offset="0" stop-color="#6757FF"></stop>
+            <stop offset="1" stop-color="#0092FF"></stop>
+          </linearGradient>
+          <linearGradient id="orion_logo_h" gradientUnits="userSpaceOnUse" x1="22.838"
+          y1="69.61" x2="69.095" y2="22.453">
+            <stop offset="0" stop-color="#AB2BFF"></stop>
+            <stop offset="1" stop-color="#863CFF"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+      <header class="_1tt2u3t"><a href="https://orioniconlibrary.com/?utm_source=sprite_demo" class="_19kenml"><svg viewBox="0 0 92 92" class="_15372er"><g><ellipse fill="currentColor" cx="46" cy="46" rx="46" ry="46"></ellipse><path fill="url(#orion_logo_a)" d="M26.2 55.4c-.9 1.5-1.6 3.1-2.2 4.6-2.4 5.7-2.3 9.1-2 10.1.3.1.7.1 1.4.1 3.2 0 7.9-1.4 13.3-4.4-4.7-2.1-8.4-5.8-10.5-10.4z"></path><path fill="url(#orion_logo_b)" d="M65.8 36.6c.8-1.5 1.6-3.1 2.2-4.6 2.4-5.7 2.3-9.1 2-10.1-.3-.1-.7-.1-1.4-.1-3.2 0-7.9 1.4-13.3 4.4 4.6 2.1 8.4 5.8 10.5 10.4z"></path><path fill="url(#orion_logo_c)" d="M55.3 13.1c-3-.8-6.1-1.3-9.3-1.3-18.9 0-34.2 15.3-34.2 34.2 0 3.2.5 6.3 1.3 9.3 3.4-8 9.3-16.7 17.4-24.8 8-8.1 16.8-14 24.8-17.4z"></path><path fill="url(#orion_logo_d)" d="M61.5 61.5c-8 8-16.8 14-24.8 17.4 2.9.8 6.1 1.3 9.3 1.3 18.9 0 34.2-15.3 34.2-34.2 0-3.2-.5-6.3-1.3-9.3-3.4 8-9.3 16.8-17.4 24.8z"></path><path fill="url(#orion_logo_e)" d="M78.9 36.7c4.1-9.8 4.4-18.5-.4-23.2-2.4-2.4-5.8-3.5-9.8-3.5-4 0-8.6 1.1-13.4 3.1 11.4 3.2 20.4 12.2 23.6 23.6z"></path><path fill="url(#orion_logo_f)" d="M13.1 55.3c-4.1 9.8-4.4 18.5.4 23.2 2.4 2.4 5.8 3.5 9.8 3.5 4 0 8.6-1.1 13.4-3.1-11.4-3.2-20.4-12.2-23.6-23.6z"></path><path fill="url(#orion_logo_g)" d="M65.8 36.6c-3 5.6-7.4 11.3-12.7 16.5-5.7 5.7-11.4 9.9-16.5 12.7 2.8 1.4 6 2.1 9.4 2.1 12.1 0 21.9-9.8 21.9-21.9 0-3.4-.7-6.5-2.1-9.4z"></path><path fill="url(#orion_logo_h)" d="M78.9 36.7c-3.2-11.4-12.2-20.4-23.6-23.6-8 3.4-16.7 9.3-24.8 17.4-8 8-14 16.8-17.4 24.8 3.2 11.4 12.2 20.4 23.6 23.6 8-3.4 16.7-9.3 24.8-17.4 8.1-8 14-16.8 17.4-24.8zM46 67.9c-3.4 0-6.5-.8-9.4-2.1-5.4 3-10.1 4.4-13.3 4.4-.7 0-1.1-.1-1.4-.1-.2-1.1-.4-4.4 2-10.1.6-1.5 1.4-3 2.2-4.6-1.4-2.8-2.1-6-2.1-9.4 0-12.1 9.8-21.9 21.9-21.9 3.4 0 6.5.8 9.4 2.1 5.4-3 10.1-4.4 13.3-4.4.7 0 1.1.1 1.4.1.2 1 .4 4.4-2 10.1-.6 1.5-1.4 3-2.2 4.6 1.4 2.8 2.1 6 2.1 9.4 0 12.1-9.8 21.9-21.9 21.9z"></path></g></svg><svg viewBox="0 0 128.4 39.8" class="_ksd372"><g fill="currentColor"><path d="M56 13h6v26h-6zm-42 4.8a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-6a14 14 0 1 0 14 14 14 14 0 0 0-14-14zm68.5 6a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-6a14 14 0 1 0 14 14 14 14 0 0 0-14-14zm-31.5.3a14 14 0 0 0-16.9 13.7V39h6V25.8A8 8 0 0 1 51 18.3z"></path><circle cx="59" cy="4" r="4"></circle><path d="M128.4 25.8c0-7.7-5.3-14-13-14s-13 6.3-13 14V39h6V25.8c0-4.4 2.6-8 7-8s7 3.6 7 8V39h6z"></path></g></svg></a>
+        <h1
+        class="_dl5j6p _1iurgbx">Media-Solid</h1>
+      </header>
+      <section class="_1l5hckq">
+        <p class="_kp2n83">SVG Icons Sprite generated by <a class="_o1cg4g" href="https://orioniconlibrary.com/?utm_source=sprite_demo">Orion Icon Library</a>
+        </p>
+        <h2 class="">Let&#x27;s use your SVG Sprite!</h2>
+        <p class="_14gdf42">Congratulations, your SVG Sprite from <strong>Media-Solid</strong> Collection
+          from <a class="_o1cg4g" href="https://orioniconlibrary.com">Orion Icon Library</a> was
+          created successfully!
+          <br/>In the downloaded folder, you will find the file called <code class="_1bo7bzx _1oymxsi">ff-media-solid.svg</code> which
+          contains your SVG Sprite <a class="_o1cg4g" href="ff-media-solid.svg" download="ff-media-solid.svg">[Open]</a>.
+          Please find below different techniques on how to use your Icons in your
+          Web Project.</p>
+        <br/>
+        <h3 id="inline-sprite" class=""><a class="_ovghcs" href="#inline-sprite"><strong class="_1dqtju9">‹a›</strong> Inline SVG Sprite</a></h3>
+        <div class="_fr5wn">
+          <p class="_14gdf42">The first technique consists in including the content of the <code class="_1bo7bzx _1oymxsi">ff-media-solid.svg</code> in
+            your <code class="_1bo7bzx _1oymxsi">HTML</code> like in the example below:</p>
+          <pre
+          class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;svg width=&quot;0&quot; height=&quot;0&quot; class=&quot;hidden&quot; style=&quot;display:none&quot;&gt;
+    &lt;symbol id=&quot;myIcon-1&quot;&gt;
+      &lt;path d=&quot;...&quot;&gt;&lt;/path&gt;
+      &lt;path d=&quot;...&quot; stroke=&quot;...&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&quot;myIcon-2&quot;&gt;
+      &lt;circle rx=&quot;...&quot;&gt;&lt;/circle&gt;
+      &lt;path d=&quot;...&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+    &lt;symbol&gt;...&lt;/symbol&gt;
+  &lt;/svg&gt;
+  &lt;section&gt;Here we will call the Icons references to show them!&lt;/section&gt;
+&lt;/body&gt;</code>
+            </pre>
+            <p class="_14gdf42">Then you can call whenever you want any of the SVG Icons from the sprite,
+              referencing them with the <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> element,
+              like:</p><pre class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;svg width=&quot;0&quot; height=&quot;0&quot; class=&quot;hidden&quot; style=&quot;display:none&quot;&gt;The SVG Sprite&lt;/svg&gt;
+  &lt;section&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;#myIcon-1&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;#myIcon-2&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</code></pre>
+            <p class="_14gdf42"><strong class="_1dqtju9">Pros:</strong> Easy to implement, cross-browser
+              support, unique HTTP request.
+              <br/><strong class="_1oymxsi">Cons:</strong> Adds extra markup in the HTML document,
+              SVG Sprite cannot be cached.
+              <br/><strong>Tips:</strong> Put the SVG Sprite markup before calling them (
+              <a
+              class="_o1cg4g" href="https://gist.github.com/rhawbert/05c7a758cb22d2a1ed24">bug</a>in Safari).</p>
+        </div>
+        <h3 id="external-sprite" class=""><a class="_ovghcs" href="#external-sprite"><strong class="_1dqtju9">‹b›</strong> SVG Sprite in an external file</a></h3>
+        <div class="_fr5wn">
+          <p class="_14gdf42">The second technique consists in referencing the Icons from the SVG sprite
+            as an external file. This allows to display different parts of the SVG
+            Sprite by specifying the <a class="_o1cg4g" href="https://www.w3.org/TR/SVG/linking.html#LinksIntoSVG">fragment identifier</a> at
+            the end of the URL.</p>
+          <p class="_14gdf42">In the <code class="_1bo7bzx _1oymxsi">HTML</code> markup you include your
+            Icons using <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> to reference
+            the <code class="_1bo7bzx _1oymxsi">ff-media-solid.svg</code> file with the
+            specific <code class="_1bo7bzx _1oymxsi">#fragment</code> ID of each Icon
+            you need. Below an example:</p><pre class="_1bmg5vo"><code class="_1bo7bzx">&lt;body&gt;
+  &lt;section&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;ff-media-solid.svg#myIcon-1&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href=&quot;ff-media-solid.svg#myIcon-2&quot;&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</code></pre>
+          <p class="_14gdf42"><strong class="_1dqtju9">Pros:</strong> Less cluttered markup. External
+            file is cachable, which helps with page load speed.
+            <br/><strong class="_1oymxsi">Cons:</strong> The browser support is good except
+            for older Internet Explorer versions (IE&lt;9).
+            <br/><strong>Tips:</strong> In case you need to support IE older versions, you
+            can use the great <a class="_o1cg4g" href="https://jonathantneal.github.io/svg4everybody/">svg4everybody</a> plugin.</p>
+        </div>
+        <h3 id="icons" class=""><a class="_ovghcs" href="#icons"><strong class="_1dqtju9">➜</strong> Icons Reference</a></h3>
+        <p class="_14gdf42">Use one of the techniques described before to call the SVG Sprite.
+          <br/>Then select the Icons you need below to easily copy the <code class="_1bo7bzx _1oymxsi">&lt;use&gt;</code> reference
+          and paste it in your Project.</p>
+        <div class="_fr5wn _jro6t0">
+          <p class="_14gdf42" style="margin-right:48px"><strong class="_1dqtju9">Hint</strong> Select the technique you want to
+            use with the switch button.
+            <br/>The use code reference will update with the correct url below the icons
+            <br/>
+            <input type="checkbox" data-name="ff-media-solid.svg" id="externalCheckbox"
+            class="_53480w js-external" />
+            <label class="_1uuc6xn" for="externalCheckbox"><span class="_10r524x"></span>
+            </label><small class="_kp2n83 _1dqtju9 _qjqtm8 externalCheckboxHelper"></small>
+          </p>
+          <p class="_14gdf42"><strong class="_1oymxsi">Plus</strong> You can set a specific size for
+            your Icons instances.
+            <br/>This is useful if you need a fixed size and will not style with <code class="_1bo7bzx _1oymxsi">css</code>.
+            <br/>
+            <label class="_kp2n83" style="cursor:pointer">
+              <input type="checkbox" class="js-sizeSwitch" />Ok, I want to specify the size</label>
+            <input type="number" class="js-size _jcgzno"
+            min="0" max="1024" step="1" disabled="" value="64" />
+          </p>
+        </div>
+        <ul class="_1r58n10 js-list">
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#digital-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#digital-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#digital-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#photo-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#photo-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#photo-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#compact-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#compact-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#compact-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#point-and-shoot-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#point-and-shoot-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#point-and-shoot-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#dslr-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#dslr-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#dslr-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#retro-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#retro-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#retro-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#vintage-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#vintage-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#vintage-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#polaroid-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#polaroid-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#polaroid-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#instagram-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#instagram-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#instagram-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#webcam-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#webcam-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#webcam-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#camera-lens-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#camera-lens-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#camera-lens-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#camera-flash-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#camera-flash-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#camera-flash-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#pro-camera-slr-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#pro-camera-slr-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#pro-camera-slr-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#camera-shutter-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#camera-shutter-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#camera-shutter-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#camera-film-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#camera-film-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#camera-film-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#camera-tripod-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#camera-tripod-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#camera-tripod-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#switch-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#switch-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#switch-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#take-a-photo-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#take-a-photo-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#take-a-photo-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#camera-button-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#camera-button-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#camera-button-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#pictures-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#pictures-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#pictures-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#burst-mode-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#burst-mode-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#burst-mode-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#photos-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#photos-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#photos-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#photo-gallery-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#photo-gallery-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#photo-gallery-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#image-folder-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#image-folder-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#image-folder-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#image-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#image-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#image-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#image-gallery-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#image-gallery-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#image-gallery-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#images-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#images-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#images-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#frame-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#frame-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#frame-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#picture-frame-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#picture-frame-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#picture-frame-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#add-image-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#add-image-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#add-image-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#remove-image-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#remove-image-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#remove-image-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#delete-image-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#delete-image-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#delete-image-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#image-saved-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#image-saved-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#image-saved-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#image-settings-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#image-settings-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#image-settings-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#favorite-image-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#favorite-image-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#favorite-image-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#image-sync-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#image-sync-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#image-sync-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#add-folder-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#add-folder-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#add-folder-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#picture-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#picture-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#picture-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#volume-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#volume-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#volume-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#medium-volume-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#medium-volume-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#medium-volume-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#low-volume-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#low-volume-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#low-volume-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#volume-up-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#volume-up-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#volume-up-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#volume-down-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#volume-down-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#volume-down-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#silent-mode-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#silent-mode-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#silent-mode-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#mute-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#mute-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#mute-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#eject-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#eject-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#eject-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#rewind-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#rewind-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#rewind-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#previous-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#previous-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#previous-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#skip-previous-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#skip-previous-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#skip-previous-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#stop-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#stop-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#stop-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#pause-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#pause-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#pause-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#play-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#play-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#play-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#record-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#record-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#record-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#next-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#next-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#next-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#skip-next-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#skip-next-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#skip-next-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#fast-forward-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#fast-forward-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#fast-forward-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#fast-rewind-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#fast-rewind-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#fast-rewind-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#previous-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#previous-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#previous-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#skip-previous-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#skip-previous-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#skip-previous-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#stop-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#stop-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#stop-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#pause-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#pause-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#pause-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#play-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#play-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#play-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#record-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#record-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#record-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#next-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#next-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#next-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#skip-next-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#skip-next-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#skip-next-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#fast-forward-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#fast-forward-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#fast-forward-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#eject-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#eject-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#eject-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#video-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#video-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#video-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#video-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#video-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#video-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#movie-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#movie-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#movie-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#tv-camera-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#tv-camera-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#tv-camera-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#pro-camcorder-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#pro-camcorder-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#pro-camcorder-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#cinema-projector-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#cinema-projector-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#cinema-projector-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#camcorder-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#camcorder-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#camcorder-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#movie-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#movie-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#movie-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#movie-clapperboard-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#movie-clapperboard-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#movie-clapperboard-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#play-movie-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#play-movie-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#play-movie-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#play-video-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#play-video-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#play-video-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#record-video-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#record-video-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#record-video-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#play-button-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#play-button-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#play-button-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#stream-video-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#stream-video-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#stream-video-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#cinema-reel-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#cinema-reel-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#cinema-reel-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#movie-reel-film-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#movie-reel-film-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#movie-reel-film-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#tv-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#tv-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#tv-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#flat-tv-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#flat-tv-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#flat-tv-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#ipod-player-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#ipod-player-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#ipod-player-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#music-player-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#music-player-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#music-player-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#vinyl-record-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#vinyl-record-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#vinyl-record-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#compact-disc-cd-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#compact-disc-cd-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#compact-disc-cd-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#cd-audio-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#cd-audio-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#cd-audio-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#audio-file-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#audio-file-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#audio-file-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#music-file-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#music-file-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#music-file-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#song-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#song-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#song-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#music-playlist-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#music-playlist-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#music-playlist-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#music-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#music-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#music-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#musical-note-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#musical-note-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#musical-note-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#music-note-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#music-note-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#music-note-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#playlist-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#playlist-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#playlist-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#radio-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#radio-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#radio-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#radio-set-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#radio-set-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#radio-set-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#music-radio-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#music-radio-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#music-radio-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#boombox-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#boombox-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#boombox-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#boombox-2</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#boombox-2"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#boombox-2&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#headphones-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#headphones-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#headphones-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#wireless-headphones-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#wireless-headphones-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#wireless-headphones-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#vocal-microphone-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#vocal-microphone-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#vocal-microphone-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#cassette-tape-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#cassette-tape-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#cassette-tape-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#record-3</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#record-3"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#record-3&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#microphone-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#microphone-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#microphone-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#recording-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#recording-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#recording-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#loudspeaker-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#loudspeaker-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#loudspeaker-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#hifi-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#hifi-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#hifi-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#speaker-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#speaker-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#speaker-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#equalizer-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#equalizer-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#equalizer-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#mixer-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#mixer-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#mixer-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#mix-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#mix-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#mix-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#dj-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#dj-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#dj-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#guitar-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#guitar-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#guitar-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#drum-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#drum-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#drum-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#piano-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#piano-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#piano-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#saxophone-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#saxophone-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#saxophone-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#headphones-user-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#headphones-user-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#headphones-user-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+          <li class="_fnhcyz js-item">
+            <div class="_1dclzhk">
+              <p class="_19wnp26 _1iurgbx orion-sprite__id">#podcast-1</p>
+              <div class="_1u0lyeu">
+                <svg class="_190hxbq">
+                  <use xlink:href="#podcast-1"></use>
+                </svg>
+              </div><pre class="_1bmg5vo _1mcpc5v orion-sprite__code"><code class="js-iconCode">&lt;svg&gt;&lt;use xlink:href=&quot;#podcast-1&quot;&gt;&lt;/use&gt;&lt;/svg&gt;</code></pre>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="_1l5hckq">
+        <h3 id="links" class=""><a class="_ovghcs" href="#links"><strong class="_1dqtju9">⊙</strong> Useful links</a></h3>
+        <p class="_14gdf42">You can find a lot of information on the Internet about <code class="_1bo7bzx _1oymxsi">SVG</code>.
+          <br/>We made a little selection for you if you want to learn more.</p>
+        <ul class="_fr5wn _1hgbkkp">
+          <li><a href="https://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Styling SVG &lt;use&gt; Content with CSS</a>, by <a href="https://twitter.com/SaraSoueidan"
+            class="_o1cg4g">Sara Soueidan</a>
+          </li>
+          <li><a href="http://codepen.io/AmeliaBR/post/customizable-svg-icons-css-variables?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Customizable SVG Icons with CSS Variables</a> by <a href="https://twitter.com/AmeliasBrain"
+            class="_o1cg4g">Amelia Bellamy-Royds</a>
+          </li>
+          <li><a href="https://css-tricks.com/a-complete-guide-to-svg-fallbacks/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">A Complete Guide to SVG Fallbacks</a> by <a href="https://twitter.com/AmeliasBrain"
+            class="_o1cg4g">Amelia Bellamy-Royds</a>
+          </li>
+          <li><a href="https://css-tricks.com/mega-list-svg-information/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">A Compendium of SVG Information</a> by <a href="https://twitter.com/chriscoyier"
+            class="_o1cg4g">Chris Coyier</a>
+          </li>
+          <li><a href="http://svgpocketguide.com/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">The Pocket Guide to Writing SVG</a> by <a href="https://twitter.com/jonitrythall"
+            class="_o1cg4g">Joni Trythall</a>
+          </li>
+          <li><a href="https://css-tricks.com/icon-fonts-vs-svg/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Inline SVG vs Icon Fonts [CAGEMATCH]</a> by <a href="https://twitter.com/chriscoyier"
+            class="_o1cg4g">Chris Coyier</a>
+          </li>
+          <li><a href="https://sarasoueidan.com/blog/svg-coordinate-systems/?utm_source=orioniconlibrary.com&amp;utm_medium=demo"
+            class="_o1cg4g">Understanding SVG Coordinate Systems and Transformations</a>,
+            the whole serie by <a href="https://twitter.com/SaraSoueidan" class="_o1cg4g">Sara Soueidan</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script>
+      // Text Selection
+      function selectText (element) {
+        var doc = document,
+            text = element,
+            range, 
+            selection;
+        if (doc.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(text);
+            range.select();
+        } else if (window.getSelection) {
+            selection = window.getSelection();
+            if(selection.toString().length === 0){
+              range = document.createRange();
+              range.selectNodeContents(text);
+              selection.removeAllRanges();
+              selection.addRange(range);
+            }
+        }
+      };
+      
+      var items = document.querySelectorAll('.js-item');
+      [].slice.call(items).forEach(function(elem, i){
+        items[i].addEventListener('click', function(){
+          selectText(this.querySelector('code'))
+        }, false);
+      });
+      
+      var iconsCode = document.querySelectorAll('.js-iconCode');
+      
+      // External file Checkbox
+      var extChbx = document.querySelector('.js-external');
+      var extFilename = extChbx.dataset.name;
+      extChbx.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            iconsCode[i].innerHTML = iconsCode[i].innerHTML.replace('#', extFilename+'#')
+          });
+        } else {
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            iconsCode[i].innerHTML = iconsCode[i].innerHTML.replace(extFilename+'#', '#')
+          });
+        }
+      });
+      
+      // Specific Size
+      var size = document.querySelector('.js-size');
+      var sizeSwitch = document.querySelector('.js-sizeSwitch');
+      
+      sizeSwitch.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          size.disabled = false;
+          size.focus();
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            elem.innerHTML = elem.innerHTML.replace('&lt;svg', '&lt;svg width="'+size.value+'" height="'+size.value+'"')
+          });
+        } else {
+          size.disabled = true;
+          [].slice.call(iconsCode).forEach(function(elem, i){
+            sizeStringHandler(elem)
+          });
+        }
+      }, false);
+      
+      size.addEventListener('input', function(e) {
+        var val = e.target.value;
+        [].slice.call(iconsCode).forEach(function(elem, i){
+          sizeStringHandler(elem, val)
+        });
+      }, false);
+      
+      function sizeStringHandler (elem, value) {
+        var regex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?/g
+        elem.innerHTML = elem.innerHTML.replace(regex, function (match, $1, $2) {
+          if ($1 === 'width' || $1 === 'height') {
+            if (value) {
+              return $1 + '="' + value + '"'
+            } else {
+              return ''
+            }
+          }
+          return match
+        })
+        
+        if (!value) {
+          elem.innerHTML = elem.innerHTML.replace(/  +/g, ' ');
+        }
+      }
+    </script>
+  </body>
+
+</html>

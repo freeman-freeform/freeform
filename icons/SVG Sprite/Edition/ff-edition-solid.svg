@@ -1,0 +1,658 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="zoom-in-1">
+    <title>Zoom In</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M63.4 60.6L42.6 39.8a24.2 24.2 0 1 0-2.8 2.8l20.8 20.8a2 2 0 0 0 2.8-2.8zM33.8 26.2h-7.6v7.7a2 2 0 0 1-4 0v-7.7h-7.7a2 2 0 0 1 0-4h7.7v-7.7a2 2 0 0 1 4 0v7.7h7.7a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="zoom-out-1">
+    <title>Zoom Out</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M63.4 60.6L42.6 39.8a24.2 24.2 0 1 0-2.8 2.8l20.8 20.8a2 2 0 0 0 2.8-2.8zM33.8 26.2H14.5a2 2 0 1 1 0-4h19.3a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="lock-1">
+    <title>Lock</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M47 28V15a15 15 0 0 0-30 0v13H8v36h48V28zM34 51a2 2 0 0 1-4 0V41a2 2 0 0 1 4 0zm9-23H21V15a11 11 0 0 1 22 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="unlock-1">
+    <title>Unlock</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M21 28V15a11 11 0 0 1 22 0v1.8a2 2 0 0 0 4 0V15a15 15 0 0 0-30 0v13H8v36h48V28zm13 23a2 2 0 0 1-4 0V41a2 2 0 0 1 4 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="lock-2">
+    <title>Lock</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M48 28h-1V15a15 15 0 0 0-30 0v13h-1a8 8 0 0 0-8 8v20a8 8 0 0 0 8 8h32a8 8 0 0 0 8-8V36a8 8 0 0 0-8-8zM21 15a11 11 0 0 1 22 0v13H21zm13 36a2 2 0 0 1-4 0V41a2 2 0 0 1 4 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="lock-opened-1">
+    <title>Lock Opened</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M48 28H21V15a11 11 0 1 1 22 0v1.8a2 2 0 1 0 4 0V15a15 15 0 1 0-30 0v13h-1a8 8 0 0 0-8 8v20a8 8 0 0 0 8 8h32a8 8 0 0 0 8-8V36a8 8 0 0 0-8-8zM34 51a2 2 0 1 1-4 0V41a2 2 0 1 1 4 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="locked-1">
+    <title>Locked</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M47 25.9V15a15 15 0 1 0-30 0v10.9a22 22 0 1 0 30 0zM21 15a11 11 0 1 1 22 0v8a21.9 21.9 0 0 0-22 0zm13 32a2 2 0 1 1-4 0V37a2 2 0 1 1 4 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="unlocked-1">
+    <title>Unlocked</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 20a21.9 21.9 0 0 0-11 3v-8a11 11 0 1 1 22 0 2 2 0 1 0 4 0 15 15 0 1 0-30 0v10.9A22 22 0 1 0 32 20zm2 27a2 2 0 1 1-4 0V37a2 2 0 1 1 4 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="password-1">
+    <title>Password</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer2"
+    cx="32" cy="42" r="6" fill="#2e2c2d"></circle>
+    <path data-name="layer1" d="M47 25.9V15a15 15 0 1 0-30 0v10.9a22 22 0 1 0 30 0zM21 15a11 11 0 1 1 22 0v8a21.9 21.9 0 0 0-22 0zm25 29h-4.2a10 10 0 0 1-7.8 7.8V56h-4v-4.2a10 10 0 0 1-7.8-7.8H18v-4h4.2a10 10 0 0 1 7.8-7.8V28h4v4.2a10 10 0 0 1 7.8 7.8H46z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="view-1">
+    <title>View</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M63.1 30.9C62.6 30.1 50 12.5 32 12.5S1.4 30.1.9 30.9L.1 32l.8 1.1c.5.8 13.1 18.4 31.1 18.4s30.6-17.6 31.1-18.4l.8-1.1zM32 43.5a12 12 0 1 1 12-12 12 12 0 0 1-12 12z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="hidden-1">
+    <title>Hidden</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M63.4.6a2 2 0 0 0-2.8 0L45 16.1A30.5 30.5 0 0 0 32 13C14 13.1 1.4 30.7.9 31.4l-.8 1.2.8 1.1a53 53 0 0 0 13.7 12.9l-14 14a2 2 0 1 0 2.8 2.8l60-60a2 2 0 0 0 0-2.8zM20 32.1a12 12 0 0 1 12-12 11.9 11.9 0 0 1 6.9 2.2L22.2 39a11.9 11.9 0 0 1-2.2-6.9zm32.1-11.7l-8.5 8.5a12 12 0 0 1-14.8 14.7l-6.7 6.7a29.4 29.4 0 0 0 9.9 1.8c18 0 30.6-17.6 31.1-18.4l.8-1.1-.8-1.1a53.3 53.3 0 0 0-11-11.1z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="eye-1">
+    <title>Eye</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M63.1 30.9C62.6 30.1 50 12.5 32 12.5S1.4 30.1.9 30.9L.1 32l.8 1.1c.5.8 13.1 18.4 31.1 18.4s30.6-17.6 31.1-18.4l.8-1.1zM32 47.5C18.5 47.5 8 35.8 5 32c3-3.8 13.5-15.5 27-15.5S56 28.2 59 32c-3 3.8-13.5 15.5-27 15.5z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M32 19.5a12 12 0 1 0 12 12 12 12 0 0 0-12-12zm0 18a6 6 0 0 1-5.2-9 2 2 0 0 1 3.5 2 2 2 0 0 0-.3 1 2 2 0 0 0 2 2 2 2 0 1 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="visible-1">
+    <title>Visible</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M63.7 35c-.4-.8-10.8-19-31.7-19S.7 34.2.3 35a2 2 0 0 0 3.4 2c.1-.1 6.4-11.1 18.5-15.3a15 15 0 1 0 19.5 0C53.9 25.9 60.2 36.8 60.3 37a2 2 0 0 0 1.7 1l1-.3a2 2 0 0 0 .7-2.7zM38 36.8a2 2 0 0 1-1.7 1l-1-.3a2 2 0 0 1-.7-2.7 3.2 3.2 0 0 0-2.9-4.8 2 2 0 1 1 0-4A7.2 7.2 0 0 1 38 36.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="eye-2">
+    <title>Eye</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M63.258 31.047C62.847 30.289 52.949 12.484 32 12.484S1.153 30.29.742 31.047L.225 32l.517.953c.411.758 10.309 18.563 31.258 18.563S62.847 33.71 63.258 32.953l.517-.953zm-31.074 3.437a2 2 0 0 1 0 4 7.207 7.207 0 0 1-7.2-7.199 6.742 6.742 0 0 1 .962-3.597 2.433 2.433 0 0 1 2.734-.729 2 2 0 0 1 .73 2.732 3.2 3.2 0 0 0 2.774 4.793zM32 47.516C16.108 47.516 7.13 35.514 4.845 32c2.235-3.436 10.862-14.964 26.078-15.49a15 15 0 1 0 2.154 0C48.295 17.036 56.92 28.567 59.155 32 56.867 35.517 47.89 47.516 32 47.516z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="edit-1">
+    <title>Edit</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M7.9 46.1L0 64l17.9-7.9-10-10z"></path>
+    <path data-name="layer2" fill="#2e2c2d" d="M46.899 6.274l6.293-6.293 10.854 10.854-6.293 6.293z"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M10.31 42.807l33.73-33.73 10.853 10.855L21.164 53.66z"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="pencil-1">
+    <title>Pencil</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path d="M10.239 42.86L45.812 7.328l10.848 10.86L21.086 53.72z"
+    fill="#2e2c2d" data-name="layer1"></path>
+    <path fill="#2e2c2d" d="M59.492 15.358l2.259-2.258A7.674 7.674 0 1 0 50.9 2.248L48.639 4.5z"
+    data-name="layer2"></path>
+    <path d="M7.851 46.135L-.073 64.024 17.816 56.1l-9.965-9.965z"
+    fill="#2e2c2d" data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="edit-2">
+    <title>Edit</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M6.732 41.212l30.265-30.265L52.998 26.95 22.734 57.213z"></path>
+    <path data-name="layer2" d="M61.6 18.4c3.7-4.1 3.1-10-1.4-14.6A12 12 0 0 0 51.8 0a9.3 9.3 0 0 0-6.2 2.4z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M4.6 44.7L0 64l19.3-4.5L4.6 44.7zM39.78 8.229l2.97-2.97 16 16.001-2.97 2.97z"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="pencil-2">
+    <title>Pencil</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path d="M37.227 10.768l2.936-2.936 16.002 16.003-2.936 2.936zm6.588 12.244L20.631 46.2a7.326 7.326 0 0 0 .014 10.332l1.414 1.414L50.4 29.6zM17.817 59.356A11.312 11.312 0 0 1 14.7 49.3a11.386 11.386 0 0 1-2.055.192 11.242 11.242 0 0 1-8-3.314l-.788-.788L0 64l18.6-3.856zM34.4 13.6L6.057 41.939l1.414 1.414a7.316 7.316 0 0 0 10.346 0l23.169-23.17z"
+    fill="#2e2c2d" data-name="layer2"></path>
+    <path fill="#2e2c2d" d="M63.942 11.143a12.507 12.507 0 0 0-3.774-7.313A12 12 0 0 0 51.818 0a9.37 9.37 0 0 0-6.712 2.889L42.99 5l16 16 2.114-2.114a9.256 9.256 0 0 0 2.838-7.743z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="edit-3">
+    <title>Edit</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M25 39l12.1-5.1L64 7l-7-7-26.9 26.9L25 39z"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M39.4 37.3l-.7.3-12.1 5.1-9 3.7 3.7-9 5.1-12.1.3-.7.6-.6 14-14H0v54h54V22.7l-14 14-.6.6z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="edit-4">
+    <title>Edit</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M48.338 17.722l4.887-4.87 8.012 8.04-4.888 4.87zM45.5 20.5L30.3 35.6l-6.4 14.5 14.4-6.4 15.2-15.2-8-8z"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M43.7 44l-2.5 2.5-.5.5-.7.3-14.4 6.4-9.5 4.2 4.2-9.5 2-4.4h-8.6L0 64h64L50.3 44h-6.6z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="marker-pen-1">
+    <title>Marker Pen</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M59.4 19.1l4-4a2 2 0 0 0 0-2.8l-8.9-8.9a2 2 0 0 0-2.8 0l-4 4z" fill="#2e2c2d"></path>
+    <path data-name="layer2" fill="#2e2c2d" d="M13.66 38.29l29.7-29.7 14.863 14.864-29.699 29.698z"></path>
+    <path data-name="layer1" d="M10.8 41.2l-.9.9a3.3 3.3 0 0 0-1 2.4v3.3a2.3 2.3 0 0 1-.8 1.7l-6.7 6.6L0 57.5l3.6 3.6h11.3l2.5-2.5a2.3 2.3 0 0 1 1.7-.8h3.3a3.3 3.3 0 0 0 2.4-1l.9-.9z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="fountain-pen-1">
+    <title>Fountain Pen</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M53.4 0l-2.6 2.6-.4-.4a7.4 7.4 0 0 0-10.5 0L25.7 16.4a2 2 0 1 0 2.8 2.8L42.7 5a3.5 3.5 0 0 1 4.8 0l.4.4-10 10.1 10.6 10.6L64 10.6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M11.4 42l1.3 1.3h-.9a8.9 8.9 0 0 0-6.4 2.6l-.8.9a8.9 8.9 0 0 0-1.4 2.6c-2 4.7-3 11.8-3 12.1L0 64l2.6-.3c.3 0 7.6-1 12.3-3.1a8.7 8.7 0 0 0 2.3-1.2l1-.8a8.9 8.9 0 0 0 2.6-6.4v-.9l1.3 1.3L45.7 29 35 18.4zm3.9 13.8l-.5.4-1.3.7h-.1a30.8 30.8 0 0 1-5 1.6l3.4-3.5A2 2 0 0 0 9 52.2l-3.5 3.5A32.4 32.4 0 0 1 7 50.8v-.2a5.2 5.2 0 0 1 .8-1.5l.4-.4a5 5 0 1 1 7.1 7.1z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="pen-1">
+    <title>Pen</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M18.679 56.916l-.339-.971a3.981 3.981 0 0 1 .607-3.761l.632-.817-.047-.154a8.134 8.134 0 0 0 1.1.084 8.222 8.222 0 0 0 6.128-2.762l36-40.445a4.878 4.878 0 0 0 .051-6.49A4.821 4.821 0 0 0 59.2-.013a4.934 4.934 0 0 0-3.285 1.257l-40.453 36a9.18 9.18 0 0 0-.669.668 8.141 8.141 0 0 0-2.073 5.927c.013.213.039.423.068.632l-.153-.047-.818.634a4.027 4.027 0 0 1-3.759.606l-.976-.342S-.02 50-.02 64.013a28.389 28.389 0 0 0 18.699-7.097zM8.334 58.5l2.913-2.913a2 2 0 0 0-2.829-2.827l-2.881 2.882A14.6 14.6 0 0 1 7.9 49.751a8.087 8.087 0 0 0 5.369-.867 6.98 6.98 0 0 1 1.857 1.855 7.958 7.958 0 0 0-.867 5.372A25.4 25.4 0 0 1 8.334 58.5z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="fine-point-marker-1">
+    <title>Fine Point Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M34.032 19.357l-25.6 25.6L9.5 46.019l-6.07 6.069 2.828 2.829-4.672 4.669a2 2 0 1 0 2.828 2.828l4.668-4.669 2.828 2.829 6.07-6.071 1.063 1.063 25.6-25.6z"
+    data-name="layer2"></path>
+    <path fill="#2e2c2d" d="M26.123 20.781a1.994 1.994 0 0 0 1.414-.586L41.725 6.008a3.381 3.381 0 0 1 2.4-1 3.378 3.378 0 0 1 2.4 1l.424.424-10.1 10.1 10.62 10.608L63 11.61 52.389 1l-2.6 2.6-.423-.423a7.347 7.347 0 0 0-5.232-2.17A7.352 7.352 0 0 0 38.9 3.18L24.709 17.367a2 2 0 0 0 1.414 3.414z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="ballpoint-pen-1">
+    <title>Ballpoint pen</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M35 18.4L6.5 46.9 0 64l17.1-6.5L45.6 29zM6.9 57.1L9 51.6l3.4 3.4z" fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M61.8 2.2a7.5 7.5 0 0 0-10.6 0l-.5.5-.4-.4A7.4 7.4 0 0 0 45.1.1a7.3 7.3 0 0 0-5.2 2.2L25.6 16.4a2 2 0 1 0 2.8 2.8L42.7 5.1a3.4 3.4 0 0 1 4.8 0l.4.4-10.1 10.1 10.6 10.6 13.4-13.4a7.5 7.5 0 0 0 0-10.6z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-1">
+    <title>Delete</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M60 10H46V0H18v10H4a2 2 0 0 0 0 4h4v50h48V14h4a2 2 0 0 0 0-4zM22 4h20v6H22zm2 48a2 2 0 1 1-4 0V22a2 2 0 1 1 4 0zm10 0a2 2 0 1 1-4 0V22a2 2 0 1 1 4 0zm10 0a2 2 0 1 1-4 0V22a2 2 0 1 1 4 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="trash-can-1">
+    <title>Trash Can</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M58 8H44V5.9A5.9 5.9 0 0 0 38.1 0H25.9A5.9 5.9 0 0 0 20 5.9V8H6a2 2 0 0 0 0 4h3.7l2.8 45.2a7 7 0 0 0 6.8 6.8h25.4a7 7 0 0 0 6.9-6.8L54.3 12H58a2 2 0 0 0 0-4zM24 5.9A1.9 1.9 0 0 1 25.9 4h12.2A1.9 1.9 0 0 1 40 5.9V8H24zm.1 50.1H24a2 2 0 0 1-2-1.9l-2-36a2 2 0 0 1 4-.2l2 36a2 2 0 0 1-1.9 2.1zm9.9-2a2 2 0 0 1-4 0V18a2 2 0 0 1 4 0zm8 .1a2 2 0 0 1-2 1.9h-.1a2 2 0 0 1-1.9-2.1l2-36a2 2 0 0 1 4 .2z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="empty-trash-1">
+    <title>Empty Trash</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M56.622 30.211a5.887 5.887 0 0 0 3.65-4.469l.553-5.531H62a2 2 0 0 0 0-4H2a2 2 0 0 0 0 4h1.2l.564 5.35.028.182a5.89 5.89 0 0 0 3.634 4.469z"
+    data-name="layer2"></path>
+    <path fill="#2e2c2d" d="M7.975 34.211l2.517 18.347c.479 2.723 2.551 5.653 5.97 5.653h30.916c3.245 0 5.459-2.839 5.978-5.71l2.68-18.29z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cutter-1">
+    <title>Cutter</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22.3 32l-6.1 6.1 2.4 2.4L0 59.1h25.6l8.4-8.4-2.4-2.4 3.5-3.5zM24 55.1H9.6l11.8-11.7 2.2 2.2-3.9 3.9 2.8 2.8 3.9-3.9 2.2 2.2z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M61.3 5.8a9.1 9.1 0 0 0-12.8 0L25.2 29.2 38 42l23.3-23.3a9.1 9.1 0 0 0 0-12.9z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="scissor-1">
+    <title>Scissor</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M60.8 23.2A11 11 0 0 0 42 30.8a37.9 37.9 0 0 0-5.1-3.1 41.7 41.7 0 0 0-3.6-5.7 11 11 0 0 0 7.5-18.8 11 11 0 0 0-15.6 15.6l.2.2a46.6 46.6 0 0 1 5.4 6.5 24.5 24.5 0 0 0-10.7-.5C14.2 26.1 5.9 30.2.2 43.2A2 2 0 0 0 2 46l.8-.2 29-13.5-11.7 29A2 2 0 0 0 22 64l.8-.2C35.1 58.4 38.9 50.6 40 45a24.5 24.5 0 0 0-.7-11.3 41.3 41.3 0 0 1 5.7 4.9l.2.2a11 11 0 0 0 15.6-15.6zM28.1 6.1a7 7 0 1 1-2 5 7 7 0 0 1 2-5zM58 35.9a7 7 0 1 1 0-9.9 7 7 0 0 1 0 9.9z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cut-1">
+    <title>Cut</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M61.1 22.9a10 10 0 0 0-13.4-.7l-8.1 2.2 2.2-8.1A10 10 0 1 0 34 20a10 10 0 0 0 2.7-.4l-1.6 6-7.4 2-8.4 30.9-1.6 5.4H21c7.7 0 9.3-4.5 9.5-5.4l7.9-29.7 6-1.6a10 10 0 1 0 16.7-4.4zm-31.3-8.7A6 6 0 1 1 34 16a6 6 0 0 1-4.2-1.8zm28.5 20a6 6 0 1 1 0-8.5 6 6 0 0 1 0 8.5z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M23.2 28.8L5.4 33.5c-.9.2-5.9 1.9-5.4 10.1V46l19.8-5.3z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="scissor-2">
+    <title>Scissor</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M0 52h8v4H0zm44 0h8v4h-8zm12 0h8v4h-8zM.2 46.1L20 40.8l3.3-12.1-17.9 4.8c-.9.2-5.9 1.9-5.4 10.1z"></path>
+    <path data-name="layer1" d="M61.1 22.9a10 10 0 0 0-13.4-.7l-8.1 2.2 2.2-8.1A10 10 0 1 0 34 20a10 10 0 0 0 2.7-.4l-1.6 6-7.4 2L21.1 52H12v4h28v-4h-7.8l6.2-23.1 6-1.6a10 10 0 1 0 16.7-4.4zm-22.8-8.7A6 6 0 1 1 40 10a6 6 0 0 1-1.7 4.2zm20 20a6 6 0 1 1 0-8.5 6 6 0 0 1 0 8.5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pin-1">
+    <title>Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M42.6.2L39.8 3a7 7 0 0 0-1.6 7.3l-9.1 9.1H17.8l-6.2 6.2 12 12L.7 60.4a2 2 0 1 0 2.8 2.8l22.9-22.7 12 12 6.2-6.2V34.9l9.1-9.1a7 7 0 0 0 7.3-1.6l2.8-2.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pin-2">
+    <title>Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M59.9 4.1a14 14 0 0 0-21.1 18.3L.6 60.6a2 2 0 1 0 2.8 2.8l38.2-38.2A14 14 0 0 0 64 14a13.9 13.9 0 0 0-4.1-9.9z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="key-1">
+    <title>Key</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M58.1 5.9a20 20 0 0 0-32.5 22L18 35.4V38h-6v6H6v6H3.2L0 53.2V64h10.8l25.5-25.6A20.1 20.1 0 0 0 44 40 20 20 0 0 0 58.1 5.9zm-5.9 14.3a6 6 0 1 1 0-8.5 6 6 0 0 1 0 8.5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="privacy-1">
+    <title>Privacy</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M58.021 5.979a17 17 0 0 0-24.042 0A17.107 17.107 0 0 0 30.4 24.737L14.612 40.524l-4.534-4.534a2 2 0 0 0-2.828 0l-5.657 5.656a2 2 0 0 0 0 2.828l4.535 4.535-3.284 3.283a6.272 6.272 0 1 0 8.869 8.87l27.558-27.556a17.1 17.1 0 0 0 6.741 1.389A16.995 16.995 0 0 0 58.021 5.979zm-5.662 18.385a9 9 0 1 1 0-12.727 8.936 8.936 0 0 1 0 12.727z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="keyhole-1">
+    <title>Keyhole</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 0a32 32 0 1 0 32 32A32 32 0 0 0 32 0zm6.5 48h-13l2.2-17.1a9 9 0 1 1 8.7 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="password-2">
+    <title>Password</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M53.5 0h-43A10.5 10.5 0 0 0 0 10.5v43A10.5 10.5 0 0 0 10.5 64h43A10.5 10.5 0 0 0 64 53.5v-43A10.5 10.5 0 0 0 53.5 0zm-15 48h-13l2.2-17.1a9 9 0 1 1 8.7 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="private-1">
+    <title>Private</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M0 0v64h64V0zm38.5 48h-13l2.2-17.1a9 9 0 1 1 8.7 0z" fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="copy-1">
+    <title>Copy</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M14 14h50v50H14z"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M50 0H0v50h10V10h40V0z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-layer-1">
+    <title>Add Layer</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M50 0H0v50h10V10h40V0z"></path>
+    <path data-name="layer1" d="M14 14v50h50V14zm38 27H41v11a2 2 0 1 1-4 0V41H26a2 2 0 0 1 0-4h11V26a2 2 0 1 1 4 0v11h11a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="stack-1">
+    <title>Stack</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer3"
+    fill="#2e2c2d" d="M32 33.9l26.9-14.2 5.2-2.7L32 0-.1 17l5.2 2.8L32 33.9z"></path>
+    <path data-name="layer2" fill="#2e2c2d" d="M32 38.5L10 26.8-.1 32.1l5.3 2.7L32 49.1l26.9-14.2 5.2-2.8L54 26.8 32 38.5z"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M32 53.6L9.8 41.8-.1 47 32 64l32.1-17-9.9-5.2L32 53.6z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="layers-1">
+    <title>Layers</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer3"
+    fill="#2e2c2d" d="M12 42V16H8v32h48v-6H12z"></path>
+    <path data-name="layer2" fill="#2e2c2d" d="M4 52V26H0v32h48v-6H4z"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M16 6v32h48V6H16z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="color-dropper-1">
+    <title>Color Dropper</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M57.1 16.2a9.3 9.3 0 0 0-15.9-6.5L35.8 15 34 13.2a2 2 0 0 0-2.9 2.8l1.9 1.9-19.5 19.4a9.3 9.3 0 0 0-2.5 8.5l-3 3.1a3.5 3.5 0 0 0 0 4.9l2.2 2.2a3.5 3.5 0 0 0 4.9 0l3.1-3 1.9.2a9.2 9.2 0 0 0 6.6-2.7L46.1 31l1.9 1.9a2 2 0 0 0 2.8-2.9L49 28.2l5.4-5.4a9.2 9.2 0 0 0 2.7-6.6zM23.9 47.6a5.4 5.4 0 0 1-5.6 1.2l-1.2-.4-4.4 4.4-1.5-1.5 4.4-4.4-.4-1.2a5.3 5.3 0 0 1 1.2-5.6l19.4-19.4 7.5 7.5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="color-palette-1">
+    <title>Color Palette</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 0A32 32 0 0 0 .3 36.4C1.4 41.7 5.5 48 18.9 48a64.1 64.1 0 0 0 8.3-.7 36.7 36.7 0 0 1 4.2-.4c1.3 0 1.5.2 1.5.3s.3.4.1 1.9-.5.5-2.2.8-6.8 1.3-6.8 7c0 4.1 3.4 6.8 9 7.1h.2a32 32 0 0 0 15.2-4.4h.1l.8-.6 1-.6h.2A32 32 0 0 0 32 0zM19.2 37.3a6 6 0 1 1 0-8.5 6 6 0 0 1 0 8.5zm2.6-15.4a4 4 0 0 1-5.7-5.7 4.1 4.1 0 0 1 5.7 0 4 4 0 0 1 0 5.7zm13.7-4.3A5 5 0 1 1 37 14a5 5 0 0 1-1.5 3.5zm14 6A5 5 0 1 1 51 20a5 5 0 0 1-1.5 3.5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="color-wheel-1">
+    <title>Color Wheel</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer3"
+    d="M41.3 37.5A19 19 0 1 0 13 20.8a23 23 0 0 1 28.3 16.7z" fill="#2e2c2d"></path>
+    <path data-name="layer2" d="M28.8 26.7a19 19 0 1 0 0 32.5 23 23 0 0 1 0-32.5z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M54.3 26.5A23 23 0 0 1 26 43.2a19 19 0 1 0 28.3-16.7z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="inkpot-1">
+    <title>Inkpot</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M62.6.2a2 2 0 0 0-2.2.4L49.9 11.2V4.7a2 2 0 0 0-.2-.9 2 2 0 0 0-2.7-1c-6.8 3.3-14.8 10.5-15.1 26.4l-4.5 4.5a2 2 0 1 0 2.8 2.8l4.5-4.5c8.7 0 29.2-1 29.2-30A2 2 0 0 0 62.6.2zM38.9 27.8L59.6 7.1C58.1 22.8 49.3 27 38.9 27.8z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M22.1 48.5V45a1 1 0 0 1 1-1h1a1.1 1.1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-12a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1a1 1 0 0 1 1 1v3.5A18.6 18.6 0 0 0 .1 64h36a18.6 18.6 0 0 0-14-15.5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="binocular-1">
+    <title>Binocular</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M20 42a5 5 0 0 1-5 5 2 2 0 0 0 0 4 9 9 0 0 0 9-9 2 2 0 0 0-4 0zm34 0a5 5 0 0 1-5 5 2 2 0 0 0 0 4 9 9 0 0 0 9-9 2 2 0 0 0-4 0z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M62.8 36.2L52.3 12.9l-.3-.6h-.1A9.7 9.7 0 0 0 43.5 7a9.5 9.5 0 0 0-9.4 8.2 12.2 12.2 0 0 0-4.2 0A9.5 9.5 0 0 0 20.5 7a9.7 9.7 0 0 0-8.5 5.2l-.3.6L1.2 36.2A15 15 0 1 0 30 42V31.3a8.1 8.1 0 0 1 4 0V42a15 15 0 1 0 28.8-5.8zM15 53a11 11 0 1 1 11-11 11 11 0 0 1-11 11zm34 0a11 11 0 1 1 11-11 11 11 0 0 1-11 11z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="target-1">
+    <title>Target</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer3"
+    d="M32 0a32 32 0 1 0 32 32A32 32 0 0 0 32 0zm26.3 32a26 26 0 1 1-26-26 26 26 0 0 1 26 26z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer2" d="M32 11.5A20.5 20.5 0 1 0 52.5 32 20.5 20.5 0 0 0 32 11.5zm0 34A13.5 13.5 0 1 1 45.5 32 13.5 13.5 0 0 1 32 45.5z"
+    fill="#2e2c2d"></path>
+    <circle data-name="layer1" cx="32" cy="32" r="8" fill="#2e2c2d"></circle>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="lightning-bolt-1">
+    <title>Lightning Bolt</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M51 20H37.2L48.3 0H21.4L13 34h11.8l-7.9 30L51 20z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="electricity-1">
+    <title>Electricity</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M55.3 21.9H34.7L37.9.1 8.7 37.9H30l-4.8 26 30.1-42z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cursor-1">
+    <title>Cursor</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M41.6 31.3l12.8-12.8L0 0l18.5 54.3 12.8-12.7L53.7 64 64 53.7 41.6 31.3z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="selection-tool-1">
+    <title>Selection Tool</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M0 0l26.1 64L35 35.1 64 26 0 0z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="duplicate-tool-1">
+    <title>Duplicate Tool</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M15.8 8l4.4 9.4L0 8l22.6 48 7.2-18.1L38.4 56l7.3-18.2L64 30.4zm26.8 26.8L38.1 46l-4.6-9.7 14.7-5.9L25.9 20l-1.8-3.7L54 30.2z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="move-object-1">
+    <title>Move Object</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M19.6 19l12.1-5L0 0l14.8 30.9L19.6 19z"></path>
+    <path data-name="layer1" d="M62.8 40.2l1.2-1.3-7.6-7.6a2 2 0 0 0-2.8 2.8l2.8 2.9H41V21.6l2.7 2.7a2 2 0 1 0 2.8-2.8L39 14l-1.4 1.4-6.1 6.1a2 2 0 1 0 2.8 2.8l2.7-2.7V37H21.7l2.8-2.8a2 2 0 1 0-2.8-2.8L14 38.9l1.2 1.2.4.4 5.9 5.9a2 2 0 1 0 2.8-2.8L21.7 41H37v15.4l-2.7-2.7a2 2 0 1 0-2.8 2.8l6.1 6.1L39 64l1.4-1.4 6.1-6.1a2 2 0 0 0-2.8-2.8L41 56.4V41h15.3l-2.7 2.7a2 2 0 1 0 2.8 2.8l5.9-5.9z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="point-hand-1">
+    <title>Point Hand</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M48.722 23.467a4.267 4.267 0 0 0-4.268 4.267v-4.267a4.267 4.267 0 1 0-8.533 0v-2.134a4.267 4.267 0 1 0-8.533 0V5.267a4.267 4.267 0 1 0-8.533 0v36.777l-4.777-7.7a4.266 4.266 0 1 0-7.619 3.84l11.418 17.752 1.178 1.934a10.756 10.756 0 0 0 9.12 5.13h14.146c5.892 0 10.666-3.776 10.666-9.667v-25.6a4.266 4.266 0 0 0-4.265-4.266z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="grab-hand-1">
+    <title>Grab Hand</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M49.5 14.5a4.4 4.4 0 0 0-4.4 4.4v-4.4a4.4 4.4 0 1 0-8.7 0v-2.1a4.4 4.4 0 0 0-8.7 0v2.2a4.4 4.4 0 1 0-8.7 0V32a4.4 4.4 0 0 0-8.7 0v4.4c0 6.5 6.7 14.4 6.7 14.4 2.7 3.1 5.5 5.2 9.3 5.2h16.6a10.9 10.9 0 0 0 10.9-10.9V18.9a4.4 4.4 0 0 0-4.3-4.4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="move-hand-1">
+    <title>Move Hand</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M53.858 15.934c-2.356 0-3.321 2.133-4.267 4.267L44.257 32l2.134-22.467a4.267 4.267 0 1 0-8.533 0l-2.134 20.334v-24.6a4.267 4.267 0 1 0-8.533 0v22.466L23.992 7.4a4.267 4.267 0 0 0-8.534 0l3.2 34.644-4.777-7.7a4.266 4.266 0 1 0-7.618 3.841l12.6 19.681A10.756 10.756 0 0 0 27.979 63h14.145c5.892 0 10.667-3.775 10.667-9.667V39.467L58.124 20.2c.524-2.222-1.91-4.266-4.266-4.266z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="design-1">
+    <title>Design</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M46.899 6.274l6.293-6.293 10.854 10.854-6.293 6.293zM0 64l17.9-7.9-10-10L0 64z"></path>
+    <path data-name="layer1" d="M54.9 20L44.1 9.1 33.4 19.8 13.6 0 0 13.6l19.7 19.8-9.4 9.4 10.8 10.9 9.4-9.4L50 64l13.8-13.8-19.6-19.6zm-36.2 6.8l4.6-4.6-2.8-2.8-4.6 4.6-3.5-3.5 3-3-2.8-2.8-3 3-3.9-4 7.9-7.9 16.9 16.8-8 8zm39.4 23.4L50 58.3l-3.7-3.7 4.1-4.1-2.8-2.8-4.1 4.1-3.2-3.2 3.1-3.1-2.8-2.8-3.1 3.1-4.2-4.2 8.1-8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="ruler-1">
+    <title>Ruler</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M47.4.1l-4 3.9 6.4 6.3-2.9 2.9-6.3-6.4-4.3 4.3 8.3 8.3-2.8 2.9-8.4-8.4-4.6 4.7 6.3 6.4-2.8 2.8-6.4-6.4-4.2 4.2 8.4 8.4-2.9 2.8-8.4-8.4-4.7 4.7 6.5 6.4-2.9 2.9-6.4-6.5-4.5 4.4 8.5 8.5-2.9 2.8-8.5-8.5L0 47l16.9 16.9L64 16.7 47.4.1z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="set-square-1">
+    <title>Set Square</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M55.8 55.8l-2.6 2.6-2.8-2.8L53 53l-4.6-4.6-2.7 2.6-2.8-2.8 2.6-2.6-4.6-4.6-2.6 2.6-2.8-2.8 2.6-2.6-4.6-4.6-2.7 2.4-2.8-2.8 2.6-2.6L26 26l-2.6 2.6-2.8-2.8 2.6-2.6-4.6-4.6-2.6 2.6-3-2.9 2.6-2.6L11 11l-2.6 2.6-2.9-2.8 2.7-2.6L0 0v64h64zM9 55V26.2L37.8 55z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="reflect-tool-1">
+    <title>Reflect Tool</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M0 63.6L23.7 41 0 19.4v44.2zM40.3 41L64 63.6V19.4L40.3 41zM32 20a2 2 0 0 0-2 2v40a2 2 0 0 0 4 0V22a2 2 0 0 0-2-2z"></path>
+    <path data-name="layer1" d="M55.8 9.3a2 2 0 1 0-3.5-2l-3 5.3A17.9 17.9 0 0 0 32 0c-9.9 0-18 7.7-18 17.2a2 2 0 0 0 4 0C18 9.9 24.3 4 32 4a13.9 13.9 0 0 1 13.5 9.6l-5.1-2.9a2 2 0 1 0-2 3.5l11.1 6.3z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="skew-tool-1">
+    <title>Skew Tool</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M0 44.4h4v7.43H0zm0-11.2h4v7.43H0zm4-5.7h2v-4H0v6h4v-2zm5.7-4h7.4v4H9.7z"></path>
+    <path data-name="layer2" fill="#2e2c2d" d="M38 23.5H20.9v4h1.5L4 55.7v-.2H0v4h1.5l-1.3 2h38.9l24.9-38H38z"></path>
+    <path data-name="layer1" d="M14 13.5h31.2l-3.6 3.6a2 2 0 1 0 2.8 2.9l8.5-8.5-8.5-8.4a2 2 0 0 0-2.8 2.8l3.6 3.6H14a2 2 0 0 0 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="crop-1">
+    <title>Crop</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M46 20.1L63.4 3.4A2 2 0 1 0 60.6.6L42.4 18H16v-6H4v6H0v12h29.9L16 43.3V34H4v24h30v6h12v-6h4V46h-4V25.7L34 37.2V46H19l15-14.4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="vector-1">
+    <title>Vector</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M64 14V0H50v5H14V0H0v14h5v36H0v14h14v-5h36v5h14V50h-5V14zm-9 36h-5v5H14v-5H9V14h5V9h36v5h5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="minimize-1">
+    <title>Minimize</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M26 60h-2v4h6v-6h-4v2zm-15.5 0h9v4h-9zM4 58H0v6h6v-4H4v-2zM0 44.5h4v9H0zM0 40h4v-2h2v-4H0v6zM8 0v56h56V0zm11.5 38h-9v-4h9zM30 53.5h-4v-9h4zM30 40h-4v-2h-2v-4h6zm25.4-28.6L38.8 28H46a2 2 0 0 1 0 4H32V18a2 2 0 1 1 4 0v7.2L52.6 8.6a2 2 0 0 1 2.8 2.8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="expand-1">
+    <title>Expand</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M26 60h-2v4h6v-6h-4v2zm-15.5 0h9v4h-9zM4 58H0v6h6v-4H4v-2zM0 44.5h4v9H0zM0 40h4v-2h2v-4H0v6zM8 0v56h56V0zm11.5 38h-9v-4h9zM30 53.5h-4v-9h4zM30 40h-4v-2h-2v-4h6zm2.6-11.4L49.2 12H42a2 2 0 0 1 0-4h14v14a2 2 0 1 1-4 0v-7.2L35.4 31.4a2 2 0 1 1-2.8-2.8z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="find-1">
+    <title>Find</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M61.63 58.8L40.69 37.86a22.012 22.012 0 1 0-2.83 2.828l20.942 20.94a2 2 0 0 0 2.828-2.827zM23.784 41.786a18 18 0 1 1 18-18 18.002 18.002 0 0 1-18 18z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="zoom-in-2">
+    <title>Zoom In</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M61.63 58.8L40.69 37.86a22.008 22.008 0 1 0-2.828 2.828l20.941 20.94a2 2 0 0 0 2.828-2.827zM23.784 41.786a18 18 0 1 1 18-18 18.002 18.002 0 0 1-18 18z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M33.45 21.785h-7.666v-7.667a2 2 0 0 0-4 0v7.667h-7.667a2 2 0 0 0 0 4h7.667v7.667a2 2 0 0 0 4 0v-7.667h7.667a2 2 0 0 0 0-4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="zoom-out-2">
+    <title>Zoom Out</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M61.63 58.8L40.69 37.86a22.008 22.008 0 1 0-2.828 2.828l20.941 20.94a2 2 0 0 0 2.828-2.827zM23.784 41.786a18 18 0 1 1 18-18 18.002 18.002 0 0 1-18 18z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M33.45 25.785H14.118a2 2 0 0 1 0-4h19.334a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cancel-1">
+    <title>Cancel</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm0 7a22.89 22.89 0 0 1 13.598 4.454L13.453 45.597A22.996 22.996 0 0 1 32 9zm0 46a22.89 22.89 0 0 1-13.598-4.454l32.145-32.143A22.996 22.996 0 0 1 32 55z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="disable-1">
+    <title>Disable</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a30 30 0 1 0 30 30A30.034 30.034 0 0 0 32 2zM6 32a25.98 25.98 0 0 1 42.903-19.731L12.269 48.903A25.88 25.88 0 0 1 6 32zm26 26a25.881 25.881 0 0 1-16.903-6.269l36.634-36.634A25.98 25.98 0 0 1 32 58z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="paper-clip-1">
+    <title>Paper Clip</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M48 18a16 16 0 0 0-32 0v24.001a2 2 0 1 0 4 0V18a12 12 0 0 1 24 0v31.999a8 8 0 1 1-16 0v-28a4 4 0 1 1 8 0v20.002a2 2 0 1 0 4 0V21.999a8 8 0 1 0-16 0v28a12 12 0 1 0 24 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="attachment-1">
+    <title>Attachment</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M54.495 29.304A16 16 0 0 0 31.868 6.677L8.335 30.21a2 2 0 0 0 2.828 2.828L34.696 9.505a12 12 0 0 1 16.97 16.97l-29.189 29.19A8 8 0 1 1 11.163 44.35l26.362-26.362a4 4 0 1 1 5.657 5.658L22.475 44.352a2 2 0 0 0 2.83 2.828L46.01 26.475A8 8 0 1 0 34.697 15.16L8.335 41.522a12 12 0 0 0 16.97 16.97z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="link-1">
+    <title>Link</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M54 21H44a8 8 0 0 0-8 8v5h4v-5a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4H44a3.99 3.99 0 0 1-3.858-3h-4.073A7.997 7.997 0 0 0 44 43h10a8 8 0 0 0 8-8v-6a8 8 0 0 0-8-8zM20 39H10a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v5h4v-5a8 8 0 0 0-8-8H10a8 8 0 0 0-8 8v6a8 8 0 0 0 8 8h10a7.997 7.997 0 0 0 7.93-7h-4.072A3.99 3.99 0 0 1 20 39z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M48.273 32a2 2 0 0 1-2 2H17.276a2 2 0 0 1-2-2 2 2 0 0 1 2-2h28.997a2 2 0 0 1 2 2z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="link-2">
+    <title>Link</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M59.263 9.694l-4.957-4.957a9.347 9.347 0 0 0-13.218 0L32.826 13a9.348 9.348 0 0 0 0 13.218l.825.826 1.501 1.5 3.305-3.304-1.5-1.5-.826-.827a4.674 4.674 0 0 1-.001-6.609l8.262-8.262a4.675 4.675 0 0 1 6.609 0L55.958 13a4.674 4.674 0 0 1 0 6.608l-8.262 8.262a4.674 4.674 0 0 1-5.864.605l-3.341 3.34a9.349 9.349 0 0 0 12.51-.64l8.262-8.262a9.346 9.346 0 0 0 0-13.218zM27.87 47.697l-8.262 8.261a4.675 4.675 0 0 1-6.609 0l-4.957-4.957a4.671 4.671 0 0 1 0-6.609l8.262-8.261a4.674 4.674 0 0 1 6.61 0l.824.826 1.5 1.5 3.305-3.304-1.501-1.501-.824-.826a9.348 9.348 0 0 0-13.219 0l-8.262 8.262a9.346 9.346 0 0 0 0 13.218l4.957 4.957a9.348 9.348 0 0 0 13.22 0L31.173 51a9.351 9.351 0 0 0 .64-12.51l-3.34 3.34a4.674 4.674 0 0 1-.605 5.866z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M45.444 18.556a2.338 2.338 0 0 1 0 3.305L21.488 45.816a2.336 2.336 0 0 1-3.304 0 2.337 2.337 0 0 1 0-3.305L42.14 18.556a2.338 2.338 0 0 1 3.304 0z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="connect-1">
+    <title>Connect</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M52 22H36a9.969 9.969 0 0 0-4 .832l-.004.003a10.022 10.022 0 0 1 3.912 3.06l.01-.004.192-.003h15.78a6.111 6.111 0 0 1 0 12.223H36.11c-.063 0-.125-.008-.187-.01a6.105 6.105 0 0 1-5.624-7.995 10.209 10.209 0 0 0-3.553-1.883A9.99 9.99 0 0 0 36 42h16a10 10 0 0 0 0-20z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M35.908 25.895A9.977 9.977 0 0 0 28 22H12a10 10 0 0 0 0 20h16c.107 0 .211-.013.318-.016a12.834 12.834 0 0 1-2.89-3.873H12.114a6.111 6.111 0 1 1 0-12.223h15.781a6.111 6.111 0 0 1 4.113 10.631 6.08 6.08 0 0 0 3.916 1.583 9.977 9.977 0 0 0-.015-12.207z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="url-1">
+    <title>Url</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M31.512 43.227L19.896 54.844a7.595 7.595 0 0 1-10.74-10.74l13.866-13.866a7.594 7.594 0 0 1 12.955 5.726 7.555 7.555 0 0 0 4.83-2.049 12.431 12.431 0 0 0-21.11-7.187L5.64 40.787A12.427 12.427 0 0 0 23.213 58.36l14.06-14.059c.198-.197.374-.409.556-.616a12.46 12.46 0 0 1-6.317-.459z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M58.36 5.641a12.424 12.424 0 0 0-17.573-.001L26.728 19.698a12.381 12.381 0 0 0-2.784 4.246l-.001.008a12.454 12.454 0 0 1 6.127-.75l.006-.012c.053-.058.108-.116.165-.172L44.107 9.153a7.594 7.594 0 0 1 10.74 10.74L40.98 33.757c-.056.056-.116.103-.173.157a7.573 7.573 0 0 1-12.385-3.099 8.205 8.205 0 0 0-4.453 2.264 12.426 12.426 0 0 0 20.332 4.192L58.36 23.213a12.424 12.424 0 0 0 0-17.572z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="broken-link-1">
+    <title>Broken Link</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M14.884 28H1.914a2 2 0 0 1 0-4h12.97a2 2 0 1 1 0 4zm9-11.031a2 2 0 0 1-2-2V1.999a2 2 0 0 1 4 0v12.97a2 2 0 0 1-2 2zm-8 3.031a1.994 1.994 0 0 1-1.414-.586L5.3 10.243a2 2 0 1 1 2.828-2.829l9.171 9.171a2 2 0 0 1-1.414 3.414zm45.97 20h-12.97a2 2 0 0 1 0-4h12.97a2 2 0 0 1 0 4zm-21.97 24a2 2 0 0 1-2-2V49.03a2 2 0 1 1 4 0V62a2 2 0 0 1-2 2zm17.171-6.83a1.993 1.993 0 0 1-1.414-.586l-9.17-9.17a2 2 0 1 1 2.827-2.829l9.171 9.17a2 2 0 0 1-1.414 3.415z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M26.954 41.088a4.673 4.673 0 0 1 0 6.608l-8.262 8.262a4.675 4.675 0 0 1-6.609 0l-3.955-3.956a4.673 4.673 0 0 1-.001-6.61l8.262-8.26a4.673 4.673 0 0 1 6.609 0l2.246-4.218a9.35 9.35 0 0 0-12.16.913L4.822 42.09a9.347 9.347 0 0 0 0 13.218l3.957 3.956a9.346 9.346 0 0 0 13.218 0L30.259 51a9.351 9.351 0 0 0 .893-12.186zm10.263-18.176a4.673 4.673 0 0 1 0-6.608l8.261-8.262a4.675 4.675 0 0 1 6.609 0l3.956 3.956a4.673 4.673 0 0 1 0 6.61l-8.26 8.26a4.673 4.673 0 0 1-6.61 0l-2.246 4.218a9.351 9.351 0 0 0 12.16-.913l8.261-8.262a9.347 9.347 0 0 0 0-13.217l-3.956-3.957a9.346 9.346 0 0 0-13.219 0L33.912 13a9.351 9.351 0 0 0-.894 12.187z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-link-1">
+    <title>Remove Link</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M39.998 39.29A7.987 7.987 0 0 0 46 42h8a8 8 0 0 0 8-8v-4a8 8 0 0 0-8-8h-8a7.999 7.999 0 0 0-6.93 4l3.32 2.276a4.002 4.002 0 0 1 3.611-2.277H54a4 4 0 0 1 4 4v3.998a4 4 0 0 1-4 4h-7.999a3.996 3.996 0 0 1-3.42-1.926zm-18.683-3.056a3.994 3.994 0 0 1-3.316 1.763H10a4 4 0 0 1-4-4V30a4 4 0 0 1 4-4h7.998a3.998 3.998 0 0 1 3.314 1.76L24.929 26A7.998 7.998 0 0 0 18 22h-8a8 8 0 0 0-8 8v4a8 8 0 0 0 8 8h8a7.984 7.984 0 0 0 6.002-2.71z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M23 19a1.994 1.994 0 0 1-1.414-.586l-9-9a2 2 0 0 1 2.828-2.828l9 9A2 2 0 0 1 23 19zm18 0a2 2 0 0 1-1.414-3.415l9-8.999a2 2 0 0 1 2.828 2.829l-9 8.999A1.994 1.994 0 0 1 41 19zm-9-1a2 2 0 0 1-2-2V2a2 2 0 0 1 4 0v14a2 2 0 0 1-2 2zM14 58a2 2 0 0 1-1.414-3.415l9-9a2 2 0 0 1 2.828 2.829l-9 9A1.993 1.993 0 0 1 14 58zm36 0a1.993 1.993 0 0 1-1.414-.586l-9-9a2 2 0 1 1 2.828-2.829l9 9A2 2 0 0 1 50 58zm-18 6a2 2 0 0 1-2-2V48a2 2 0 0 1 4 0v14a2 2 0 0 1-2 2z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="move-tool-1">
+    <title>Move Tool</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M53.392 24.222l-2.83 2.83 2.949 2.947H34V10.491l2.947 2.947 2.831-2.832L32 2.829l-7.778 7.777 2.83 2.83L30 10.489v19.51H10.489l2.948-2.947-2.83-2.83-7.778 7.777 7.778 7.779 2.831-2.832-2.947-2.947H30v19.512l-2.948-2.95-2.83 2.831L32 61.171l7.778-7.779-2.831-2.831L34 53.509v-19.51h19.509l-2.948 2.947 2.831 2.832 7.779-7.779-7.779-7.777z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="edit-text-1">
+    <title>Edit Text</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M57 62a2 2 0 0 1-2-2V4a2 2 0 0 1 4 0v56a2 2 0 0 1-2 2z" fill="#2e2c2d"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M7.001 9.992v1.001H7v6.959h4v-3.961h11.5v36.002H15v3.999h20v-3.999h-7.499V13.991h11.5v3.961h4v-7.96h-36z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="wrench-1">
+    <title>Wrench</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M63.946 11.455l-7.438 4.7a1.391 1.391 0 0 1-1.634-.107l-3.067-2.556a1.391 1.391 0 0 1-.447-.687L50.386 9.4a1.391 1.391 0 0 1 .646-1.59l8.5-4.867a12.52 12.52 0 0 0-20.479 11.119 4.278 4.278 0 0 1-1.174 3.587L17.647 37.881a4.245 4.245 0 0 1-3.562 1.175 12.311 12.311 0 0 0-1.564-.1A12.436 12.436 0 0 0 .157 53.365L8.6 48.027a1.391 1.391 0 0 1 1.634.107l3.067 2.556a1.391 1.391 0 0 1 .447.687l.974 3.409a1.391 1.391 0 0 1-.646 1.59l-9 5.155a12.449 12.449 0 0 0 8.246 2.444 12.516 12.516 0 0 0 11.611-14.151 4.208 4.208 0 0 1 1.15-3.56L46.243 26.1a4.229 4.229 0 0 1 3.572-1.172A12.52 12.52 0 0 0 64 12.522c0-.36-.024-.715-.054-1.067z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="settings-1">
+    <title>Settings</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M63.946 11.455l-7.438 4.7a1.391 1.391 0 0 1-1.634-.107l-3.067-2.556a1.391 1.391 0 0 1-.447-.687L50.386 9.4a1.391 1.391 0 0 1 .646-1.59l8.5-4.867a12.52 12.52 0 0 0-20.479 11.119 4.278 4.278 0 0 1-1.174 3.587L17.647 37.881a4.245 4.245 0 0 1-3.562 1.175 12.311 12.311 0 0 0-1.564-.1A12.436 12.436 0 0 0 .157 53.365L8.6 48.027a1.391 1.391 0 0 1 1.634.107l3.067 2.556a1.391 1.391 0 0 1 .447.687l.974 3.409a1.391 1.391 0 0 1-.646 1.59l-9 5.155a12.449 12.449 0 0 0 8.246 2.444 12.516 12.516 0 0 0 11.611-14.151 4.208 4.208 0 0 1 1.15-3.56L46.243 26.1a4.229 4.229 0 0 1 3.572-1.172A12.52 12.52 0 0 0 64 12.522c0-.36-.024-.715-.054-1.067z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M53.34 39.094a12.574 12.574 0 0 0-3.517-.028 4.208 4.208 0 0 1-3.56-1.15l-4.5-4.5-8.41 8.41 4.529 4.529a4.245 4.245 0 0 1 1.175 3.562 12.315 12.315 0 0 0-.1 1.564 12.435 12.435 0 0 0 14.408 12.362L48.027 55.4a1.391 1.391 0 0 1 .107-1.634l2.556-3.067a1.391 1.391 0 0 1 .687-.447l3.409-.974a1.391 1.391 0 0 1 1.59.646l5.155 9a12.449 12.449 0 0 0 2.444-8.246A12.591 12.591 0 0 0 53.34 39.094zM26.1 17.757a4.229 4.229 0 0 1-1.172-3.572A12.52 12.52 0 0 0 12.522 0c-.36 0-.714.024-1.067.054l4.7 7.438a1.391 1.391 0 0 1-.107 1.634l-2.556 3.067a1.391 1.391 0 0 1-.687.447l-3.405.974a1.391 1.391 0 0 1-1.59-.646l-4.867-8.5a12.512 12.512 0 0 0 6.823 20.265 12.366 12.366 0 0 0 4.3.214 4.279 4.279 0 0 1 3.587 1.174l4.465 4.465 8.41-8.41z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="screwdriver-1">
+    <title>Screwdriver</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M61.225.588L51.28 4.646a1 1 0 0 0-.6.735l-.95 4.883a1 1 0 0 1-.275.516L34.793 25.44l3.835 3.835 14.707-14.706a1 1 0 0 1 .523-.276l4.843-.908a1 1 0 0 0 .73-.578l4.291-9.684a1 1 0 0 0-.207-1.112l-1.2-1.2a1 1 0 0 0-1.09-.223z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M13.88 61.627l14.66-14.66a8.071 8.071 0 0 0 2.266-4.484l7.08-4.911a2.914 2.914 0 0 0 .473-4.566l-7.3-7.3a2.914 2.914 0 0 0-4.566.473l-4.851 6.994a8.074 8.074 0 0 0-4.612 2.284L2.373 50.12A8.136 8.136 0 1 0 13.88 61.627z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="configuration-1">
+    <title>Configuration</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M25.691 34.2L11.19 48.67a1 1 0 0 1-.522.275l-4.775.893a1 1 0 0 0-.73.577L.931 59.947a1 1 0 0 0 .208 1.114l1.177 1.175a1 1 0 0 0 1.084.218l9.811-4a1 1 0 0 0 .6-.735l.936-4.8a1 1 0 0 1 .275-.517L29.48 37.983zM50.163 2.28L35.681 16.733a7.951 7.951 0 0 0-2.238 4.42l-6.994 4.842a2.869 2.869 0 0 0-.467 4.5l7.208 7.193a2.882 2.882 0 0 0 4.511-.466l4.792-6.9a7.982 7.982 0 0 0 4.556-2.252l14.48-14.447A8.029 8.029 0 0 0 50.163 2.28z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M24.568 31.912a4.926 4.926 0 0 1-1.43-4.1 4.767 4.767 0 0 1 2.215-3.494l4.307-2.982-3.56-3.547a4.215 4.215 0 0 1-1.172-3.565A12.493 12.493 0 0 0 12.522.068c-.36 0-.714.024-1.067.054l4.7 7.423a1.386 1.386 0 0 1-.107 1.631l-2.556 3.061a1.391 1.391 0 0 1-.687.446l-3.405.971a1.392 1.392 0 0 1-1.59-.645L2.939 4.528a12.436 12.436 0 0 0-2.9 9.017 12.577 12.577 0 0 0 9.727 11.206 12.39 12.39 0 0 0 4.3.213 4.284 4.284 0 0 1 3.587 1.172l6.647 6.633.566-.565zm28.772 7.172a12.6 12.6 0 0 0-3.517-.028 4.214 4.214 0 0 1-3.56-1.148l-3.9-3.892-2.992 4.3a4.78 4.78 0 0 1-4.084 2.245 4.944 4.944 0 0 1-3.511-1.461l-.295-.294-.566.565 6.966 6.952a4.232 4.232 0 0 1 1.175 3.555 12.266 12.266 0 0 0-.1 1.56 12.437 12.437 0 0 0 14.408 12.34l-5.338-8.431a1.386 1.386 0 0 1 .107-1.631l2.556-3.061a1.391 1.391 0 0 1 .687-.446l3.409-.972a1.392 1.392 0 0 1 1.59.645l5.155 8.984a12.407 12.407 0 0 0 2.444-8.23A12.575 12.575 0 0 0 53.34 39.084z"
+    fill="#2e2c2d"></path>
+  </symbol>
+</svg>

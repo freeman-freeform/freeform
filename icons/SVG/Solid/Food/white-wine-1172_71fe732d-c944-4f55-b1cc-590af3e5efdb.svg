@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
-aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
-width="64" height="64">
-  <title>White Wine</title>
-  <desc>A solid styled icon from Orion Icon Library.</desc>
-  <path data-name="layer1"
-  d="M48 16V0H16v16c0 5.6 3 14.9 14 15.9V60h-8a2 2 0 1 0 0 4h20a2 2 0 0 0 0-4h-8V31.9c11-1 14-10.3 14-15.9z"
-  fill="#2e2c2d"></path>
-</svg>

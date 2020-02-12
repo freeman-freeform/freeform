@@ -1,0 +1,793 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="map-pin-1">
+    <title>Map Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pin-1">
+    <title>Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-pin-1">
+    <title>Add Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm8 22h-6v6a2 2 0 1 1-4 0v-6h-6a2 2 0 0 1 0-4h6v-6a2 2 0 1 1 4 0v6h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-pin-1">
+    <title>Remove Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm8 22H24a2 2 0 0 1 0-4h16a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-pin-1">
+    <title>Delete Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm7.4 24.6a2 2 0 1 1-2.8 2.8L32 24.8l-4.6 4.6a2 2 0 1 1-2.8-2.8l4.6-4.6-4.6-4.6a2 2 0 1 1 2.8-2.8l4.6 4.6 4.6-4.6a2 2 0 0 1 2.8 2.8L34.8 22z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="favorite-pin-1">
+    <title>Favorite Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm7.4 32.1L32 28.7l-7.4 5.4 2.9-8.7L20 20h9.2l2.8-8.7 2.8 8.7H44l-7.4 5.4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="love-pin-1">
+    <title>Love Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm10 19a4.7 4.7 0 0 1-.1.7l-.2.7c-1.1 4-6.2 8.7-9.7 11.6-3.6-3-8.7-7.3-9.8-11.5A5 5 0 0 1 22 21a5 5 0 0 1 5-5 5.4 5.4 0 0 1 5 3.3 5.4 5.4 0 0 1 5-3.3 5 5 0 0 1 5 5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="meeting-pin-1">
+    <title>Meeting Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a20 20 0 0 0-20 20c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 32 2zm8 26h-8a2 2 0 0 1-2-2V14a2 2 0 1 1 4 0v10h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-location-1">
+    <title>Add Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8 18h-6v6a2 2 0 1 1-4 0v-6h-6a2 2 0 0 1 0-4h6v-6a2 2 0 1 1 4 0v6h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M25.9 46a20 20 0 0 1 15.7-19.5A27.5 27.5 0 0 0 42 22a20 20 0 1 0-40 0c0 18 20 38 20 38s2.4-2.4 5.5-6.2a19.9 19.9 0 0 1-1.6-7.8zM22 28a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-location-1">
+    <title>Delete Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M25.9 46a20 20 0 0 1 15.7-19.5A27.5 27.5 0 0 0 42 22a20 20 0 1 0-40 0c0 18 20 38 20 38s2.4-2.4 5.5-6.2a19.9 19.9 0 0 1-1.6-7.8zM22 28a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.1 18h-16a2 2 0 0 1 0-4h16a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-location-1">
+    <title>Remove Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M25.9 46a20 20 0 0 1 15.7-19.5A27.5 27.5 0 0 0 42 22a20 20 0 1 0-40 0c0 18 20 38 20 38s2.4-2.4 5.5-6.2a19.9 19.9 0 0 1-1.6-7.8zM22 28a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm7.4 20.6a2 2 0 1 1-2.8 2.8L46 48.8l-4.6 4.6a2 2 0 1 1-2.8-2.8l4.6-4.6-4.6-4.6a2 2 0 0 1 2.8-2.8l4.6 4.6 4.6-4.6a2 2 0 0 1 2.8 2.8L48.8 46z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="checkin-location-1">
+    <title>Check-In Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M25.9 46a20 20 0 0 1 15.7-19.5A27.5 27.5 0 0 0 42 22a20 20 0 1 0-40 0c0 18 20 38 20 38s2.4-2.4 5.5-6.2a19.9 19.9 0 0 1-1.6-7.8zM22 28a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.5 13.3l-9.4 10.6-6.5-6.5a2 2 0 0 1 2.8-2.8l3.5 3.5 6.6-7.4a2 2 0 0 1 3 2.7z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="meeting-location-1">
+    <title>Meeting Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M25.9 46a20 20 0 0 1 15.7-19.5A27.5 27.5 0 0 0 42 22a20 20 0 1 0-40 0c0 18 20 38 20 38s2.4-2.4 5.5-6.2a19.9 19.9 0 0 1-1.6-7.8zM22 28a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8 20H44V38a2 2 0 1 1 4 0v8h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="map-marker-1">
+    <title>Map Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 2a18.1 18.1 0 0 0-18.1 18.1C13.9 36.4 32 52.4 32 52.4s18.1-16 18.1-32.3A18.1 18.1 0 0 0 32 2zm0 24a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M52 46h-8.7a75.5 75.5 0 0 1-8.6 9.4L32 57.7l-2.6-2.3a75.5 75.5 0 0 1-8.7-9.4H12L4 62h56z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="map-location-1">
+    <title>Map Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 2a18.1 18.1 0 0 0-18.1 18.1C13.9 36.4 32 52.4 32 52.4s18.1-16 18.1-32.3A18.1 18.1 0 0 0 32 2zm0 24a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M42.8 46.6a74.6 74.6 0 0 1-8.1 8.7L32 57.7l-2.6-2.3a74.6 74.6 0 0 1-8.1-8.7C11.1 47.8 4 50.7 4 54s12.5 8 28 8 28-3.6 28-8-7.1-6.2-17.2-7.4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pin-location-1">
+    <title>Pin Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 46.1s16-14.6 16-29a16 16 0 1 0-32 0c0 14.4 16 29 16 29zM26 17a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M48.8 59.2L37 54l11.8-5.2a2 2 0 1 0-1.6-3.7L32 51.8l-15.2-6.6a2 2 0 1 0-1.6 3.7L27 54l-11.8 5.2A2 2 0 0 0 16 63l.8-.2L32 56.2l15.2 6.6.8.2a2 2 0 0 0 .8-3.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pin-cluster-1">
+    <title>Pin Cluster</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M24 2A20 20 0 0 0 4 22c0 18 20 40 20 40s20-22 20-40A20 20 0 0 0 24 2zm0 28a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M44 8h-.5A23.9 23.9 0 0 1 48 22c0 9.2-4.6 19.1-9.5 27.1A85.5 85.5 0 0 0 44 56s16-17.6 16-32A16 16 0 0 0 44 8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="markers-1">
+    <title>Markers</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M31.9 9a16 16 0 0 0-16 16c0 14.4 16 32 16 32s16-17.6 16-32a16 16 0 0 0-16-16zm.1 22a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M11.9 25a20 20 0 0 1 9.4-16.9A14 14 0 0 0 2 21c0 12.6 14 26 14 26l2.2-2.3c-3.4-6-6.3-13.1-6.3-19.7zM48 7a13.9 13.9 0 0 0-5.4 1.1A20 20 0 0 1 51.9 25c0 6.6-2.8 13.6-6.2 19.6L48 47s14-13.4 14-26A14 14 0 0 0 48 7z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="marker-1">
+    <title>Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M55.9 28.3c.1-.8.1-1.5.1-2.3a24 24 0 1 0-48 0c0 .8 0 1.6.1 2.3v.3C10.1 47.6 32 62 32 62s21.9-14.6 23.8-33.3z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="marker-location-1">
+    <title>Marker Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2A24 24 0 0 0 8 26c0 .8 0 1.6.1 2.3v.3C10.1 47.6 32 62 32 62s21.9-14.6 23.8-33.3v-.4c.1-.8.1-1.5.1-2.3A24 24 0 0 0 32 2zm0 36a12 12 0 1 1 12-12 12 12 0 0 1-12 12z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-marker-1">
+    <title>Add Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2A24 24 0 0 0 8 26c0 .8 0 1.6.1 2.3v.3C10.1 47.6 32 62 32 62s21.9-14.6 23.8-33.3v-.4c.1-.8.1-1.5.1-2.3A24 24 0 0 0 32 2zm9.8 26H34v8a2 2 0 0 1-4 0v-8h-8.2a2 2 0 0 1 0-4H30v-8a2 2 0 1 1 4 0v8h7.8a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-marker-1">
+    <title>Remove Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2A24 24 0 0 0 8 26c0 .8 0 1.6.1 2.3v.3C10.1 47.6 32 62 32 62s21.9-14.6 23.8-33.3v-.4c.1-.8.1-1.5.1-2.3A24 24 0 0 0 32 2zm9.8 26h-20a2 2 0 0 1 0-4h20a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-marker-1">
+    <title>Delete Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2A24 24 0 0 0 8 26c0 .8 0 1.6.1 2.3v.3C10.1 47.6 32 62 32 62s21.9-14.6 23.8-33.3v-.4c.1-.8.1-1.5.1-2.3A24 24 0 0 0 32 2zm8.3 32.2a2 2 0 0 1-2.8 0L32 28.7l-5.7 5.7a2 2 0 0 1-2.8-2.8l5.7-5.7-5.5-5.5a2 2 0 0 1 2.8-2.8l5.4 5.4 5.3-5.3a2 2 0 0 1 2.8 2.8l-5.3 5.3 5.5 5.5a2 2 0 0 1 .1 2.9z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="favorite-marker-1">
+    <title>Favorite Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2A24 24 0 0 0 8 26c0 .8 0 1.6.1 2.3v.3C10.1 47.6 32 62 32 62s21.9-14.6 23.8-33.3v-.4c.1-.8.1-1.5.1-2.3A24 24 0 0 0 32 2zm5.3 26.3l3.3 10.2-8.6-6.4-8.7 6.3 3.3-10.2L18 22h10.7L32 11.8 35.3 22H46z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="love-marker-1">
+    <title>Love Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2A24 24 0 0 0 8 26c0 .8 0 1.6.1 2.3v.3C10.1 47.6 32 62 32 62s21.9-14.6 23.8-33.3v-.4c.1-.8.1-1.5.1-2.3A24 24 0 0 0 32 2zm12 22a6.1 6.1 0 0 1-.1.8l-.2.8c-1.4 4.9-7.5 10.5-11.7 14-4.3-3.5-10.4-8.7-11.7-13.8A5.9 5.9 0 0 1 20 24a6 6 0 0 1 6-6 6.5 6.5 0 0 1 6 4 6.5 6.5 0 0 1 6-4 6 6 0 0 1 6 6z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="meeting-marker-1">
+    <title>Meeting Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2A24 24 0 0 0 8 26c0 .8 0 1.6.1 2.3v.3C10.1 47.6 32 62 32 62s21.9-14.6 23.8-33.3v-.4c.1-.8.1-1.5.1-2.3A24 24 0 0 0 32 2zm10 28H32a2 2 0 0 1-2-2V14a2 2 0 1 1 4 0v12h8a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-place-1">
+    <title>Add Place</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A22.2 22.2 0 0 0 0 24.4c0 .7 0 1.5.1 2.2v.3C1.9 44.5 22 58 22 58a65.3 65.3 0 0 0 7-5.8 20 20 0 0 1 14.9-25.8c.1-.7.1-1.3.1-2A22.2 22.2 0 0 0 22 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path d="M48 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.1 18h-6v6a2 2 0 0 1-4 0v-6h-6a2 2 0 1 1 0-4h6v-6a2 2 0 0 1 4 0v6h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d" data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-place-1">
+    <title>Remove Place</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A22.2 22.2 0 0 0 0 24.4c0 .7 0 1.5.1 2.2v.3C1.9 44.5 22 58 22 58a65.3 65.3 0 0 0 7-5.8 20 20 0 0 1 14.9-25.8c.1-.7.1-1.3.1-2A22.2 22.2 0 0 0 22 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path d="M48 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.1 18h-16a2 2 0 0 1 0-4h16a2 2 0 0 1 0 4z"
+    fill="#2e2c2d" data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-place-1">
+    <title>Delete Place</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A22.2 22.2 0 0 0 0 24.4c0 .7 0 1.5.1 2.2v.3C1.9 44.5 22 58 22 58a65.3 65.3 0 0 0 7-5.8 20 20 0 0 1 14.9-25.8c.1-.7.1-1.3.1-2A22.2 22.2 0 0 0 22 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path d="M48 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm7.5 20.6a2 2 0 1 1-2.8 2.8l-4.6-4.6-4.6 4.6a2 2 0 0 1-2.8-2.8l4.6-4.6-4.6-4.6a2 2 0 1 1 2.8-2.8l4.6 4.6 4.6-4.6a2 2 0 0 1 2.8 2.8L51 46z"
+    fill="#2e2c2d" data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="checkin-place-1">
+    <title>Check-In Place</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A22.2 22.2 0 0 0 0 24.4c0 .7 0 1.5.1 2.2v.3C1.9 44.5 22 58 22 58a65.3 65.3 0 0 0 7-5.8 20 20 0 0 1 14.9-25.8c.1-.7.1-1.3.1-2A22.2 22.2 0 0 0 22 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path d="M48 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.6 13.3l-9.4 10.6-6.5-6.5a2 2 0 0 1 2.8-2.8l3.5 3.5 6.6-7.4a2 2 0 0 1 3 2.7z"
+    fill="#2e2c2d" data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="meeting-place-1">
+    <title>Meeting Place</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path d="M48 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.1 20h-10V38a2 2 0 0 1 4 0v8h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d" data-name="layer2"></path>
+    <path data-name="layer1" d="M22 2A22.2 22.2 0 0 0 0 24.4c0 .7 0 1.5.1 2.2v.3C1.9 44.5 22 58 22 58a65.3 65.3 0 0 0 7-5.8 20 20 0 0 1 14.9-25.8c.1-.7.1-1.3.1-2A22.2 22.2 0 0 0 22 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="place-1">
+    <title>Place</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M49.8 46.2a2 2 0 0 0-2.6-1L32 51.8l-15.2-6.6a2 2 0 1 0-1.6 3.7L27 54l-11.8 5.2A2 2 0 0 0 16 63l.8-.2L32 56.2l15.2 6.6.8.2a2 2 0 0 0 .8-3.8L37 54l11.8-5.2a2 2 0 0 0 1-2.6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M14.1 21C15.5 35.2 32 46.1 32 46.1s16.4-11 17.9-25v-.3c.1-.6.1-1.1.1-1.7a18 18 0 1 0-36 0c0 .6 0 1.2.1 1.8zM32 9a10 10 0 1 1-10 10A10 10 0 0 1 32 9z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="location-marker-1">
+    <title>Location Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 62c0-17.1 16.3-25.2 17.8-39.7A18 18 0 1 0 14 20a17.7 17.7 0 0 0 .2 2.2C15.7 36.8 32 44.9 32 62z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="location-pin-1">
+    <title>Location Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a18 18 0 0 0-18 18 18.1 18.1 0 0 0 .2 2.2C15.7 36.8 32 44.9 32 62c0-17.1 16.3-25.2 17.8-39.7A17.9 17.9 0 0 0 32 2zm0 24a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-location-2">
+    <title>Add Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a18 18 0 0 0-18 18 18.5 18.5 0 0 0 .2 2.2C15.7 36.8 32 44.9 32 62c0-17.1 16.3-25.2 17.8-39.7A17.9 17.9 0 0 0 32 2zm6 20h-4v4a2 2 0 1 1-4 0v-4h-4a2 2 0 0 1 0-4h4v-4a2 2 0 1 1 4 0v4h4a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-location-2">
+    <title>Remove Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a18 18 0 0 0-18 18 18.1 18.1 0 0 0 .2 2.2C15.7 36.8 32 44.9 32 62c0-17.1 16.3-25.2 17.8-39.7A17.9 17.9 0 0 0 32 2zm6 20H26a2 2 0 0 1 0-4h12a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-location-2">
+    <title>Delete Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a18 18 0 0 0-18 18 17.7 17.7 0 0 0 .2 2.2C15.7 36.8 32 44.9 32 62c0-17.1 16.3-25.2 17.8-39.7A17.9 17.9 0 0 0 32 2zm6.4 21.6a2 2 0 1 1-2.8 2.8L32 22.8l-3.6 3.6a2 2 0 1 1-2.8-2.8l3.6-3.6-3.6-3.6a2 2 0 0 1 2.8-2.8l3.6 3.6 3.6-3.6a2 2 0 0 1 2.8 2.8L34.8 20z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="favorite-location-1">
+    <title>Favorite Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a18 18 0 0 0-18 18 18.5 18.5 0 0 0 .2 2.2C15.7 36.8 32 44.9 32 62c0-17.1 16.3-25.2 17.8-39.7A17.9 17.9 0 0 0 32 2zm6.2 27.7L32 25.2l-6.2 4.5 2.4-7.3L22 18h7.7l2.3-7.3 2.4 7.3H42l-6.2 4.5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="love-location-1">
+    <title>Love Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a18 18 0 0 0-18 18 18.1 18.1 0 0 0 .2 2.2C15.7 36.8 32 44.9 32 62c0-17.1 16.3-25.2 17.8-39.7A17.9 17.9 0 0 0 32 2zm8 16a3.8 3.8 0 0 1-.1.6v.6c-.9 3.1-5 6.8-7.8 9.2-2.8-2.4-6.9-5.8-7.8-9.2A4 4 0 0 1 24 18a4 4 0 0 1 4-4 4.3 4.3 0 0 1 4 2.7 4.3 4.3 0 0 1 4-2.7 4 4 0 0 1 4 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="meeting-location-2">
+    <title>Meeting Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a18 18 0 0 0-18 18 18.6 18.6 0 0 0 .2 2.2C15.7 36.8 32 44.9 32 62c0-17.1 16.3-25.2 17.8-39.7A17.9 17.9 0 0 0 32 2zm7.4 24H32a2 2 0 0 1-2-2V12a2 2 0 0 1 4 0v10h5.4a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-geotag-1">
+    <title>Add Geotag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A18 18 0 0 0 4 20a17.7 17.7 0 0 0 .2 2.2C5.7 36.8 22 44.9 22 62a26.9 26.9 0 0 1 2.6-11.4 19.9 19.9 0 0 1 14.3-23.9 21.8 21.8 0 0 0 1-4.4A17.9 17.9 0 0 0 22 2zm0 24a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M44 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.1 18h-6v6a2 2 0 0 1-4 0v-6h-6a2 2 0 0 1 0-4h6v-6a2 2 0 0 1 4 0v6h6a2 2 0 1 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-geotag-1">
+    <title>Remove Geotag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A18 18 0 0 0 4 20a17.7 17.7 0 0 0 .2 2.2C5.7 36.8 22 44.9 22 62a26.9 26.9 0 0 1 2.6-11.4 19.9 19.9 0 0 1 14.3-23.9 21.8 21.8 0 0 0 1-4.4A17.9 17.9 0 0 0 22 2zm0 24a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M44 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8 18H36a2 2 0 1 1 0-4h16a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-geotag-1">
+    <title>Delete Geotag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A18 18 0 0 0 4 20a17.7 17.7 0 0 0 .2 2.2C5.7 36.8 22 44.9 22 62a26.9 26.9 0 0 1 2.6-11.4 19.9 19.9 0 0 1 14.3-23.9 21.8 21.8 0 0 0 1-4.4A17.9 17.9 0 0 0 22 2zm0 24a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M44 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm6.4 19.6a2 2 0 1 1-2.8 2.8L44 48.8l-3.6 3.6a2 2 0 0 1-2.8-2.8l3.5-3.6-3.6-3.6a2 2 0 1 1 2.8-2.8l3.7 3.6 3.6-3.6a2 2 0 0 1 2.8 2.8L46.8 46z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="checkin-geotag-1">
+    <title>Check-In Geotag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A18 18 0 0 0 4 20a17.7 17.7 0 0 0 .2 2.2C5.7 36.8 22 44.9 22 62a26.9 26.9 0 0 1 2.6-11.4 19.9 19.9 0 0 1 14.3-23.9 21.8 21.8 0 0 0 1-4.4A17.9 17.9 0 0 0 22 2zm0 24a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M44 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.5 13.3l-9.4 10.6-6.5-6.5a2 2 0 0 1 2.8-2.8l3.5 3.5 6.6-7.4a2 2 0 0 1 3 2.7z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="meeting-geotag-1">
+    <title>Meeting Geotag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M22 2A18 18 0 0 0 4 20a17.7 17.7 0 0 0 .2 2.2C5.7 36.8 22 44.9 22 62a26.9 26.9 0 0 1 2.6-11.4 19.9 19.9 0 0 1 14.3-23.9 21.8 21.8 0 0 0 1-4.4A17.9 17.9 0 0 0 22 2zm0 24a6 6 0 1 1 6-6 6 6 0 0 1-6 6z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M44 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8 20H42V38a2 2 0 1 1 4 0v8h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="geotag-1">
+    <title>Geotag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M16.1 20C17.5 32.9 32 40.1 32 55.3 32 40.1 46.5 32.9 47.9 20a15.6 15.6 0 0 0 .1-2 16 16 0 0 0-32 0 15.7 15.7 0 0 0 .1 2zM32 14a4 4 0 1 1-4 4 4 4 0 0 1 4-4z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M52 46H38.3a20.5 20.5 0 0 0-2.3 9.3 4 4 0 0 1-8 0 20.5 20.5 0 0 0-2.3-9.3H12L4 62h56z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="geo-fence-1">
+    <title>Geo Fence</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M16.1 20C17.5 32.9 32 38.8 32 54c0-15.2 14.5-21.1 15.9-34A16 16 0 1 0 16 18a16.5 16.5 0 0 0 .1 2zM32 14a4 4 0 1 1-4 4 4 4 0 0 1 4-4z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M37.7 46.2A18.6 18.6 0 0 0 36 54a4 4 0 1 1-8 0 18.6 18.6 0 0 0-1.7-7.8C13.6 46.9 4 50.1 4 54s12.5 8 28 8 28-3.6 28-8-9.6-7.1-22.3-7.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="point-of-interest-1">
+    <title>Point Of Interest</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M46.8 59.2L37.1 55l9.7-4.2a2 2 0 0 0-1.6-3.7L32 52.8l-13.2-5.6a2 2 0 1 0-1.6 3.7l9.7 4.1-9.7 4.2A2 2 0 0 0 18 63l.8-.2L32 57.2l13.2 5.7.8.2a2 2 0 0 0 .8-3.8z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M18.1 16.7C19.3 28 32 34.3 32 47.7c0-13.3 12.6-19.6 13.9-30.9A13.8 13.8 0 0 0 46 15a14 14 0 1 0-28 0 14.5 14.5 0 0 0 .1 1.7zM32 11a4 4 0 1 1-4 4 4 4 0 0 1 4-4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="location-pin-2">
+    <title>Location Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M54 24a22 22 0 1 0-28 21.1L32 62l6-16.8A22 22 0 0 0 54 24z" fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="map-location-2">
+    <title>Map Location</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a22 22 0 0 0-6 43.1L32 62l6-16.8A22 22 0 0 0 32 2zm0 34a12 12 0 1 1 12-12 12 12 0 0 1-12 12z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-map-pin-1">
+    <title>Add Map Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a22 22 0 0 0-6 43.1L32 62l6-16.8A22 22 0 0 0 32 2zm8 24h-6v6a2 2 0 1 1-4 0v-6h-6a2 2 0 0 1 0-4h6v-6a2 2 0 1 1 4 0v6h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-map-pin-1">
+    <title>Remove Map Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a22 22 0 0 0-6 43.1L32 62l6-16.8A22 22 0 0 0 32 2zm8 24H24a2 2 0 0 1 0-4h16a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-map-pin-1">
+    <title>Delete Map Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a22 22 0 0 0-6 43.1L32 62l6-16.8A22 22 0 0 0 32 2zm7.4 29.4a2 2 0 0 1-2.8 0L32 26.8l-4.6 4.6a2 2 0 1 1-2.8-2.8l4.6-4.6-4.6-4.6a2 2 0 0 1 2.8-2.8l4.6 4.6 4.6-4.6a2 2 0 1 1 2.8 2.8L34.8 24l4.6 4.6a2 2 0 0 1 0 2.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="favorite-map-pin-1">
+    <title>Favorite Map Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a22 22 0 0 0-6 43.1L32 62l6-16.9A22 22 0 0 0 32 2zm7.4 32.1L32 28.7l-7.4 5.4 2.9-8.7L20 20h9.2l2.8-8.7 2.8 8.7H44l-7.4 5.4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="love-map-pin-1">
+    <title>Love Map Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a22 22 0 0 0-6 43.1L32 62l6-16.9A22 22 0 0 0 32 2zm10 19a4.7 4.7 0 0 1-.1.7l-.2.7c-1.1 4-6.2 8.7-9.7 11.6-3.6-3-8.7-7.3-9.8-11.5A5 5 0 0 1 22 21a5 5 0 0 1 5-5 5.4 5.4 0 0 1 5 3.3 5.4 5.4 0 0 1 5-3.3 5 5 0 0 1 5 5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="meeting-map-pin-1">
+    <title>Meeting Map Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a22 22 0 0 0-6 43.1L32 62l6-16.9A22 22 0 0 0 32 2zm8 26h-8a2 2 0 0 1-2-2V14a2 2 0 0 1 4 0v10h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="add-map-marker-1">
+    <title>Add Map Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M24 2a22 22 0 0 0-6 43.1L24 58l2.8-5.9a20 20 0 0 1 19-26.1h.1c.1-.7.1-1.3.1-2A22 22 0 0 0 24 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8 18h-6v6a2 2 0 0 1-4 0v-6h-6a2 2 0 0 1 0-4h6v-6a2 2 0 0 1 4 0v6h6a2 2 0 1 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="remove-map-marker-1">
+    <title>Remove Map Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M24 2a22 22 0 0 0-6 43.1L24 58l2.8-5.9a20 20 0 0 1 19-26.1h.1c.1-.7.1-1.3.1-2A22 22 0 0 0 24 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.1 18h-16a2 2 0 0 1 0-4h16a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delete-map-marker-1">
+    <title>Delete Map Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M24 2a22 22 0 0 0-6 43.1L24 58l2.8-5.9a20 20 0 0 1 19-26.1h.1c.1-.7.1-1.3.1-2A22 22 0 0 0 24 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm7.5 20.6a2 2 0 1 1-2.8 2.8l-4.6-4.6-4.6 4.6a2 2 0 1 1-2.8-2.8l4.6-4.6-4.6-4.6a2 2 0 1 1 2.8-2.8l4.6 4.6 4.6-4.6a2 2 0 0 1 2.8 2.8L48.9 46z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="checkin-map-marker-1">
+    <title>Check-In Map Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M24 2a22 22 0 0 0-6 43.1L24 58l2.8-5.9a20 20 0 0 1 19-26.1h.1c.1-.7.1-1.3.1-2A22 22 0 0 0 24 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.6 13.3l-9.4 10.6-6.5-6.5a2 2 0 1 1 2.8-2.8l3.5 3.5 6.6-7.4a2 2 0 0 1 3 2.7z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="meeting-map-marker-1">
+    <title>Meeting Map Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M24 2a22 22 0 0 0-6 43.1L24 58l2.8-5.9a20 20 0 0 1 19-26.1h.1c.1-.7.1-1.3.1-2A22 22 0 0 0 24 2zm0 32a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M46 30a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm8.1 20h-10V38a2 2 0 0 1 4 0v8h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="map-place-1">
+    <title>Map Place</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M27.1 37.3L32 52l4.9-14.7a18 18 0 1 0-9.8 0zM32 12a8 8 0 1 1-8 8 8 8 0 0 1 8-8z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M52 46H38.2l-2.4 7.3a4 4 0 0 1-7.6 0L25.8 46H12L4 62h56z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="geotag-pin-1">
+    <title>Geotag Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 2.1a18 18 0 0 0-4.9 35.3L32 52.1l4.9-14.7A18 18 0 0 0 32 2.1zm0 26a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M38.2 46.1l-2.4 7.3a4 4 0 0 1-7.6 0l-2.4-7.3c-12.5.8-21.8 4-21.8 7.8s12.5 8 28 8 28-3.6 28-8-9.3-7-21.8-7.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pin-destination-1">
+    <title>Pin Destination</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M48.8 59.2L37 54l11.8-5.2a2 2 0 0 0-1.6-3.7L32 51.8l-15.2-6.6a2 2 0 0 0-1.6 3.7L27 54l-11.8 5.2A2 2 0 0 0 16 63l.8-.2L32 56.2l15.2 6.6.8.2a2 2 0 0 0 .8-3.8z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M27.6 32.4l4.4 13 4.4-13.1a16 16 0 1 0-8.8 0zM32 11a6 6 0 1 1-6 6 6 6 0 0 1 6-6z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pointer-1">
+    <title>Pointer</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M43 12a11 11 0 1 0-13 10.8V61a2 2 0 1 0 4 0V22.8A11 11 0 0 0 43 12z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="pin-2">
+    <title>Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M44 21a12 12 0 1 0-14 11.8V53a2 2 0 1 0 4 0V32.8A12 12 0 0 0 44 21z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="geo-fence-pin-1">
+    <title>Geo Fence Pin</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M30 21.8v32.3a2 2 0 1 0 4 0V21.8a10 10 0 1 0-4 0z" fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M39 50.2h-1v3.9a6 6 0 1 1-12 0v-3.9c-11.5.6-20 3-20 5.8s11.6 6 26 6 26-2.7 26-6-8-5.1-19-5.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="gps-destination-1">
+    <title>GPS Destination</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M46.8 59.2L37.1 55l9.7-4.2a2 2 0 0 0-1.6-3.7L34 52V20.8a10 10 0 1 0-4 0V52l-11.2-4.8a2 2 0 0 0-1.6 3.7l9.7 4.1-9.7 4.2A2 2 0 0 0 18 63l.8-.2L32 57.2l13.2 5.7.8.2a2 2 0 0 0 .8-3.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="travel-map-1">
+    <title>Travel Map</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer2"
+    cx="32" cy="10" r="8" fill="#2e2c2d"></circle>
+    <path data-name="layer2" d="M32 48a2 2 0 0 1-2-2V18a2 2 0 1 1 4 0v28a2 2 0 0 1-2 2z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M46 28.7v28L62 62V34l-16-5.3zm-28 4.6L2 28v28l16 5.4V33.3zM40 29l-2 .5V46a6 6 0 1 1-12 0V32.5l-4 1v28.1l20-5.1v-28z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="navigation-map-1">
+    <title>Navigation Map</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 42s14-13.4 14-26a14 14 0 1 0-28 0c0 12.6 14 26 14 26zm-4-26a4 4 0 1 1 4 4 4 4 0 0 1-4-4z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M34.8 44.9L32 47.6 29.2 45a66.7 66.7 0 0 1-7.2-8.6v25.1l20-5.1v-20a66.1 66.1 0 0 1-7.2 8.5zM2 56l16 5.4V33.3L2 28v28zm48-26l-3.4-1.1L46 30v26.6L62 62V34z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="compass-map-1">
+    <title>Compass Map</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 4a18 18 0 1 0 18 18A18 18 0 0 0 32 4zm4.2 22.2l-12.6 4.2 4.2-12.6 12.6-4.2z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M11.1 29L2 26v28l16 5.4V39a22.1 22.1 0 0 1-6.9-10zM22 41.6v17.9l20-5.1V41.6a21.9 21.9 0 0 1-20 0zm30.9-12.8A22.1 22.1 0 0 1 46 39v15.6L62 60V32z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="street-view-1">
+    <title>Street View</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer2"
+    cx="32" cy="8" r="6" fill="#2e2c2d"></circle>
+    <path data-name="layer2" d="M42 18H22a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h4v15a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V34h4a2 2 0 0 0 2-2V20a2 2 0 0 0-2-2z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M42 46.5V49a7 7 0 0 1-7 7h-6a7 7 0 0 1-7-7v-2.5C11.5 47.7 4 50.6 4 54s12.5 8 28 8 28-3.6 28-8-7.5-6.3-18-7.5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="bookmark-ribbon-1">
+    <title>Bookmark Ribbon</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M10 2v59.4l22.1-14.1L54 62V2H10z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="ribbon-add-1">
+    <title>Ribbon Add</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M10 2v59.4l22.1-14.1L54 62V2zm30 24h-6v6.3a2 2 0 1 1-4 0V26h-6a2 2 0 0 1 0-4h6v-5.7a2 2 0 1 1 4 0V22h6a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="ribbon-delete-1">
+    <title>Ribbon Delete</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M10 2v59.4l22.1-14.1L54 62V2zm30 24H24a2 2 0 0 1 0-4h16a2 2 0 0 1 0 4z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="map-1">
+    <title>Map</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M40 3.1l-16 9.2v48.6l16-9.2V3.1z"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M44 3.1v48.6L62 62V13.4L44 3.1zm-24 9.2L2 2v48.6l18 10.3V12.3z"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="map-marker-2">
+    <title>Map Marker</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M52 32a10 10 0 0 0-10 10c0 9 10 20 10 20s10-11 10-20a10 10 0 0 0-10-10zm0 12a2 2 0 1 1 2-2 2 2 0 0 1-2 2z"
+    data-name="layer2"></path>
+    <path d="M16 10.7L2 2v42.1l14 8.7V10.7zm18-7.6l-14 7.7v42.1l14-7.7V3.1zM38 42a14 14 0 0 1 14-14l2 .2V11.9L38 3.1"
+    fill="#2e2c2d" data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="gps-map-1">
+    <title>GPS Map</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    fill="#2e2c2d" d="M28.7 47.3L32 62l16-34-33.5 15.7 14.2 3.6z"></path>
+    <path data-name="layer1" fill="#2e2c2d" d="M40 2.7l-16 6v26.2l16-7.6V2.7zm-20 6L2 2v38.6l8.6 2.2a4 4 0 0 1 2.2-2.6l7.2-3.5zm24-6v22.7l2.2-1a4 4 0 0 1 1.5-.4h.3a4 4 0 0 1 3.5 5.8l-4.3 9L62 44V9.4z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="destination-map-1">
+    <title>Destination Map</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M40 4l-16 6L2 4v36h4v4H2v10l22 6 16-6 22 6V10zM17.4 44H9.8v-4h7.6zm4-.1L21 40a8 8 0 0 0 5.3-2.8l3 2.6a11.9 11.9 0 0 1-7.9 4.1zM32.2 32v.3a12 12 0 0 1-.6 3.6l-3.8-1.3a8 8 0 0 0 .4-2.3V32a11.9 11.9 0 0 1 1.1-5.1l3.7 1.7a7.9 7.9 0 0 0-.8 3.4zm8-8a8 8 0 0 0-5.4 2.1l-2.7-2.9a12 12 0 0 1 8.1-3.2zm14.2 4.3a2 2 0 0 1-2.8 0l-3.5-3.5-3.6 3.6a2 2 0 0 1-2.8-2.8l3.6-3.6-3.5-3.5a2 2 0 0 1 2.8-2.8l3.5 3.5 3.4-3.4a2 2 0 1 1 2.8 2.8L50.9 22l3.5 3.5a2 2 0 0 1 0 2.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="direction-road-sign-1">
+    <title>Direction Road Sign</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M50 21.5l6-9-6-9H14v18h16v5H14l-6 9 6 9h16v14a2 2 0 0 0 4 0v-14h16v-18H34v-5z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="highway-1">
+    <title>Highway</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M9.9 22h44.2a14.2 14.2 0 0 1-.1-2 20.7 20.7 0 0 1 2-8l-6-8C39.2 7.5 32 2 32 2s-7.2 5.5-18 2l-6 8a20.7 20.7 0 0 1 2 8 14.2 14.2 0 0 1-.1 2z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M8.8 26C7.6 29.4 6 32.8 6 38c0 16.3 22 19.9 26 24 4-4.1 26-7.7 26-24 0-5.2-1.6-8.6-2.8-12z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="helicopter-landing-1">
+    <title>Helicopter Landing</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M2 2v60h60V2zm44 46h-4V34H22v14h-4V16h4v14h20V16h4z" fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="direction-arrow-gps-1">
+    <title>Direction Arrow GPS</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    fill="#2e2c2d" d="M30 34l2 28L62 2 2 32l28 2z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="gps-arrow-1">
+    <title>GPS Arrow</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm-2 50l-1.2-16.8L12 34l34-16z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="compass-position-1">
+    <title>Compass Position</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M12 52l30-10 10-30-30 10zm20-24a4 4 0 1 1-4 4 4 4 0 0 1 4-4z" data-name="layer2"></path>
+    <path fill="#2e2c2d" d="M32 14a2 2 0 0 0 2-2V4a2 2 0 1 0-4 0v8a2 2 0 0 0 2 2zm0 36a2 2 0 0 0-2 2v8a2 2 0 1 0 4 0v-8a2 2 0 0 0-2-2zM12 30H4a2 2 0 0 0 0 4h8a2 2 0 0 0 0-4zm48 0h-8a2 2 0 0 0 0 4h8a2 2 0 0 0 0-4z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="compass-direction-1">
+    <title>Compass Direction</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zM18 46l6.3-18.9 12.6 12.6zm21.7-9.1L27.1 24.3 46 18z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="compass-1">
+    <title>Compass</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M51.9 32a2 2 0 0 1 2-2h8A30 30 0 0 0 34 2.1V10a2 2 0 1 1-4 0V2.1A30 30 0 0 0 2.1 30H10a2 2 0 0 1 0 4H2.1A30 30 0 0 0 30 61.9V54a2 2 0 1 1 4 0v7.9A30 30 0 0 0 61.9 34h-8a2 2 0 0 1-2-2zM20 44l5.3-15.9 10.6 10.6zm18.7-8.1L28.1 25.3 44 20z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="flag-1">
+    <title>Flag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M56 22L43.9 1c-8 11.1-25.1 9.4-32.5 17.8a2 2 0 0 0-3.1 2.5L31.8 62a2 2 0 0 0 1.7 1l1-.3a2 2 0 0 0 .7-2.7L23.7 39.9C31.2 31.7 48.6 33.1 56 22z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="location-flag-1">
+    <title>Location Flag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M55.9 22L39 18.7 43.8 1c-8 11-24.9 9.5-32.4 17.7a2 2 0 0 0-2.9 2.6L31.9 62a2 2 0 0 0 1.7 1l1-.3a2 2 0 0 0 .7-2.7L23.7 39.8C31.3 31.7 48.5 33 55.9 22z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="flag-2">
+    <title>Flag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M25.2 40.6l30.2-17.4-17.5-4.7L42.6 1 12.4 18.5a2 2 0 1 0-3.5 2l24 41.5a2 2 0 0 0 1.7 1l1-.3a2 2 0 0 0 .7-2.7z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="waving-flag-1">
+    <title>Waving Flag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M56 3c-14 8-32.5 1.3-44.2 6.1h-.1a2 2 0 0 0-3.5 2L36.6 60a2 2 0 0 0 1.7 1l1-.3A2 2 0 0 0 40 58L27.7 36.7C49.7 23.2 56 3 56 3z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="flag-3">
+    <title>Flag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M29.6 37.2L56 1.9 12.2 7.1l-.4-.6h-.1a2 2 0 0 0-3.5 2l30.5 52.6a2 2 0 0 0 1.7 1l1-.3a2 2 0 0 0 .7-2.7z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="destination-flag-1">
+    <title>Destination Flag</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 57a2 2 0 0 0 2-2V26.7A34.5 34.5 0 0 0 58 15C48.3 15 41.4 5 34 3.3V3a2 2 0 1 0-4 0v52a2 2 0 0 0 2 2z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M39 51.2h-1.1V55a6 6 0 1 1-12 0v-3.8C14.5 51.8 6 54.2 6 57s11.6 6 26 6 26-2.7 26-6-8-5.1-19-5.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="globe-1">
+    <title>Globe</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M58.4 44.6l-7.2-7.2A21 21 0 0 0 21.6 7.8L14.4.6a2 2 0 0 0-2.8 2.8l.8.8A30 30 0 0 0 33 53.9V60H23a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4H37v-6.1a29.7 29.7 0 0 0 17.7-7.4l.8.8a2 2 0 0 0 2.8-2.8zM35 50A26 26 0 0 1 15.3 7.1l3.6 3.6a21 21 0 0 0 29.5 29.5l3.6 3.6A25.8 25.8 0 0 1 35 50z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="earth-globe-1">
+    <title>Earth Globe</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M32 2a30 30 0 1 0 30 30A30 30 0 0 0 32 2zm19.584 19.7a11.941 11.941 0 0 1-8.678 3.62c-3.02.075-1.51 1.735-.982 3.32.53 1.585.226 2.342 4 3.36s-.654 5.088-2.828 7.277-.184 5.567-1.315 6.473c-1.13.904-3.552 1.078-3.779 4.25-.227 3.168-2.035 4-4 4-1.961 0-4.453-6.115-4-8.004.453-1.887.408-3.371-.875-4.125-1.281-.756-1.8-1.369-2.824-4.172-1.239-3.39-3.852-.681-6.719-.605-2.867.074-5.531-6.352-1.531-11.938 4-5.584 8.552-4.394 11.949-2.129 3.396 2.264 8 .707 8-5.027 0-4.316-6-1.85-6-6.002 0-2.856 2.228-3.9 5.812-5.335a26.088 26.088 0 0 1 16.46 11.938c-.797.896-1.643 1.987-2.69 3.098z"></path>
+  </symbol>
+  <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="world-map-1">
+    <title>World Map</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path fill="#2e2c2d"
+    d="M51 1.993a10 10 0 0 0-10 10c0 9 10 20 10 20s10-11 10-20a10 10 0 0 0-10-10zm0 12a2 2 0 1 1 2-2.001 2 2 0 0 1-2 2z"
+    data-name="layer2"></path>
+    <path fill="#2e2c2d" d="M54.88 33.626c.072.785.121 1.578.121 2.381a26.044 26.044 0 1 1-17.967-24.715 7.965 7.965 0 0 0-.01 1.541c-4.806 2.067-8.021 2.649-8.021 5.84 0 3.599 5.2 1.462 5.2 5.201 0 4.971-3.99 6.322-6.934 4.359-2.942-1.962-6.887-2.993-10.356 1.846-3.465 4.84-1.156 10.41 1.328 10.344 2.485-.064 4.75-2.413 5.82.525.89 2.43 1.338 2.962 2.45 3.616 1.113.654 1.152 1.941.76 3.576s1.765 6.935 3.466 6.935 3.27-.719 3.465-3.466c.195-2.748 2.295-2.899 3.277-3.684.981-.784-.746-3.71 1.137-5.61 1.885-1.896 5.723-5.423 2.453-6.308-3.271-.88-3.007-1.536-3.468-2.908-.457-1.375-1.764-2.813.851-2.879a11.22 11.22 0 0 0 5.096-1.28 56.763 56.763 0 0 0 4.491 5.743L51 37.94s2.419-2.532 3.882-4.313z"
+    data-name="layer1"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="radar-1">
+    <title>Radar</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M32 38a6 6 0 0 0 6-6v-.2L60.7 23a2 2 0 0 0 1.1-2.6A32.2 32.2 0 0 0 32 0a2 2 0 0 0-2 2v24.3A6 6 0 0 0 32 38z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M25 19.9a2 2 0 0 0-2-3.5 18 18 0 1 0 27 17 2 2 0 1 0-4-.3 14 14 0 1 1-21-13.2z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M63.9 29.3a2 2 0 1 0-4 .3c.1.8.1 1.6.1 2.4A28 28 0 1 1 24.5 5a2 2 0 0 0-1.1-3.9A32 32 0 1 0 64 32c0-.9 0-1.8-.1-2.7z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="antenna-gps-1">
+    <title>Antenna GPS</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M44.4 18.4a2 2 0 1 0-2.8-2.8l-11 11L15.1 11A24 24 0 0 0 49 44.9L33.5 29.4z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer2" d="M54.3 5.7a16 16 0 0 0-18.2-3.2 2 2 0 1 0 1.7 3.6 12 12 0 0 1 16 16 2 2 0 0 0 .9 2.7l.9.2a2 2 0 0 0 1.8-1.1 16 16 0 0 0-3.1-18.2z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer2" d="M40.5 8.5a2 2 0 0 0 1 3.9 5 5 0 0 1 6.2 6.2 2 2 0 0 0 1.4 2.4h.5a2 2 0 0 0 1.9-1.5 9 9 0 0 0-11-11z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M15.2 48.6L5 63h32l-5.8-8.1a27.9 27.9 0 0 1-16-6.3z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="satellite-1">
+    <title>Satellite</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer2"
+    d="M21 51h-1.4a6.7 6.7 0 0 1-6.7-6.7 6.8 6.8 0 0 1 .1-1.1 2 2 0 1 0-4-.6 10.7 10.7 0 0 0 10.6 12.5l2.1-.2A2 2 0 1 0 21 51z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer2" d="M20.7 58.8h-1.2A14.6 14.6 0 0 1 5 44.4v-.8a2 2 0 1 0-4-.2v1a18.6 18.6 0 0 0 18.5 18.5H21a2 2 0 0 0-.3-4z"
+    fill="#2e2c2d"></path>
+    <path data-name="layer1" d="M50.2 24L40.1 13.9a2 2 0 0 0-2.9 0L20 31.2a2 2 0 0 0 0 2.9l3.6 3.6-4.3 4.3a2 2 0 1 0 2.8 2.8l4.3-4.3 3.6 3.6a2 2 0 0 0 2.9 0l17.3-17.2a2 2 0 0 0 0-2.9zm-29.5.7l10.1-10-13-13a2 2 0 0 0-2.9 0L7.8 8.9a2 2 0 0 0 0 2.9zm41.7 21.6l-13-13-10.1 10 13 13a2 2 0 0 0 2.9 0l7.2-7.2a2 2 0 0 0 0-2.8z"
+    fill="#2e2c2d"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="direction-1">
+    <title>Direction</title>
+    <desc>A solid styled icon from Orion Icon Library.</desc>
+    <path data-name="layer1"
+    d="M49 30H15a8.005 8.005 0 0 1-7.976-8.059A7.906 7.906 0 0 1 15 14h38l-3.566 3.924 2.844 2.846L61 12l-8.72-9-2.846 2.843L53 10H15a12 12 0 1 0 0 24h34c4.436 0 9 3.563 9 8a7.977 7.977 0 0 1-8 8H11l4-4-2.946-2.768L3 52l1.584 1.525.02.02L12 61l3-3-4-4h39a11.964 11.964 0 0 0 12-12c0-6.656-6.344-12-13-12z"
+    fill="#2e2c2d"></path>
+  </symbol>
+</svg>

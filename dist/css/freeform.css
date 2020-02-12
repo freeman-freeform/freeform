@@ -12792,7 +12792,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #F3F3F4;
+  border-bottom: 1px solid #bcbfc1;
 }
 
 .nav-tabs .nav-item {
@@ -12806,7 +12806,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #d7d8da #d7d8da #F3F3F4;
+  border-color: #d7d8da #d7d8da #bcbfc1;
 }
 
 .nav-tabs .nav-link.disabled {
