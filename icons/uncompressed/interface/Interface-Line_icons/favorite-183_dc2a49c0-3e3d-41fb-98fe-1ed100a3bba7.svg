@@ -1,8 +1,0 @@
-<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
-aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>Favorite</title>
-  <desc>A line styled icon from Orion Icon Library.</desc>
-  <path d="M32 46L15 57.9 22 38 6 26h20l6-19 6 19h20L43 38l6 20.1L32 46z"
-  stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke="#2e2c2d"
-  fill="none" data-name="layer1" stroke-linejoin="round"></path>
-</svg>

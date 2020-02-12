@@ -2,15 +2,15 @@
 // Color system
 
 $white: #fff !default;
-$gray-100: #f1f0f1 !default;
-$gray-200: #e3e2e3 !default;
-$gray-300: #d4d4d4 !default;
-$gray-400: #c6c5c6 !default;
-$gray-500: #a3a2a3 !default;
-$gray-600: #7f7f7f !default;
-$gray-700: #646464 !default;
-$gray-800: #494748 !default;
-$gray-900: #2e2c2d !default;
+$gray-100: #F3F3F4 !default;
+$gray-200: #d7d8da !default;
+$gray-300: #bcbfc1 !default;
+$gray-400: #a0a4a7 !default;
+$gray-500: #84898c !default;
+$gray-600: #697073 !default;
+$gray-700: #4d5559 !default;
+$gray-800: #30393d !default;
+$gray-900: #262B2E !default;
 $black: #000 !default;
 
 $grays: () !default;
@@ -292,6 +292,20 @@ $theme-colors: map-merge(("primary": $primary,
 // stylelint-disable value-keyword-case
 $font-family-sans-serif: "Akzidenz Grotesk",
 Arial,
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !default;
+$font-family-sans-serif-fallback: "Akzidenz Grotesk",
+"Arial Black",
 -apple-system,
 BlinkMacSystemFont,
 "Segoe UI",

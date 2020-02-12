@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="64" height="64">
+  <title>Checkout</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <circle data-name="layer2"
+  cx="23.9" cy="59" r="4" fill="#2e2c2d"></circle>
+  <circle data-name="layer2" cx="49.9" cy="59" r="4" fill="#2e2c2d"></circle>
+  <path data-name="layer1" d="M40 27V8.8l6.6 6.7a2 2 0 1 0 2.9-2.8L38 1 26.6 12.7a2 2 0 1 0 2.9 2.8L36 8.8V27H19.7l-3.8-16.5a2 2 0 0 0-2-1.5h-10a2 2 0 0 0 0 4h8.4l9 38h33L62 27z"
+  fill="#2e2c2d"></path>
+</svg>

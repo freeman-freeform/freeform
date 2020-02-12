@@ -131,7 +131,7 @@
 
 label,
 .col-form-label {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 select.form-control[multiple],
@@ -179,47 +179,47 @@ Generally, these color variables should not be used directly in components. */
 }
 
 .swatch.gray-100 {
-  background-color: #f1f0f1;
+  background-color: #F3F3F4;
   color: black;
 }
 
 .swatch.gray-200 {
-  background-color: #e3e2e3;
+  background-color: #d7d8da;
   color: black;
 }
 
 .swatch.gray-300 {
-  background-color: #d4d4d4;
+  background-color: #bcbfc1;
   color: black;
 }
 
 .swatch.gray-400 {
-  background-color: #c6c5c6;
+  background-color: #a0a4a7;
   color: black;
 }
 
 .swatch.gray-500 {
-  background-color: #a3a2a3;
+  background-color: #84898c;
   color: black;
 }
 
 .swatch.gray-600 {
-  background-color: #7f7f7f;
+  background-color: #697073;
   color: white;
 }
 
 .swatch.gray-700 {
-  background-color: #646464;
+  background-color: #4d5559;
   color: white;
 }
 
 .swatch.gray-800 {
-  background-color: #494748;
+  background-color: #30393d;
   color: white;
 }
 
 .swatch.gray-900 {
-  background-color: #2e2c2d;
+  background-color: #262B2E;
   color: white;
 }
 
@@ -278,9 +278,16 @@ Generally, these color variables should not be used directly in components. */
   color: white;
 }
 
-.card-footer {
+.card-footer,
+.card-header {
   padding-top: 1.33333rem !important;
   padding-bottom: 1.33333rem !important;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding-top: 0.75rem;
 }
 
 *,
@@ -307,7 +314,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 2;
-  color: #2e2c2d;
+  color: #262B2E;
   text-align: left;
   background-color: #fff;
 }
@@ -364,7 +371,7 @@ ul ol {
 }
 
 dt {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 dd {
@@ -378,7 +385,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 small {
@@ -408,7 +415,7 @@ a {
 }
 
 a:hover {
-  color: #085873;
+  color: #074d68;
   text-decoration: underline;
 }
 
@@ -457,7 +464,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #7f7f7f;
+  color: #697073;
   text-align: left;
   caption-side: bottom;
 }

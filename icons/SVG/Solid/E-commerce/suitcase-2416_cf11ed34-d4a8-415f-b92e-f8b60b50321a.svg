@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="64" height="64">
+  <title>Suitcase</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  d="M34 5h-4a10 10 0 0 0-10 10v44h24V19H24v-4a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v4.9h4V15A10 10 0 0 0 34 5z"
+  fill="#2e2c2d"></path>
+  <path data-name="layer1" d="M58 19H48v40h10a4 4 0 0 0 4-4V23a4 4 0 0 0-4-4zM2 23v32a4 4 0 0 0 4 4h10V19H6a4 4 0 0 0-4 4z"
+  fill="#2e2c2d"></path>
+</svg>

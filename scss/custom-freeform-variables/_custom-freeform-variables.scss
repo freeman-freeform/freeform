@@ -167,8 +167,8 @@ $box-shadow-lg: 0 1rem 3rem rgba($black, .30);
 $font-weight-lighter: lighter;
 $font-weight-light: 300;
 $font-weight-normal: 400;
-$font-weight-bold: 700;
-$font-weight-bolder: bolder;
+$font-weight-bold: 500;
+$font-weight-bolder: 900;
 
 // $font-weight-base: $font-weight-normal;
 $line-height-base: 2;
@@ -182,7 +182,7 @@ $line-height-base: 2;
 
 // $headings-margin-bottom: $spacer / 2;
 // $headings-font-family: null;
-// $headings-font-weight: 500;
+$headings-font-weight: 900;
 // $headings-line-height: 1.2;
 // $headings-color: null;
 
@@ -263,7 +263,7 @@ $line-height-base: 2;
 //
 // // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
-$input-btn-padding-y: 0.5rem;
+$input-btn-padding-y: 0.25rem;
 $input-btn-padding-x: 1rem;
 // $input-btn-font-family: null;
 // $input-btn-font-size: $font-size-base;
@@ -337,7 +337,7 @@ $btn-font-weight: $font-weight-bold;
 
 label,
 .col-form-label {
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 select.form-control[multiple],
@@ -586,19 +586,19 @@ textarea.form-control {
 // $nav-link-padding-x: 1rem;
 // $nav-link-disabled-color: $gray-600;
 
-// $nav-tabs-border-color: $gray-300;
+$nav-tabs-border-color: $gray-100;
 // $nav-tabs-border-width: $border-width;
-// $nav-tabs-border-radius: $border-radius;
-// $nav-tabs-link-hover-border-color: $gray-200 $gray-200 $nav-tabs-border-color;
-// $nav-tabs-link-active-color: $gray-700;
+$nav-tabs-border-radius: 0;
+$nav-tabs-link-hover-border-color: $gray-100 $gray-100 $nav-tabs-border-color;
+$nav-tabs-link-active-color: $gray-100;
 // $nav-tabs-link-active-bg: $body-bg;
-// $nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg;
+$nav-tabs-link-active-border-color: $gray-100 $gray-100 $nav-tabs-link-active-bg;
 
 // $nav-pills-border-radius: $border-radius;
 // $nav-pills-link-active-color: $component-active-color;
 // $nav-pills-link-active-bg: $component-active-bg;
 
-// $nav-divider-color: $gray-200;
+$nav-divider-color: $gray-100;
 // $nav-divider-margin-y: $spacer / 2;
 
 
@@ -922,8 +922,8 @@ $card-spacer-x: 2rem;
 // $list-group-border-width: $border-width;
 // $list-group-border-radius: $border-radius;
 
-// $list-group-item-padding-y: .75rem;
-// $list-group-item-padding-x: 1.25rem;
+$list-group-item-padding-y: .75rem;
+$list-group-item-padding-x: 2rem;
 
 // $list-group-hover-bg: $gray-100;
 // $list-group-active-color: $component-active-color;

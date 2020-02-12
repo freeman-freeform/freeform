@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="64" height="64">
+  <title>Homepage</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1"
+  d="M53 64a1 1 0 0 0 1-1V34h9c.248 0 1.178-.828 1-1L33.436 1.481a2 2 0 0 0-2.872 0L0 33c-.178.172.752 1 1 1h9v29a1 1 0 0 0 1 1z"
+  fill="#2e2c2d"></path>
+</svg>

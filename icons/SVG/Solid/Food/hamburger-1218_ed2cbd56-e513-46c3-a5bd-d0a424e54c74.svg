@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="64" height="64">
+  <title>Hamburger</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <rect data-name="layer2"
+  x="2" y="31" width="60" height="12" rx="5" ry="5" fill="#2e2c2d"></rect>
+  <path data-name="layer1" d="M5 48a6 6 0 0 0 6 6h42a6 6 0 0 0 6-6v-1H5zm54-23a15 15 0 0 0-15-15H20A15 15 0 0 0 5 25v2h54zm-41-4a2 2 0 1 1 2-2 2 2 0 0 1-2 2zm8 2a2 2 0 1 1 2-2 2 2 0 0 1-2 2zm6-4a2 2 0 1 1 2-2 2 2 0 0 1-2 2zm8 4a2 2 0 1 1 2-2 2 2 0 0 1-2 2zm8-2a2 2 0 1 1 2-2 2 2 0 0 1-2 2z"
+  fill="#2e2c2d"></path>
+</svg>

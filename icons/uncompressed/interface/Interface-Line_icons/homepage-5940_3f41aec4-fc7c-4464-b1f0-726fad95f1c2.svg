@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
-aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>Homepage</title>
-  <desc>A line styled icon from Orion Icon Library.</desc>
-  <path data-name="layer1"
-  d="M52 62V35h9.382a.25.25 0 0 0 .174-.43L32 4 2.445 34.57a.25.25 0 0 0 .174.43H12v27z"
-  fill="none" stroke="#2e2c2d" stroke-linecap="round" stroke-miterlimit="10"
-  stroke-width="3" stroke-linejoin="round"></path>
-</svg>

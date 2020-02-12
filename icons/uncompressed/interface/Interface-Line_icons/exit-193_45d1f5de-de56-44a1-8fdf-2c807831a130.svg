@@ -1,8 +1,0 @@
-<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
-aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>Exit</title>
-  <desc>A line styled icon from Orion Icon Library.</desc>
-  <path d="M51 17.3L46.8 13 32 27.8 17.3 13 13 17.3 27.8 32 13 46.8l4.3 4.2L32 36.3 46.8 51l4.2-4.2L36.3 32 51 17.3z"
-  stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke="#2e2c2d"
-  fill="none" data-name="layer1" stroke-linejoin="round"></path>
-</svg>

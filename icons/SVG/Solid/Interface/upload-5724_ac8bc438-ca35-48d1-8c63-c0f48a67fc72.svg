@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="64" height="64">
+  <title>Upload</title>
+  <desc>A solid styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="#2e2c2d" d="M29 14.935V47h6V14.586l9.811 10.466 4.378-4.104L32 3 14.751 22.016l4.498 3.969L29 14.935z"></path>
+  <path data-name="layer1" fill="#2e2c2d" d="M52 45v11H12V45H6v17h52V45h-6z"></path>
+</svg>
